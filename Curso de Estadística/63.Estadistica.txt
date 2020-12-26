@@ -1,0 +1,226 @@
+
+******************************************************
+#    **CURSO:**
+******************************************************
+* LECTURAS MAESTRAS:
+* RESUMEN MAESTRO:
+* GLOSARIO UNIVERSAL DE TÉRMINOS:
+* ATAJOS:
+
+##   **TEMA:PROBABILIDAD**
+
+**||||||||||||||||||||||||||||||||||||||||||||||||||||||**
+####    **NOTAS:**
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+La probabilidad siempre está comprendida entre 0 y 1. Fraccion y decimal.
+La probabilidad del evento A suele escribirse  p(a)
+P(A)>P(B) A es mas probable que ocurre, funcionan las igualdades.
+
+Experimento 
+Es un proceso que va a proporcionar lso datos estadisticos.
+
+No numerico nos arrojan nombres, colores...
+omega = {azul,rojo} Espacio muestral. Es el conjunto de valores que vamos objetenr en determinado experimento.
+
+Suceco elemental:
+Cada resultado que se encuentra en el espacio muestral es una opción.
+SUCESO:
+POSIBLE, SEGURO, IMPOSIBLE.
+
+
+Numerico los resultados que arrojan son numeros
+
+Experimentos equiprobables
+Cada suceso del espacio muestral tiene la misma probabilidad de salri como resutado.
+ 
+
+
+MEDIDAS DE TENDENCIA CENTRAL:
+
+CENTRALIZACIÓN:
+Media, Mediana, Moda
+
+
+Son valores recogidos que representan de gorma global a toda la pobalción.
+
+Media: Es el valor caractirstico de la serie de datos resultado de la suma de todas las observaciones dividio por el número todal de dato.s
+
+Mediana: Es el vaor de la variable de posición central en un conjunto de datos ordenados. Dependiendo de si el número de datos es impar o par.
+Valores ordenados, tomamos el valor central.
+La más facil de encontrar es el número impar.
+Cuando es par, de la cantidad total van a queda dos elementos.  sacamos el promedio de lso dos valores centrales.
+
+
+Moda: Es el valor más repetido del conjutno de datos, puede haber másde una moda.
+
+ 
+Asociaciones lineas y las correlaciones lineales.
+Según el comortamiento de las variables. Hay corerlacion, directa, inversa o nulas.
+
+
+COVARIANZA:
+Es la media aritmética de lso productos de las desvaiciones de cada una de las variables respecto a sus medias respectivas.
+Al determinar el valor de la covarianza, nos ayudará a comprender el tipo de correlación lineal +directa -inersa.
+
+
+
+ Es el dato nos sirve qué tipo de correlación hay entre nuestras vairables. Nos da pauta para saber como se relacionan.
+
+CORRELACION DIRECTA.
+Cuanod una variable aumenta la otr tambien relacion positiva 
+Correlacion debil y fuerte tienen que ver on la distancia a la linea de regresion
+
+
+DISPERSIÓN
+
+Son una serie de valores que indican lo disperso o agrupados que esta´n los datos entre sí, respecto a las medias.
+
+
+RANGO
+O amplitud, es un recorrido de toda la distribución estadistica.
+Rango para datos no agrupado., Es la diferentcia entre el maximo y el mínimo del conjunt de datos.
+
+
+Agrupados, si los datos estan agrupados se toman los intervalos mayores y menores.
+
+
+El rango mide la dispersión total del conjutno de datos, aunque el rango es una medida de dispersión simple y que se calcula con faiclidad , su debilidad preoponderante es que no toma en consideracion la forma en que se distru¡ibuyen los datos entre los valores más pequeños y lso más grandes.
+
+No podemos tomarlo como medida princiapl, porque genrealiza la dispersión del conjunto de datos, no toma en consideracion la diferencias entre datos grandes y peuqeis.
+
+
+
+DESVIACIÓN MEDIA
+Numero que nos indica la diferencia el promeido d ela diferencia 
+Media aritmetica de lso valores absolitos de als desvaicions de todos los datos respecto a la metida aritmetica.
+
+DESVIACIÓN MEDIA PARA DATOS AGRUPADOS
+
+Si los datos viene agrupados en una tabla de frecuencias, la expresión de la desviació media 
+
+Desvaición estándar es que tan separados están nuestros datos.
+
+COEFICIENTE DE CORRELACIÓN EN UN DIAGRAMA DE SIPERSIÓN.
+Simplemente es el calculo de la desviacion stnadar de xy
+dividio las individuales. de x y
+
+
+
+POSICION
+
+CUARTILES
+
+pERCENTIL 50 COINCIDE CON EL 50.
+
+
+
+
+Enviar este reporte de fallas progresivamente
+
+Como usuario me gusta entender al feedback como una herramienta de mejora continua y lo a continuación estará ambientado en este marco de pensamiento.
+
+
+1. Es necesario un sistema de reporte de fallas más interactivo con la plataforma, soy un usuario al que le gusta encontrar gliches, inconsistencias, sutiles detalles que hacen que la calidad del contenido se sienta profesional y de otro nivel. Creo que Platzi tiene este factor diferenciador en cuanto a la metodología de algunos cursos, las implementaciones del cambio en la creación de contenido se ve, y de seguro en estos tiempos de cuarenta se sentirá más y supondrá un reto para asumir por parte del equipo de creación y contenido. Aquellos loquillos que cuentan la narrativa de sus explicaciones y les dan vida.
+
+
+Me considero un estudiante autodidacta y también un observador de la web. Consumo contenido educativo online en diferentes índoles discriminando y filtrando la calidad, profundidad, método, estética, y así delego qué consumo, si de alguna manera podríamos llamarlo, un escrupuloso académico que busca lo mejor para si y para su hijo. Ambos aprendemos de la red. Somos vícitmas de las falencias educativas, y yo estoy siendo responsable con la cuota que me corresponde.
+
+Porqué estudias en Platzi?
+
+
+Sé que afuera hay una competencia muy grande en términos de lso diferentes contenidos y la caldiad de las producciones, está Coursera, una empresa creada por... edx una propusta de... MIT masterclass, existe khan academy,  Politecnico gran colombiano, capacitate para el emplo... ni si 	uiwera alcanzo a imaginar la cantidad de contenido.
+Youtube posee miles de caneles de la más alta exquisites,. Existe Kurzegast
+, CrashCourses, y los formtaos digitales de distribución favorecen.
+
+
+Pero platzi tiene algo que no existe en ninguna otra página web para autodidáctas, platzi tiene comunidad, tiene equipo,  son un organismo vivo de personas que están en la mayoría de su tamaño muestral están en tu país.  Hablan tu lengua, te responden cada vez que tienen chance, escuchan feedback y velan por Nunca para de aprender. 
+
+No quiero ser tomado como un porrista más sí como un estudiante con sentido crítico en lo que consume en internet, pero si te quedas en platzi no solo serás testigo de hasta donde te puede llevar la excelencia académica, serás parte del futuro en tecnología en LATAM.
+
+Recuerda que solo podemos crecer hasta donde nuestra capacidad de aprendizaje, implementación y humildad nos permita, seremos esclavos de la incertiumbre y la viscicitud, amos de nuestras deciciones en un framework escogemos. SUDO sobre nosotros.
+
+
+
+
+
+
+
+Al curs de estadística le falta:
+
+
+ 
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+Se lanza tres veces una moneda al aire. ¿Cuál es la probabilidad de obtener como resultado dos caras y una cruz, sin importar el orden en el que se van obteniendo?
+b
+
+
+Teniendo en cuenta el problema anterior, y la referencia es la misma tabla,
+
+Captura de pantalla 2018-05-11 16.06.26.png
+Siendo la variable independiente el número de partidos (del 1 al 38) y la variable dependiente, el número de goles anotados en cada uno de ellos, resuelve, ¿Cuál es el valor de la covarianza para este mismo ejercicio?
+a
+
+
+La tabla siguiente, indica el número total de goles de Lionel Messi en LaLiga por partidos; es decir, desde su debut en la temporada 2004-2005, hasta la temporada 2016-2017, la suma de todos primeros partidos fue de 13 goles; si sumamos todos los goles anotados en los segundos partidos de estas 13 temporadas, son 7 goles y así sucesivamente:
+
+Captura de pantalla 2018-05-11 16.01.33.png
+Calcula la media aritmética.
+
+c
+
+La tabla siguiente, indica el número total de goles de Lionel Messi en LaLiga por partidos; es decir, desde su debut en la temporada 2004-2005, hasta la temporada 2016-2017, la suma de todos primeros partidos fue de 13 goles; si sumamos todos los goles anotados en los segundos partidos de estas 13 temporadas, son 7 goles y así sucesivamente:
+
+Captura de pantalla 2018-05-11 16.01.33.png
+¿Qué elemento no corresponde a la moda?
+
+b
+
+Se quieren estandarizar el tamaño de las zanahorias que son llevadas a una empaquetadora. Por tanto, tienen como muestras, zanahorias de 18, 20, 16, y 14 cm. Ayudándote de la varianza y desviación estándar, determina, cuál es el límite de tamaño (mínimo y máximo) para ser consideradas normales y separarlas de las chicas y grandes:
+b
+
+
+A partir del resultado del ejercicio: “obtener la ecuación de la forma xt=a+bt para predecir un valor futuro, sabiendo que ti es el valor del mes en que se fabricaron zapatos (de noviembre a abril) en una empresa; y xi es el número de pares de zapatos fabricados por mes.”
+
+¿Cuántos pares de zapatos aproximadamente, elaborará la fábrica en junio próximo?
+
+
+Teniendo en cuenta el problema anterior, y la referencia es la misma tabla,
+
+Captura de pantalla 2018-05-11 16.06.26.png
+Siendo la variable independiente el número de partidos (del 1 al 38) y la variable dependiente, el número de goles anotados en cada uno de ellos, resuelve, ¿Cuál es el valor de XiYi para Xi=20?
+
+b
+
+
+#### **PREGUNTAS:**
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+* 
+* 
+* 
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+#### **RESUMEN PARCIAL**:
+______________________________________________________
+
+```
+<code>
+
+```
+
+#### **REFERENCIAS INTERESANTES**:
+______________________________________________________
+
++ [Hipervínculo](url)
+
+******************************************************
+## EXÁMEN:
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||

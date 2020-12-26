@@ -1,0 +1,179 @@
+CURSO DE MARKETING DIGITAL.
+
+
+
+Mi vendedor es mi página web. para que represente mi marca. Busque mi audencie.
+Las páginas web deben ofrecer una experiencia con el usuario. Dar una buena exprenecia. Da Like, Regresa y y comparta. Share. 
+Marketing mas poderoso es boca en boca. 
+
+La aceptación de una página web viene con un factor que es la tasa de rebote. Que es un índice de la aceptabilidad d elos usuarios de mi página web.
+Diferente entre ecomerce y pagina de servicios, informativa.
+
+
+
+Para crear una página web se necesita:
+
+1. Propósito publicitario. Establecer el objetivo publicitario.
+
+2. Seleccionar plataforma según el tipo de página.
+
+Buscar plataformas como gestores de contenido. CMS.
+Entregar páginas sobre CMS.
+Los CMS se pueden estar administrando a nivel propio.
+Código abierto, para hacer cualqueir tipo de implementación adicional.
+
+INTERNET 2.0 interactividad.
+
+HACER nuestra oficina virtual.
+
+Esto en cuanto a cleintes finales.
+Para empresas b2b págians útiles para proveedores, puedo ingresar a ver los pedidos,ver históricos, la gente valora más el tiempo que el dinero.
+
+Lo más importanten en internet es medir.
+
+
+PLATAFORMAS:
+
+Para posicionamiento, y empresas de servicios:
+Wordpress // Buscar .org
+Wordpress nace como un gestor blog de contenido, para google el foco de atención es el contenido.
+
+
+
+Portales, prensas u organizaciones:
+Drumpal, depuración de código Robusta para aguantar muchos usuarios
+
+Tienda virtuales:
+Prestashop. Excelentes estadísticas para las mediciones y data para la evolución del proyecto.
+Magento. Curva de aprendizaje lenta, compleja programción, pero es mucho mejjor que prestashop- Aunque prestashop es más amable con el usuario.
+
+Shopify es muy buena plataforma para emprender. Permte crear tienda virtual barata y buena con poco capital.
+Wix es bueno para emprender, una vez evaluar la viabilidad migrar de plataforma. La plataforma gratuita más costosa del mundo, la publicidad hay uqe pagarla.
+
+Solución para migrar cms2cms.com permite migrar entre diferentes CMS,
+
+Mirar la competencia, estudiar casos de éxito de unas paginas web exitosas, copiar y pegar formato. Las grandes mpresas gastan poco tiempo en el CMS
+
+
+INSTAFACE  posee muy buenas herramientas.
+
+Se diseñan cosas para los clientes, pero la aceptación ultima debe estar en el usaurio final.
+Google analitics le dice como se comporta el usaurio en al página web.
+
+Smartlook. Permite grabar todos los movimientos que hace el usuario en la págiana permitiendo estudiar las itneracciones de los usuarios, permite cambiar cosas donde los usuarios se quedan pegados. Te dan buenas estadística.
+mouseflow. Da un mpapa de calor donde la gente hace más click y menos clicks. Funel, paso por paso que hizo para entender el proceso de navegación.
+
+El asunto con este mercado es que si no estamos midiendo estamos haciendo publicidad tradicional.
+Marcado digital es muy rentable.
+ 
+E comerce existoso
+1. e comerce es un canal de ventas y no una página web, un canal de ventas toca las aáreas de logistica, mercadeo, serviicio al cliente, operaciones, debe construirse desde la estrategia directiva, un canal de ventas adicional.
+2. Experiencia del usuario,  diseñada correctamente es determinante en un canal.
+3. Logística está diseñada diferente " Empacado individual d emuchas cajas para una tienda. Empacado manual, individual. Qué tan rápdio puede responderse a lso clientes.El servicio al cliente debe ser increible, " esta es la expereincia", atender muy bien los tiquetes
+"Sapos.com"
+
+4. Acompañamiento de partners. Un partner con experiencia. Puede marcar la diferencia o fracaso de una buena idea.
+5. Multicanal omnichanel, diferentes canales de ventas, donde se vende el servicio de forma que es una sola operación que se distribuye pro diferentes canales, Linio, mercado Libre....  y no generar inventario en estos canales.
+
+Templatemonster. Diseños profeesionales que se venden para diferentes paltaformas web. Es dec ódigo abierto. Excelente soporte técncio.
+
+Al diseñar págians web, hay que darle más atención a la versión Mobile que a la de escritorio. Peor esto sería según el tipo de página web... para páginas en las que los usuarios están en una oficina llenando datos, usando, deberá ser más importante la versión de escritorio. Peor un e commerce debería ser mobile.
+
+ las personas pueden intersarse más por consumir contenido por estos canelaes.
+
+ELEMENTOS DE USABILIDAD:
+
+
+Teléfono
+Menú de navegación. Impresiones, clicl, converciones. //3 metrcias mas relevantes en el mud'ndo digital.
+	Impresionaes: Cada vez que ves un anuncio. Visualizaciones.
+	Click: Intereación, viste el anauncio interactuaste con él.
+	Conversiones: Acciones que revisas. Por ejemplo un formulario que la gente llena para solicitar un producto o describir un servicio.
+		Una petición de un producto. Una valoración média para adquirir una posible mamoplastia. en un htoe, es una reserva. Para una aplicación, descargas, para un blogero, comentarios. Estadía en sitio web. Que la gente se queda el tiempo sficiente para que la gente consuma el contenido.
+MENU SE DISEÑA PARA:
+Que el usuario haga conversiones con el menor clicks posibles. 
+	
+VITRINA: Slide promoción temporada
+Newsletter
+Chat
+Video
+Pasarela de pagos
+B2B
+
+SABER queines son los usarios para ubicar lso elementos. Y qué elementos darle.
+
+Por ejemplo los ancianos están relacionados a elementos de marketing tradicional, donde las compras y las tenas se hacen con un vínculo que tienen con la inforamción. Es decir, se estudia la relación que tiene el usuario con la inforamción pra saber así que información le interesa más y la pueda consumri.
+
+A un gamer, el contenido umano no le interesa, pero si la informción digital cosnumile,
+
+Por ejemplo. Un lector qu ebusca consumir.?
+Qué buscan por ejemplo las personas de gestión de la caldiad? Imagino información del servicio clara concisa.
+
+
+
+//////////////
+
+Las páginas de ecomerce deben cambiar constantemente el contenido de lavitrina, si no no hay buen a interacción con las personas que consumen los productos.
+
+Cuando son páginas de servicio, debe variar según los cambios culturales del entorno. El día del hombre, pensar en qué tipo de promociones y descuentos se puedne hacer? (vER NOTAS PARA PÁGINA WEB)
+Los usuarios perciben los cambios en las páginas web.
+
+Newsletter:
+
+Se debe adquirir medainte formularios sencillos la informaicón de los clientes. para enviarles publicidad de eventos sobre sistemas computarizados. Conferrenciss sobre excel que puedo dictar. Webinars. 
+
+Sugiere el profesor que las campañas de correos masivos sonmuy eficientes por encima de google y cualquer otra cosa.
+Concepto de emailing no es un bombardeo de publicidad.
+
+Captura del usuario. Es darle descuentos, obsequios.
+//Ingresa a nuestras bases de datos y tendrás el n% en una capacitación
+
+El emailing, es enamorar al cliente. Identificas al usuario, le das material de valor para ganar su confianzay darle impactos publicitarios leveemente.
+EL CHAT.
+ Es una herramienta interesante para ponerla (Hay gente qu eno busca un servicio sino amor, quieren ser escuchados)
+(zopim. Permite usar mediante scripts para poenr en al página web) Triggers. asesor de chat cansón... entre más atento sea mejor.
+(zopim tiene aplicación mobile)
+(cliengo) iNTELIGENCIA ARTFICIAL PARA QUE EL USUARIO interactua con tus clientes. Chatbot.
+Excelentes. Coparar las herramientas, hacer testing para ver con cual capturo más datos. 
+
+
+
+
+NOTAS////////////////////////
+
+Qué es adword? Y porque google muestra en el buscador algo en tipo pauta? Se´ra que busca como anunio?
+*Pnesé en una ecommerce para los productos de weedywonka.
+Ver vision.Mindjet.com
+Buscar wordpress.org gratuito.
+
+
+
+
+
+
+NOTAS PARA LA PÁGINA WEB//////
+"Estás cerca de tu proceso de certificación y no sabes como abordar el problema?."
+Que los sistemas ciomputarizados trabajen de manera segura y confiable para ti, es nuestra responsabilidad.
+Por ello queremos darte un apoyo especial.//// Una especie de anuncio que atraiga a personas que se van a certificar muy pronto.
+
+
+En noticias, debería mantener a la gente informada sobre procesos de capacitación. 
+Tips, y notas, Aliemntarlas con contenido.
+
+Ejemplo para Logos:
+
+Qué servicio solicita. /(Desarrollo, Validación, Evaluación y Asesoría) 3 checkbox
+Agende una cita. /( Un calendario que les permita ver la base de datos de citas  y lso horarios disponibles.)
+Hablanos de ti. /Un formulario de registro Login. 
+usuario, contraseña, nombre apellidos, cc, empresa, cel,
+*dirección, página web del sitio.
+*contacto 1.
+
+
+
+Dashboard de la emrpesa.
+
+Acceso a la página, ver trabajos pendientes, cotizaciones, tiquets (reclamos), solicitudes.
+
+Para captar clientes //Ingresa a nuestras bases de datos y tendrás el n% en una capacitación.
+O un 

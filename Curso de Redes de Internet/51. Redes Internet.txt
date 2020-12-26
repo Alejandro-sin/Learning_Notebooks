@@ -1,0 +1,238 @@
+__________________________________________________________________________________________________
+TEMA: Qué es la red, Internet, LAN, WAN y Topologías de Red
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Redes.
+Tranportar algo de un lugar a otro desde un punto a a un punto conectados por un medio.
+
+REDES DE COMPUTADORAS.
+Tanenbaum: Es un conjunto de equipos informáticos y software convetados entre sí por medio de dispositivos físicos o inalámbricos que envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para el transporte de datos, con finalidad de compartit información, recursos y ofrecer servicios
+
+Dependiendo de la cantidad de usuarios y servicios, y por el a´rea que cubren.
+
+LAN.
+Redes de área local, edificios pequeños, interconectadas por cables o acces point. O wireless.
+
+WLAN
+
+WAN.
+Al ampliar las redes las dredes interactúan con routers, para amplair la cobertura. Dispositvos que usan ondas electromagnéticas para ampliar la cobertura.
+Ciudades, países.
+
+MAN.
+Área cobertura metropolitana.
+
+SAN.
+
+¿?
+Internet es una red de redes conectadas.
+
+TOPOLOGÍA DE RED:
+
+Diagrama de topología lógica.
+
+RESUMEN:
+
+El objetivo de una red es transportar un elemento de un lugar a otro.
+
+Siempre tenemos un punto de partida y un punto de llegada. Una red informática es un conjunto de equipos conectados entre sí por medio de dispositivos físicos o inalámbricos que envían y reciben impulsos eléctricos, ondas electromagnéticas, o cualquier otro medio para el transporte de datos.
+
+La red LAN es una red pequeña como las que tenemos en la casa, o en una oficina pequeña.
+Las redes WAN son redes que interconectan países o ciudades.
+Las redes MAN conecta como un barrio, esto quiere decir que es mucho más pequeña.
+¿Qué es internet?
+
+El internet es una red de redes interconectadas mundialmente.
+
+INTRANET
+
+Acceso a la información está estrictamente limitada a personal de la compañía. Estas redes se restringen con el uso de software y se usa en situaciones en las que la información a la que pueden acceder los usuairo es confidencial.
+
+
+EXTRANET.
+
+
+Es un siguiente nivel de acceso sucede cuando las compañías requieren dar acceso seguro y bajo confidencialidad a usuarios externos, incluso a organizaciones diferentes a la que posee la información.
+
+
+TOPOLOGÍAS DE RED
+
+PERMITE IDENTIFICAR LA FORMA EN QUE LOS NODOS ESTÁN CONECTADOS.
+Presentación física para mostrar lso equipos de red que conforman el diseño
+Presentación lógica para mostrar el direccionamiento lógico de lso dispositivos.
+
+
+
+Tipo bus. 
+Los nodos se conectan a un mismo medio que transporta la información.
+Fácil implementación, el tráfico de todos los nodos puede ser visto por otros y poca escalabilidad.
+
+
+Tipo anillo.
+
+
+Cada nodo está conectado con una única salida y entrada. Se hace una confirmación mediante un token.
+Es de implementación lenta y es nodo dependiente, si un nodo falla las demás fallan.
+
+Tipo estrella.
+
+Topología muy usada donde hay un nodo central y los demás están conectados a éste, garantiza funcionamiento de la red.
+Esta topología permite agregar nodos nuevos siempre que el dispositivo central lo permita, sin embargo en caso en que el nodo central falle, toda la red dejará de funcionar.
+
+
+Tipo malla.
+
+Todos los nodos están conectados entre sí,  este tipo de conexión permite actuar como servidor y cliente.
+Asegura la disponibilidad.
+
+
+Tipo árbol.
+
+Parte de un punto inicial del ISP que diverge mediante un switch, router, etc a quienes a su vez envían datos a otros dispositivos iguales.
+
+
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+https://es.wikipedia.org/wiki/Red_de_computadoras
+__________________________________________________________________________________________________
+TEMA: Tecnologías de acceso a internet: Banda Ancha y velocidad de Internet
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Ancho de banda es la medida de datos y recursos de comunicación disponble o consumida, expresados en bits/s.
+Es como una autopista y la capacidad que tiene de permitir el tránsito de vehículos o bits.
+Los ISP ofrecen conexiones en términos de Bits. 
+Esta clase consiste en tranformar la cantidad recibida por ISP a MB mediante factores de conversión.
+
+Redes convergente.
+Transprotan multiples servicios por la misma red.
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+_______________________________________________________________________________________________
+TEMA: Métodos de acceso a los dispositivos
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+El Kernel accede físicamente al hardware.
+Formas de acceso, por consola, por SSH método de acceso seguro, se requiere configurar la dirección de administración, y por Telnet no tan seguro.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Navegación por el sistema operativo, comandos y privilegios
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+En Packet Tracer es posible realizar topografías de red, y realizar simulaciones entre dispositivos o nodos. Aunque el simulador dista de la realidad física, es muy uan plataforma que nso servirá para aprender a configurar diferentes setups de los diferentes dispositivos.
+
+En esta práctica vimos como añadir un switch y un desktop, realizamos la configuración global ( switch#enable -> switch#config t) Esto habilita la posibilidad de configurar diferentes cosas, como la ip y la submask, así como un nivel de seguridad para nuestro dispositivo. 
+Aprendimos a conectar mediante un tipo de cable el pc, y a su vez asignarle al pc una Ip estática.
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+__________________________________________________________________________________________________
+TEMA: Suites de protocolos
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+

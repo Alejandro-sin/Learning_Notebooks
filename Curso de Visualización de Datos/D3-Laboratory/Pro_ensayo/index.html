@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body onload="">
+    <!-- <body onload="rectchart() --></body>
+<div>
+    <svg class="svg_1" width="500" height="500">
+        <circle class="exterior"cx="100" cy="100" r="100" />
+        <circle class="ext"cx="100" cy="100" r="75" />
+        <circle class="interior"cx="100" cy="100" r="50"/>
+        <circle class="int"cx="100" cy="100" r="25"/>
+        <circle class="int"cx="100" cy="100" r="25"/>
+    </svg>
+</div>
+<div>
+    <svg class="svg_2"width="500" height="500">
+        <ellipse cx="100" cy="100" rx="30" ry="30"/>
+        <circle cx="100" cy="100" r="100" style=""/>
+        
+    </svg>
+</div>
+<div id="vis" >
+
+</div>  
+
+<div id="another">
+    <script>
+var svg =d3.select('#another')
+    .append("svg")
+    svg.attr('width', setTimeout(function(){
+        1000;
+        
+    },300))
+    .attr('height',100 );
+        
+
+
+
+    </script>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,619 @@
+﻿__________________________________________________________________________________________________
+TEMA: AI
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Existen dos diferentes inteligencias artificales.
+
+ANI Y AGI
+
+ANI es la intelgencia artificial que automatiza cosas y procesos.
+
+AGI es aquella que busca automatizar procesos humanos de superinteligencia.
+
+Las ANI están más avanzadas que las otras.
+
+Machine learning.//
+Es una supervición de entradas y salidas.
+
+
+Input A.	
+
+1. Un email
+
+Ouptu B.
+
+2.Spam
+
+Aplicación
+
+Spam filtering.
+
+
+Para audio hay trancripciones de texto, wasap lo hace... con tecnología de reconocimiento de texto.
+Traduciones de lenguaje  con machine tranlataion.
+ad user infro. Para saber los click que un usuario podría darle a un anuncio o no.
+Imagen. Para automatizar vehículos, y la posición de otros autos. 
+Visual inspection permite realizar detecciones de defectos en cosas.
+
+(Puedo hacer visual inspectio a nivel atómico?, Usar esa AI para que me reconozca patrones cristalográficos? o para que me reconozca protenínas, como se usa la IA en la química?)
+
+El rendimiento del machin learnign o aprendizaje sueprvisado de entradas y salidas ha tneido un age muy grande ya que han habido variables que permiten mejorar y aprovechar esta tecnología.
+
+La ley de moore y las nuevas tecnologías que nos permiten usar procesadores muy avanzados, más la catnidad de datos que producimos "BigData" Nos permite manejar redes neuronales más complejas cada vez.
+
+El  límite de la AI es el hardware y el tiempo de vida que tenemos generando información.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: Que es la Data.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Existe formas de crear conjuntos de datos. Manual mente mediante etiquetado manual. Se necesitan millones de estas etiquetas para poder hacaer AI.
+Ejemplo de gatos mendiante reconocimiento visual.
+
+
+Otro método es mediante la observación de comportamiento de los usuarios. El usauiro puede ser una áquina, al observar la máquina se pueden hacer predicciones de cuando podría fallar u averiarse.
+
+Machine Ide, Temperature, Pressure, Machine Fault
+
+Mantenimiento preventivo. Podría elegir la entrada a como las primeras 3 columnas y la salida B el reusltado de si al máquina falla o No.
+
+Es decir se intererlacionan variables que tienen datos y se evalúan y procesan todas para que el siguiente dato brinde información de comportamiento.
+
+//Para hacer AI se necesit aun enorme conjunto de datos de los cromatógrafos y fallas para saber cuando podrían fallar.
+
+
+Descargarlos de websites.
+
+
+No todos los datos sirven.
+Saber que puedo usar para hacer inteligencia artificial.
+Si aprende errores comete errores.
+Si le faltan valores no entiende.
+Multiples tipos de datos.
+
+Imagen, texto y audio son datos NO estructurados. Es el valor no validade de una columna, el aberrante numéricamente hablando.
+
+ai tiene métodos de identificación de este tipo de datos estructurrados o no.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Terminología IA.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Machine Learnig puede usarse para que los usuarios, aplicaciones, empresarios tengan insigths de calidad respecto a los datos de su sengocio.
+Podrían tener datos respecto a ventas en metros cuadrados y númeor de habitaciones, para decirle a los clientes cuanto vale más construir una casa de un mismo tamaño con menos habitaciones.
+
+El análisis de lso datos es muy importante para tomar desicioens de negocio.
+
+
+M.Learnign.
+Es un campo de estudio en el que se le da la habilidad a las computadoras de aprender sin ser explicitamente programadas.
+Arthir Samula 1950. 
+El juego de damas chinas.
+
+
+//Puedo ver casos de machine learingin y excel?
+
+Data Scienci es la interpretación de los datos y los análisis que puedo realizar de las relacioens entre los datos. COmortamientos, tendencias y demás.
+
+
+La diferencia radica en que con AI peudo saber si mi publicdad será más clickeada ( comparando entre campañas) mientra que con Data Science sabré si tendré más compra en un sector determinado del mercado.
+
+
+Deep Learning el el subconjunto menor.
+Las redes neuronales es una tecnica que permite programar las entradas A hasta la salida B. Mediante uanmatemática sencilla. 
+La insipración se hizo en las redes neuronales del cerebro humano, pero distan muchsímo de su comportamiento.
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: ¿Qué necesita una empresapara ser buena en el uso de IA-?
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Puedo hacer que una IA, me reconozca un conjunto de vectores de enfermedad y enfocar la producción d emedicamentos?
+
+
+
+Internet Era
+
+
+Una tienda de comercio y su página web es difrente a una compañía de internet.
+
+Una compaía de internet tiene iteracione sde sus unidades de negocio en corto timpo.
+Las desciiones están centralizadas a ingenieros y roles espeializados  que conocen al producto y los clientes.
+El ceo no toma tanta acción allí.
+
+
+AI Era.
+
+Cualqueir comp´ñçia que use Deeplearning no es una AI compay
+
+
+Una compñaía full AI se encarga de recolectar los datos de manera estratégica.
+De almacenar de enormes datawerehouse distintas bases de datos
+De analizar  conjuntos de datos masivos para identificar patrones y realizar un algoritmo que cononecte A Y B y me permita hacer el machine learning.
+
+
+Hay una serie de pasos consecutivos por los que una compañía `puede llegar a hacer buen uso de AI.
+
+
+1. Lanzar proyecto de bajo costo para entende rla tecnología
+2. Construir un equipo especializado
+3.Educar al personal para involucrarlos
+4. Una ves todas las unidades de negocio entiendan Desarrollar una estrategia.
+5.Comunicarse interna y externo al proyecto.
+
+
+
+https://landing.ai/ai-transformation-playbook/
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Que puede y que no puede hacer la IA
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+La inteligencia artificial no puede responderte con respuestas complejas, emocionalmente complejas o empáticas. Pero si puede aprender con un conjunto de datos enorme la respuesta siguiente.
+
+El ejemplo del servicio cliente para los correso electrónicos.
+Un email lo puedo catalgar en diferentes respuestas, analizando el texto saber a qué corresponde.
+
+La AI depende de la cantidad enorme de dats que interpreta.
+
+
+
+
+(Existe alguna forma de recrear la plasticidad del cerebro? y hacer que consuma la menor cantida de energía posible?)
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: More examples of what machine learning can and cannot do
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+___________________
+TEMA: AI
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Existen dos diferentes inteligencias artificales.
+
+ANI Y AGI
+
+ANI es la intelgencia artificial que automatiza cosas y procesos.
+
+AGI es aquella que busca automatizar procesos humanos de superinteligencia.
+
+Las ANI están más avanzadas que las otras.
+
+Machine learning.//
+Es una supervición de entradas y salidas.
+
+
+Input A.	
+
+1. Un email
+
+Ouptu B.
+
+2.Spam
+
+Aplicación
+
+Spam filtering.
+
+
+Para audio hay trancripciones de texto, wasap lo hace... con tecnología de reconocimiento de texto.
+Traduciones de lenguaje  con machine tranlataion.
+ad user infro. Para saber los click que un usuario podría darle a un anuncio o no.
+Imagen. Para automatizar vehículos, y la posición de otros autos. 
+Visual inspection permite realizar detecciones de defectos en cosas.
+
+(Puedo hacer visual inspectio a nivel atómico?, Usar esa AI para que me reconozca patrones cristalográficos? o para que me reconozca protenínas, como se usa la IA en la química?)
+
+El rendimiento del machin learnign o aprendizaje sueprvisado de entradas y salidas ha tneido un age muy grande ya que han habido variables que permiten mejorar y aprovechar esta tecnología.
+
+La ley de moore y las nuevas tecnologías que nos permiten usar procesadores muy avanzados, más la catnidad de datos que producimos "BigData" Nos permite manejar redes neuronales más complejas cada vez.
+
+El  límite de la AI es el hardware y el tiempo de vida que tenemos generando información.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: Que es la Data.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Existe formas de crear conjuntos de datos. Manual mente mediante etiquetado manual. Se necesitan millones de estas etiquetas para poder hacaer AI.
+Ejemplo de gatos mendiante reconocimiento visual.
+
+
+Otro método es mediante la observación de comportamiento de los usuarios. El usauiro puede ser una áquina, al observar la máquina se pueden hacer predicciones de cuando podría fallar u averiarse.
+
+Machine Ide, Temperature, Pressure, Machine Fault
+
+Mantenimiento preventivo. Podría elegir la entrada a como las primeras 3 columnas y la salida B el reusltado de si al máquina falla o No.
+
+Es decir se intererlacionan variables que tienen datos y se evalúan y procesan todas para que el siguiente dato brinde información de comportamiento.
+
+//Para hacer AI se necesit aun enorme conjunto de datos de los cromatógrafos y fallas para saber cuando podrían fallar.
+
+
+Descargarlos de websites.
+
+
+No todos los datos sirven.
+Saber que puedo usar para hacer inteligencia artificial.
+Si aprende errores comete errores.
+Si le faltan valores no entiende.
+Multiples tipos de datos.
+
+Imagen, texto y audio son datos NO estructurados. Es el valor no validade de una columna, el aberrante numéricamente hablando.
+
+ai tiene métodos de identificación de este tipo de datos estructurrados o no.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Terminología IA.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Machine Learnig puede usarse para que los usuarios, aplicaciones, empresarios tengan insigths de calidad respecto a los datos de su sengocio.
+Podrían tener datos respecto a ventas en metros cuadrados y númeor de habitaciones, para decirle a los clientes cuanto vale más construir una casa de un mismo tamaño con menos habitaciones.
+
+El análisis de lso datos es muy importante para tomar desicioens de negocio.
+
+
+M.Learnign.
+Es un campo de estudio en el que se le da la habilidad a las computadoras de aprender sin ser explicitamente programadas.
+Arthir Samula 1950. 
+El juego de damas chinas.
+
+
+//Puedo ver casos de machine learingin y excel?
+
+Data Scienci es la interpretación de los datos y los análisis que puedo realizar de las relacioens entre los datos. COmortamientos, tendencias y demás.
+
+
+La diferencia radica en que con AI peudo saber si mi publicdad será más clickeada ( comparando entre campañas) mientra que con Data Science sabré si tendré más compra en un sector determinado del mercado.
+
+
+Deep Learning el el subconjunto menor.
+Las redes neuronales es una tecnica que permite programar las entradas A hasta la salida B. Mediante uanmatemática sencilla. 
+La insipración se hizo en las redes neuronales del cerebro humano, pero distan muchsímo de su comportamiento.
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: ¿Qué necesita una empresapara ser buena en el uso de IA-?
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Puedo hacer que una IA, me reconozca un conjunto de vectores de enfermedad y enfocar la producción d emedicamentos?
+
+
+
+Internet Era
+
+
+Una tienda de comercio y su página web es difrente a una compañía de internet.
+
+Una compaía de internet tiene iteracione sde sus unidades de negocio en corto timpo.
+Las desciiones están centralizadas a ingenieros y roles espeializados  que conocen al producto y los clientes.
+El ceo no toma tanta acción allí.
+
+
+AI Era.
+
+Cualqueir comp´ñçia que use Deeplearning no es una AI compay
+
+
+Una compñaía full AI se encarga de recolectar los datos de manera estratégica.
+De almacenar de enormes datawerehouse distintas bases de datos
+De analizar  conjuntos de datos masivos para identificar patrones y realizar un algoritmo que cononecte A Y B y me permita hacer el machine learning.
+
+
+Hay una serie de pasos consecutivos por los que una compañía `puede llegar a hacer buen uso de AI.
+
+
+1. Lanzar proyecto de bajo costo para entende rla tecnología
+2. Construir un equipo especializado
+3.Educar al personal para involucrarlos
+4. Una ves todas las unidades de negocio entiendan Desarrollar una estrategia.
+5.Comunicarse interna y externo al proyecto.
+
+
+
+https://landing.ai/ai-transformation-playbook/
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Que puede y que no puede hacer la IA
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+La inteligencia artificial no puede responderte con respuestas complejas, emocionalmente complejas o empáticas. Pero si puede aprender con un conjunto de datos enorme la respuesta siguiente.
+
+El ejemplo del servicio cliente para los correso electrónicos.
+Un email lo puedo catalgar en diferentes respuestas, analizando el texto saber a qué corresponde.
+
+La AI depende de la cantidad enorme de dats que interpreta.
+
+
+
+
+(Existe alguna forma de recrear la plasticidad del cerebro? y hacer que consuma la menor cantida de energía posible?)
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: More examples of what machine learning can and cannot do
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Concer los errore y conocer los exitos para mejorar mi conocimiento.
+
+lidar*
+
+
+
+Como puedo hacer que un sistema de IA entienda con menos datos posibles un patrón?
+So segmento los patrones, o las matrices algebraicamente para que me comprenda por partes, no logro mejorar la forma en la que aprenden?
+
+Chunking pero para máquinas.
+
+ML ventajas es que funciona muy bien sconn conceptos simples que no requieren de filososfarse.
+SIn mebargo cuando se quiere ML conceptos complejos, como gesticulaciones humanas, no comprende.
+
+
+Asíc omo no comrepnde nuevas entradas de datos.
+
+(Puedo enseñarle a que reconozca entradas atípicas de esos datos y me lso discrimine dle patrón? o que los almacene en una parte donde solo hayan patrones?)
+
+Como puedo audarle a adaptarse?
+Como puedo evaluar lo que ha aprendido?
+
+
+
+
+RESUMEN:
+
+
+
+
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Non-technical explanation of deep learning (Part 1, optional)
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+La predicción más sencilla  de redes neurnales.
+Se hace el ejemplo de la demanda de camisetavs el precio. A mayor precio de camisetas menos demanda habrá.
+
+Neuron es una neurona artificial que introduce el precio y saca la demanda.
+
+En el ejemplo, NG explica que la redes neuronales son como ladrillos que cosntruyen un muro.
+
+Al principio se debe conocer la entrada en A, los datos que se tienen para poder procesarlos meidante software y tener un resultado b.
+
+Es decir en el ejemplo el menciona que el precio, el shipping, el marketing. Afectan en un tipo de relación: La percepción del producto, la accequibilida del producto, y de estos se puede computar a un B, una salida, una demana.
+En machine learnign se el enseña a la máquina con muchos datos a que interprete una situación.
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Workflow of a machine learning project
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+1. Recolectar los datos:
+
+En función de lo que quiero usar en IA. 
+
+2. Entreno el modelo
+
+Iterar muchas veces el modelo de A -> B
+data1_data2
+
+3. Desplegar el modelo.
+
+Conseguir datos reales de exposición. Mejorar el modelo.
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Every Job Function needs to learn how to use data
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+¿Qué datos uso en Química que me permitan encontrar realizar un input A->B.
+
+
+Los datos están en otdar partes. Agricultura, marketing y ventas. 
+Es necesario es interdisciplinario, tener expertos en ambos casos para poder operar.
+
+Automatizar tareas, en vez de trabajos.
+
+Automatizar lo que da valor.
+Qué da dolor puntos de dolor en su negocio?
+
+
+Se puede hacer progesos si el bigdata.
+
+
+Con 10, 100 1000 datos.
+
+La cantidad de datos que necesito depende mucho del problema que necesito resolver
+
+Para hacer buen Data science necesito estar suemrgido en lo que estoy buscando.
+No todos los proyectos merecen la pena desarrollarse
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+Los porcesos analíticos de laboratorio que tienen muchísimas muestras por analizarse.
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+

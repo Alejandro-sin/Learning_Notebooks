@@ -1,0 +1,9 @@
+
+
+1. Tener una bitácora de trabajo para saber que hice ese día, a quien visité y que se habló para tener claridad.
+
+2.Tener clara la propuesta de trabajo me ayuda a evitar errores y retrasos y malentendiso:
+
+Tener claro como se desarrolla y como se personaliza.
+Las usuarios rara vez tienen los requisitos claros, o un diseño específico, llevarlos de la mano para que el ingreso de datos sea mas eficiencte.
+	Me lleva a la pregunta: ¿Como hacer que se ingrese de manera eficiente un dato?:

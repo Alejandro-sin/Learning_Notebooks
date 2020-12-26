@@ -1,0 +1,154 @@
+
+******************************************************
+#    **CURSO:**
+******************************************************
+* LECTURAS MAESTRAS:
+* RESUMEN MAESTRO:
+* GLOSARIO UNIVERSAL DE TÉRMINOS:
+* ATAJOS:
+
+##   **TEMA:**
+
+**______________________________________________________**
+####    **NOTAS:**
+
+______________________________________________________
+
+
+API:
+
+Es un conjunto de funciones y porcedimientos que cumplen una o muchas funciones con el finde ser utilizadas por otro software.
+Application Programming Intterface. Es una capa de abstracción
+
+Protocolo especifica cómo va ser la comunicación entre dos partes. Hypertex Transfer protocol tiene unos verbos.
+
+GET: Solicitar datos o algún recurso.// Lo utilizamos para traer información desde un servidor, una lista o un recurso en específico.
+HEAD: traer headers como una petición GET sin contenido. // Status, encabezados, es útil a la hora de utilizar API y saber que puede ser procesado.
+POST: Enviar datos a un recurso para la creación// Manda información hacia el servidor, un comentario al curso...
+PUT: Reemplazar por completo un recurso. // Actualiza todo un recurso.
+DELETE: Eliminar un recurso.
+PATCH: Actualiza una parte de la información, no toda. Un título de un curso, todo el recurso PUT.
+
+
+**HTTP Status CODE.**
+______________________________________________________
+
+Sirven para describir el estado de la petición hecha al servidor, cada código es semántico. Los estados indican como está procesada la solicitud.
+
+1xx estados de cien:
+Esto indica que la petición fue recibida y el servidor sigue trabajando en el proceso. 
+2xx
+Indica que la petición fue recibida, procedas, aceptada y procesada correctamente.
+3xx
+Indica que hay acciones adicionales por hacer. En web se usan para hacer re direcciones. Teóricamente los API no contienen estados. Toda la info necesaria está contenida en una solicitud.
+4xx
+Errores del lado del cliente. Indica que se hizo mal una solicitud, faltan datos, headers o cualquier otro error que puede ocurrir. Un dato de más, o de menos o typo.
+5xx 
+Errores del servidor, indica que falló completamente la ejecución.
+
+Los más usadas:
+
+200. Todo está bien, se retorna cuando GET esta ok.
+201. Estado retornado cuando POST es correcto.
+204. Significa que solicitud se proceso correctamente  no se recibio nada.
+400. Algo está mal con la solicitud,  casi siempre los 400 especifican la los errores.
+403. Forbiden, no tengo acceso a ese recurso aunque esté autenticado.
+401. Authorazed, hay que autenticarse con el server primero.
+404. No existe el recurso.
+500. Servidor no pudo procesar la solicitud.
+
+______________________________________________________
+Estructuras de las URLs
+______________________________________________________
+
+API, es importante estructurar las rutas por las cuales se usarán cada uno de lso endpoints.
+
+**RECURSO**
+
+Es una instancia o la representación de un obketo en el que podemos realizar operaciones sobre ellos, crear, actualizar y eliminar.
+
+
+**COLECCIONES**
+
+Es un conjunto de recursos.
+
+
+**URL**
+
+Uniform, Resource, Locator. Es la ruta en la cual puede ser ubicado un recurso y ejecutar las operaciones sobre él.
+
+
+**CRUD**
+
+Create, Read, Update, Delete.
+
+
+**ENDPOINT**
+
+Es el punto final de la comunicación con un ente, en este caso un endpoint está asociado a una URL y a las operaciones que podemos ejecutar.
+Los Endpoints tienen identificadores o ID qsociados a las URL. Lo ideal es que se elimine un recurso individualmente y no una colección, igualmente pasa con la actualización.
+
+
+
+**RECURSOS ANIDADOS**
+Hay veces en las que un recurso depende de otro recurso, por ejemplo, comentarios depende de materiales; usualmente en los APIs las anidaciones se hacen hasta dos niveles, es decir:
+
+materials/1/comments: estos son dos niveles
+materials/1/comments/2/answers/: son tres niveles, ahí lo ideal sería entonces separar el endpoint de comentarios y ejecutar comments/2/answers/
+
+
+Una convención que se usa a la hora de documentar APIs es abstraer el endpoint de la URL del sitio al cual vamos a hacer la petición, puesto que esto al final es redundante de escribir, es decir, usualmente escribimos únicamente /api-token-auth/ en vez de [http://mistioweb.com/api-token-auth/](http://mistioweb.com/api-token-auth/).
+
+Los endpoints que tenemos:
+/api-token-auth/
+/courses
+/courses/:id/
+/courses/:id/upload_badge/
+/materials/
+/materials/:id/
+/materials/:id/comments/
+/comments/
+/comments/:id/
+/comments/:id/like/
+/comments/:id/dislike/
+
+
+Llamados a un API con GET: llamado de listas y detalles de objetos
+
+
+POSTMAN es un servicio de petición de API.
+
+1. Para contactarse con una API, lo primero que hacemos es escoger el verbo ( GE,POST...ETC)
+2. Escribimos la direcciçpon a la que vamso a hacer el llamado. Puede ser a un DNS como el de platzi.
+	En este caso lo llamaremos de forma local: http://localhost:8000/api/courses/  clik en send
+
+
+
+
+
+#### **PREGUNTAS:**
+______________________________________________________
+
+* 
+* 
+* 
+
+______________________________________________________
+
+#### **RESUMEN PARCIAL**:
+______________________________________________________
+
+```
+<code>
+
+```
+
+#### **REFERENCIAS INTERESANTES**:
+______________________________________________________
+
++ [Hipervínculo](url)
+
+******************************************************
+## EXÁMEN:
+______________________________________________________
+______________________________________________________

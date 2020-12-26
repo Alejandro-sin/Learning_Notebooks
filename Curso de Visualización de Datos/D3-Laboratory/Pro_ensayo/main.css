@@ -1,0 +1,46 @@
+.exterior:hover{
+    fill:rgb(255, 78, 78);
+    transform: 
+        translate3d(-25px)
+        scale(1.2);
+    transition: all 1000ms;
+}
+
+.ext:hover{
+    fill:rgb(255, 78, 78);
+    transform: 
+        translate3d(-25px)
+        scale(1.2);
+    transition: all 500ms;
+}
+
+.interior:hover{
+    fill:rgb(255, 78, 78);
+    transform: 
+        translate3d(-25px)
+        scale(1.2);
+    transition: all 200ms;
+
+}
+
+.int:hover{
+    fill:rgb(255, 78, 78);
+    transform: 
+        translate3d(-25px)
+        scale(1.2);
+    transition: all 200ms;
+
+}
+
+
+.rectTest{
+    fill: red;
+    stroke-width: 10px;
+    stroke: black;
+
+}
+
+.svg_3{
+    border: 1px solid rebeccapurple;
+    
+}

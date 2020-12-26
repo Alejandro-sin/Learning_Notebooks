@@ -1,0 +1,408 @@
+///////////////////HACKING FOR DUMMIES////////////////////////////////
+
+**Network Infraestructure attacks***
+
+Conectarse a una red atraves de un modem oculto unido a un computar detras del firewall.
+
+Explotar la debilidad de una red en sus mecanismos de trasnporte como TCP /IP y NetBIOS
+
+Llenar una red con demasiadas solicitudes, creando una denegación del servicio DoS para solicitudes legítmas.
+
+Instalando un analizador de redes en un red y capturar cualquier paquete que viaja a través de ella, revelando información condifencia en texto calro.
+
+Piggybacking dentro de redes atraves de configuraciones 802.11b inalambricas inseguras.
+
+***Operating system attacks***
+
+
+Se puede atacar todo, se ataca lo que más se usa.
+
+Explotando implementación de protocolso específicos.
+Atacando sustemas builtin de autenticación
+Irrumpiendo la seguirdad del sistema de archivos.
+Cracking contraseñas y mecanismo de encriptación.
+
+***Aplication an other specializaed attacks***
+
+
+Es de bastante freceucnai por los hackers, programas como servidores de correos, y aplicaciones web ocasionalmente son vencidos por:
+
+Hypertext tranfer protocol HTTP y Simple Mail Tranfer Protocol SMTP
+Aplicaiones, son frecuentemente atacadas a causa de que la mayoria de Firewalls y otros mecanismo de seguridad restán configurados parapermitir ful acceso a estos programas desde internet
+
+Malicius software, o malware incluyen virus, gusanos, troyanos, spyware.
+
+Spam. Es causar un acumulamiento en la disponibilidad del espacio de almacenamiento y puede llevar un malware.
+
+
+TENER SIEMPRE EN CUENTA LOS MANDAMIENTOS:
+
+Trabajar eticamente.
+Respetar la privacidad.
+Crear cultura de vigilante de vigilantes. Para generar confianza en la información obtenida.
+Leer la docuemtnación y estar seguro de entenderla antes de ejcutar las pruebas en mi propio sistema./Me lo puedo tirar de no saber/
+***Facilmente se pueden crear condiciones de DoS
+  en lso sitemas. Corriendo muchos test muy rápidamente en un sistema causas bloqueos.
+No asumir que la red o los host oeuden manejar el ritmo de que los scanners de redes y las evaluaciones de vulnerabilidadas pueden sacar.
+
+TIP: Muchas herramientas para evaluación pueden controlar cuantos test son realizados en un sistema al mismo tiempo. 
+Estas herramientas son especialemtne utiles cuando se necesita correr test en sistemas de producttión durante las horas regulares de negocio.
+
+EH. necesita tener un plan.
+*Informar cliente sobre cada test y dejarlo por escrito.
+Un plan detallado incluye:
+
+*Sistema específico a ser testeado.
+*Riesgo involucrado
+*Cuando se ejecuta y el tiempo que tarda
+*Como se hace el test
+*Cuanto conocimiento del sistema necesito antes de hacer el test
+*Que hacer cuando una vulnerabilidad seria se encuentra.
+*Entregables especificos.
+//La evaluación de seguridad como repore un reporte de alto nivel señalando las vulnerabilidades generales a ser direccionadas, junto con las crontramedidas que deberían ser implementadas.
+
+*Tener un plan de contingencia para el EH en caso de que algo salga mal.
+
+To crack passwords, you need a cracking tool such as LC4, John the Ripper, or pwdump. 
+
+A general port scanner, such as SuperScan, may not crack passwords.
+
+For an in-depth analysis of a Web application, a Web-application assessment tool (such as Whisker or WebInspect) is more appropriate than a network analyzer (such as Ethereal).
+
+Hundreds, if not thousands, of tools can be used for ethical hacking — from your own words and actions to software-based vulnerability-assessment programs to hardware-based network analyzers. The following list runs down some of my favorite commercial, freeware, and open-source security tools:
+ Nmap  
+EtherPeek  
+SuperScan  
+QualysGuard  
+WebInspect  
+LC4 (formerly called L0phtcrack)  
+LANguard 
+Network Security Scanner  
+Network Stumbler  
+ToneLoc
+
+Here are some other popular tools:
+
+Internet Scanner  
+Ethereal  
+Nessus  
+Nikto  
+Kismet  
+THC-Scan
+
+
+//Acerca de las herramientas, leer siempre los readme o user guide, inclusive mriar entrenamiento.
+
+//Docuemtnaión adecuada,
+reportes detallados y descubrimiento de vulnerablilidades incluyendo como pueden ser explotads y reparadas.
+Reportes de alto nivel.
+
+Ahorra tiempo//
+
+Es bueno tener en cuenta que haclkers podrían estar dento del sistema, resguardarse siemrpe de estos usuarios malintencionados y realizar la vigilancia l más privado posible.
+
+Pretty Good Privacy (PGP) es un software que permite encriptar los reportes para esconder inforamción.
+
+Capitulo 2 pagina 44
+
+
+
+
+
+Parece ser que recolectar pequeños fragmentos de la información es útil para llevar a cabo un ataque metódico.
+
+Existen herramientas como BBs, Bulleting board Systems
+Internet Relay Chat. ICR.
+Se puede uno loggear en estos sitios.
+
+
+*Las personas que sienten que no tienen información valiosa dentro de su empresa, son presa de ataques, robos inclusive muchas veces un sistema puede servir como plataforma para los atques.
+
+
+*Los ataques pueden ser llevados lentamente para vitar ser detectados.
+
+
+*Formas de evitar ser alcanzado.
+
+//Usar internet de dial prestado.
+/Computadores de lirberias, escuelas, o quiscos
+/Internet proxy servers o sevicios anónimos.
+/Cuentas anónimas o desechables con servicios gratuitos de email.
+/Computadores sin seguridad.
+/Estaciones de trabajo o servidores  de la victima en su propia red.
+
+Usar peldaños en lso ataques hacen diíficles los rastreos.
+
+
+Capitulo 3.
+
+Desarrollando el plan de hakeo etico.
+
+//Considerar conseguir un seguro para errores y omisiones.
+
+
+**Objetivos especificos que se alienan con los planes emrpresariales.
+
+**Fechas y momentos para realizar los test(Preferiblemente en horarios noturnos donde la seguridad es baja, y la frecuencia con los usauraios es baja).
+
+**Definir si es propiedad intelecutal, información confidencial de los clientes o si es información privada de los clientes.
+
+
+** Cuales son los entregables
+
+Todos los informes de alto nivel generados por las aplicaciones, reportes ejecutivos. Redacciones de que se probó a lo largo dle proceso y que resutlados se obtuvo.
+
+
+
+** Resultados que deseo, la justificación de contratación,  o outsourcing de seguridad, el incremento del presupuesto o la mejora de sistemas de seguridad.
+
+
+//La educación es el mejor antídoto para llevar a cabo los planes de hakceo ético.
+
+//
+
+Categorizar por:
+
+*Cuales son los sistemas con mayor riesgo de ser hakeados, causarían la mayor cantidad de problemas y pérdidas?
+
+
+*Cuales sistemas aparentan ser los más vulnerables a ataques?
+
+*Cuales sistemas no están documenta, on rara ve administrados o los que uno casi no conoce?
+
+// 
+
+Sistemas a considerar para Hacking test.
+
+
+*Routers
+Firewalls
+Networkinfraestructure as a whole.
+Puntos de acceso inalambricos y puentes.
+
+Aplicaiones web, servidores BD.
+
+Email y archivo/impresion servidores.
+Estaciones de trabajo, laptops y tablets.
+Celulares o PADs qu eguradan seguridad confidencial.
+Servidr-cliente, sistema operativo.
+Cliente-servidor, como correos u otros sistemas inhouse.
+
+Factores a tener en cuenta:
+
+*Si el computador está en red, opera con qué sistema de operación, y la cantidad de información crítica almacenada en este.
+
+
+*Generar estándar para las pruebas.
+Cuando suceden estas pruebas y cuanto van a tardar.
+*Que pruebas se van a ejceutar
+*Como se van a realizar y desde donde.
+*Cuanto conocimeinto del sistema se adquiere en el avance.
+*Que hacer cuando una vulerabildiad se descrubre.
+
+
+TIMING.
+
+El tiempo es importante, es bueno notificar a los Internet Service Provider o Aplication Service provider, que se están ejecutando pruebas de tráfico, así podrían no bloquera la intrución mediante IDs, o que se ejecute un DoS accidental porque las peronas de la compañía siguen operando en los timepos establecidos en que ocurre dicho evento.
+
+
+Mostrar:
+
+Test realizado:
+
+War Dial 
+Password Cracking
+
+Tester
+Etrx
+
+StartTime/End TIme.
+
+
+//Pruebas Específicas.
+
+Tener en cuenta que al realizar algunaspruebas puede suceder trnaquilamente un DoS enviando alertas por cada formulario emitido.
+
+Lo importante para evitar este tipo de situaciones es:
+
+Realizar el HTplan en horarios en lso cuales no teng amucho impacto y tener un plan de contingencia par estas situaciones.
+
+//Evaluaciones A ciegas VS Conocidas
+
+
+Sería tener informados a pocos, que tengan poder de desición empresarial.
+
+
+//Location.
+
+Tener en cuenta que pueden suceder los ataques, dentro y fuera de la red.
+
+Combinar los Public internet test con los private network Test.
+
+Para las pruebas que ocurren fuera de la red, es posible necesitar un Proxy. O asignar una dirección IP pública al computador y conectarse a la red desde afuera del firwall.
+
+//Seleccioanndo herramientas.
+
+
+*Tener el conocimiento de las herramientas permite usarlas mejor según el contrexto por ejemplo para un cracking password se usa LC4, John the Rippr, o pwdump.
+
+Un scaner general de puertos como SuperScan o Nmap no hacen la tarea.
+
+
+* Por ejemplo si busco realizar un análisis de la web en profundidad, herramientas como Nikto o WebInspect son más apropiados que un analizador como Ethereal.
+
+
+///////TOOLS//////// 
+@stake L0phtcrack (now called LC4)  
+Ethereal  
+Foundstone 
+SuperScan  
+Qualys 
+QualysGuard  
+GFI 
+LANguard NetworkSecurity Scanner  
+John the Ripper  
+Network Stumbler  
+Nessus  
+Nikto  
+Nmap  
+Pwdump2  
+SPI Dynamics WebInspect  THC-RUT  
+ToneLoc
+Wellenreiter  
+WildPackets EtherPeek and AiroPeek
+
+
+Capítulo 4.
+
+
+Hacking Metodology.
+
+
+iP Adrr¡ess
+
+IP addresses 
+Host names 
+Software versions  
+Firewall rules  
+Phone numbers  
+Employee names
+
+Intrusion detection System
+
+IDS 
+
+Para todas las metodologías de haceko se recomienda hacer una recolección de l información de la emrpesa o sitio, se puede realizar mediante un network scan, una prueba de puertos, y una evaluación de la vulnerabilidad.
+
+Muchas búsquedas públicas pueden resultar en información muy valiosa desde el punto de vista del hacker.
+
+Nombres de empleados, informaicón de contactos, fechas importantes para la compañía, cambios organizacionales, nuevos productos, uniones y adquisiciones, patentes, y marcas, presentaciones, artículos, webcast.
+
+
+Google es de las mejores herramientas existentes.
+//mediante b´suquedas depalabras claves.
+
+Mediante Web Crawler,
+O arañas buscadoras de información puedo obtener.
+
+La configuración de la página offline, el código fuente HTML de muchas páginas web.
+
+Campos comentados que muchas veces contienen nombre, direcciones de correo, nombres de servidores, versiones de software, y esquemas internos.
+
+Muchas páginas para hacer recolección de información son necesarias, Hoovers, Finance.Yahoo. y las que existas deberan dar información específica de las empresas.
+
+Realizar background de personas, compañías, y empresas a través de herramientas de b´squeda que se ofrecen en las web.
+
+
+Cuando se está mapeando la red, se pueden ver bases de datos públicas y que recursos los hakcers pueden ver.
+
+Whois es un punto de partida, es una herramienta de búsqueda para los dominios.
+
+
+register fly  es un engine buster de dominios y dns
+
+
+Spamspades es una herramienta que permite realziar el tracking de spama de solicitudes de url
+
+Muestra información general de los dominios.
+Cuales HOST se pueden manejar a través de emails Exvhange. o MX record, para un dominio en específico.
+Determina si el host está en una black list.
+
+
+
+Los listados a continuación mencionados son Whois
+ Government: whois.nic.gov  Military: whois.nic.mil  AfriNIC: www.afrinic.org (emerging Regional Internet Registry for Africa)  APNIC: www.apnic.net/search/index.html (Regional Internet Registry for the Asia Pacific Region)  ARIN: www.arin.net/whois/index.html (Regional Internet Registry for North America, a portion of the Caribbean, and subequatorial Africa)  LACNIC: Latin American and Caribbean Internet Addresses Registry www.lacnic.net  RIPE Network Coordination Centre: www.ripe.net/db/whois/ whois.html (Europe, Central Asia, African countries north of the equator, and the Middle East)
+
+alldomais.com hace una ingenieria reversa de los dominios mediante una herramienta llamada D-Tective
+
+Herramientas como groups.google muchas veces divulgan información es decir:
+
+Muchos servicios de correos grupales permiten acceder a mucha infroamción pública y privada de las compañía ya que funcionan como grupos abiertos de acceso, 
+
+Es decir, el conocimiento de las políticas de privacidad sobre un host. Las políticas de compartir la información permtien poder hacer gathering.
+
+
+Vamos en la página 68.
+En el encabezado de google groups.
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Notas sobre lecturas realizadas.
+
+
+Sobre la ingenieria Social//
+Mucha parte de la ingenieria social
+
+Existen técnicas de manipulación de las personas.
+
+Kevin Mitniclk Plantea que los 4 pialres fundamentales de SE son 
+
+Todo eslabon más débil de un sistema son los usuarios.
+No nos gusta decir No
+Nos gusta ayudar...
+El primer movimiento siempre es de confianza hacia otro.
+A todos nos gusta que nos alaben.
+
+Existn distintas versiones de SE.
+
+Pishing, Vishin, Baiting.
+(Suplantación de identidad, llamadas, y provocacón)
+
+
+
+
+Lecutras por realizar:
+
+ISO 17799  Marco de seguirdad  
+o sello de seguirdad SysTrust or Web Trust.
+
+Preguntas:
+
+¿Como genero un plan de continegencia para este tippo de situeaciones?
+
+
+NOTAS:
+
+Poner el hack en el docuemnto de hack que indica como usar google translate como una proxy para saltarse bloqueo DNS.
+
+

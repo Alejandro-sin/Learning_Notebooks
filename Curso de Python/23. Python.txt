@@ -1,0 +1,791 @@
+﻿
+
+
+
+
+
+
+Notas sobre Python.
+
+
+Por alguna razón no puedo ejecutar lo que está en el disco D: en x ruta. Peor si sobre lo que está en C.
+
+Me recomiendo a mi mismo, mirar un curso de python 2019.
+
+
+Saber antes de:
+
+1.Consola de windows.
+2.
+
+
+__________________________________________________________________________________________________
+TEMA: ¿Por qué programar con Python?
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Razones para aprender:
+
+1. Inmensa comunidad de programadores. StackOverflow. Literatura.
+2. Syntaxis legible.
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:	
+
+¿Como cargo un archivo .py desde la consola?
+Es decir, como llamo el directorio de la consola y lo cargo para ver la función Turtle.?	Invalid Syntax
+
+Problemas para 
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Operadores
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Los operadores aritméticos de python son +, -,* , /:
+// (Operador de división de enteros)
+%
+**
+>
+<
+== ( Funciona como igual) El igual normal es una asingación de variables.
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Tipos de datos en Python
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:
+
+¿Si python no necesita que se declaren las variables, para qué necesito los tipos?
+		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+
+En qué orden se evalúan las matemáticas operaciones complejas?
+
+Paréntesis xD
+
+Exponentes
+
+Multiplicación / División
+
+Adición / Sustracción
+
+Una forma fácil de recordar éste orden es usando el acrónimo PEMDAS (ParentesisExponentesMultiplicaciónDivisiónAdiciónSustracción)
+
+Valores y Tipos
+
+Los tipos le permiten a Python saber cuál es el resultado de aplicar determinada operación, los tipos básicos son:
+
+Integer <int>
+
+Float <float>
+
+String <str>
+
+Boolean <bool>
+
+Para revisar de qué tipo es un dato puedes usar la función type.
+
+Ejemplos:
+
+type(2) - retorna int
+
+type('Hola') - retorna str
+
+Recuerda que tu código debe ser claro, para permitir que otros programadores lo puedan leer.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA:Declarar variables y expresiones
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Las variables nos permiten guardar valores, permitiéndonos reutilizarlos en diferentes partes del código y haciendo nuestros programas más legibles.
+
+El valor que contiene una variable puede ser reasignado, significa que podemos asignarle diferentes valores a una misma variable.
+
+Las variables tienen algunas limitantes, por ejemplo
+
+Tienen que tener un nombre significativo, es decir, que nos digan qué están haciendo.
+No podemos usar palabras reservadas del lenguaje como nombres para nuestras variables (por ejemplo class, false, none, true).
+Para definir una variable escribes el nombre que quieres asignarle y con = defines el valor que va a almacenar, por ejemplo:
+
+pi = 3.14159
+radio =3
+area = pi * radio**2
+print(area)
+
+Recuerda:
+
+Todos los programas de Python deben guardarse con extensión .py
+Para darle soporte a acentos en nuestros programas debemos usar la línea # -*- coding: utf-8 -*-
+
+
+*Las variables pueden reasignarse.
+Deben tener un nombre significativo, ni hacer referencia a las palabras reservadas de python. (O keywords)
+
+
+*Los operadores dependen del contexto.
+Si una suma se usa con enteros me concatena el texto.
+
+Por ejemplo puedo usar la multiplicación entre texto y números.*, pero hay operaciones restringidas, no puedo dividir un string en un entero.
+
+*En python puedo usarlo en modo script, escriir código que luego se ejectuará en la consola.
+*Nombra tus variables y elementos en inglés, esto ayuda que tu software sea leído por muchas más personas.
+
+
+
+
+
+
+
+Desarrollador web Junior busca.
+
+TorreNegra
+Linkedin
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: FUNCIONES
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Las funciones son secuencias de comandos que realiza un computo.
+Para definirla se utiliza la palabra Def.
+Pueden recibir 0 o más parámetros.
+
+
+Todos los programas deben tener un inicio de ejecución.El siitio de ejcecución no es bueno que sea lineal, es decir de arriba a abajodebido a que es posible que en la arquitectura yo quiero que me importe algo primero.
+
+
+EN PYTHON para definir el bloque de una función hay que darle 4 espacios.
+
+PARA EJECTUAR Scripts en windows:
+(hasbang?)
+
+//Para que la ventana del sheel no se cierre después de ejecutar el escript se le pone un input() al final del código.
+
+//Reto. Ejecución de un scritp en Windows Shell de un archivo de python. Estandarizar conocimiento.
+
+// Porque a pesar de tener el input() se sigue cerrando?
+
+/7 Porqué no em carga la tortuga?
+
+
+
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Funciones con parámetros
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Limitantes.
+
+El nombre de la función no puede empezar con un dígito, sí pueden tener en medio dígitos, per nunca la inicio.
+No puede ser una palabrra reservdada
+Las variables y las funciones deben tener nombres distintos. 
+	/Si no al momento ejecutarlas, el nombre de la variable se reasigna.
+
+
+Usar corchetes para concatenar nuestros textos.
+
+Cuando no se usna funciones:
+Python lee de arriba a abajo  y de izquierda a dercha.
+Cuando se usan funciones el flujo de ejecución cambia.
+
+En python 3 debo ejecutar py+nombre del archivo.py
+
+
+// ¿Qué pasa con run() en python 3x?
+El ámbto de las variables tambien aplica. en python.
+Declara variables globales para que no se pierdan y declarar variables dentro de las funciones.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Estructura de condicionales en Python
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Para que un programa sea util hay que controlar el flujo de ejecución.
+Se utilizan condicionales para esto.
+Las comparaciones lexicográficas son dadas por el orden del abecedario. a=1 y z=28
+
+
+Operadores relacionales necesitan dos valores para comparar
+Operadores lógicos necesita dos valores para escupir si es falso o verdadero.
+
+
+//Pass es un place holdler. Es un
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: BUENAS PRÁCTICAS DE PROGRAMACIÓN.
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+El Zen de Python
+
+Hermoso es mejor que feo.
+Explícito es mejor que implícito.
+Simple es mejor que complejo.
+Complejo es mejor que complicado.
+Sencillo es mejor que anidado.
+Escaso es mejor que denso.
+La legibilidad cuenta.
+Los casos especiales no son lo suficientemente especiales para romper las reglas.
+Lo práctico le gana a la pureza.
+Los errores no debe pasar en silencio.
+A menos que sean silenciados.
+En cara a la ambigüedad, rechazar la tentación de adivinar.
+Debe haber una - y preferiblemente sólo una - manera obvia de hacerlo.
+Aunque esa manera puede no ser obvia en un primer momento a menos que seas holandés.
+Ahora es mejor que nunca.
+Aunque “nunca” es a menudo mejor que “ahora mismo”.
+Si la aplicación es difícil de explicar, es una mala idea.
+Si la aplicación es fácil de explicar, puede ser una buena idea.
+Los espacios de nombres son una gran idea ¡hay que hacer más de eso!
+
+
+Es posible hacer decalraciones dentro de los condicionales.
+La condicionales anidadas, no son una buena idea. Esoty perdiendo una parte imporate del programa, estoy perdiendo legibilidad.
+A mayor complejidad menos legibilidad.<r
+
+
+Los strings tienen una característica muy importante: son inmutables, esto quiere decir que no se pueden cambiar después de que se han declarado.
+
+Si quieres modificar el texto de un string debes definir un nuevo string y modificarlo usando funciones como slice.
+
+Comparación de strings
+
+Se pueden realizar operaciones con strings, por ejemplo comparar si son iguales o mayores o menores.
+
+Diferencia entre ASCII y Unicode
+
+Los caracteres también son números, para esto existen estándares que asignan un número a cada carácter, para generar un estándar se creó el ASCII pero esta solo toma en cuenta los caracteres en inglés, para dar soporte a más lenguajes se crea UNICODE.
+
+Python codifica en ASCII por default, para cambiarlo por UNICODE debemos colocar u antes del string.
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Factorial de un número con recursión
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+En éste video hablaremos sobre la recursión, una función está siendo recursiva cuando dentro de el bloque de instrucciones que la conforma se usa a sí misma.
+
+El concepto puede sonar complicado pero es muy común su uso, por ejemplo cuando haces el calculo del factorial de un número lo haces con una función recursiva:
+
+El factorial de un número es el número multiplicado por los números antes de el, por ejemplo
+
+5! es 5*4*3*2*1
+
+Esto se puede expresar como
+
+5*fac(4)
+4*fac(3)
+3*fac(2)
+2*fac(1)
+1*fac(0)
+Nota importante: Cuándo estes trabajando con recursividad siempre debes pensar en el caso base, es decir debes definir el momento en el que la función dejará de llamarse a si misma, para que no hagas un loop infinito, por ejemplo en el caso del factorial terminas la ejecución cuando llegas a cero.
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: Manejo de strings en Python
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+El manjeo de len en python se hace teneindo en cuenta que si se uiere usar como cadena de texto, sufre de algo que se llama off by 1. Que es que la función len, dvelve contando desde 1, y no 0, como serían los índices en programación mediante []
+
+Las string son inmutables, no cambian. Lo que hacen los métodos es devolvernos un nuevo str.
+Métodos para mayúsuclas, para minúsculas y en general para menjar cualquier str(variable).method
+
+
+Separa cadenas de caracteres en python.
+
+PLATZI
+012345
+
+my_string = 'platzi'
+
+my_string[1:3] # la
+
+my_string[1:] # latzi
+
+my_string[1:6:2] # lti
+
+my_string[::-1] # iztalp
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: Iteraciones.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Range me genera un conjunto n de números sin incluir el último número.
+Los argumentos (a, b, c) desde a hasta b.¡, contando en c pasos.
+Los infinite loops existen hasta crashear el pc por uso de recursos.
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: Calcular si una palabra es palíndromo con Python
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+Aproximación:
+
+1.Revisaría varias condiciones.
+	Que el texto tenga el mismo len
+	Que los caracteres 
+	
+
+Ver
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: Introducción a las listas en Python
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Listas son secuencias de elementos.
+Podemos hacer listas de objetos más complejos
+
+
+Ver métodos para listas. Y practicarlas
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+__________________________________________________________________________________________________
+TEMA: Python Tutorial for Beginners [Full Course] Learn Python for Web Development
+
+https://www.youtube.com/watch?v=_uQrJ0TkZlc
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Python interpreta las entradas de los inputs como valores str. Hay que parsear, mediante int, float, or bool, lo que se quiere de la cadena de texto para poder manipularlo.
+
+Existe manera de seleccionar solo una cadena de caracteres de una cadena larga.
+Mediante:  " variable[]" Donde los corchetes funcionan como posicioneadores delas variables. "variable[:] " Copia toda la cadena de caracteres deseada.
+[] Admite valores negativos y quiere decir que opera desde el último valor hasta el primero. [] Me devuelve la variable - el caracter excluido. Si uso [a:b]
+Me toma desde a hasta b, con b-1 posición. Ya que python cuenta de 0 a n. Y cero es un posiicón.
+
+
+Format Strings.
+Hace que las visualizaciones de las candenas de caracteres se hagan más visibles.
+se hace mediante f'{variable} {}... quita el signo (+) de las concatenaciones de un texto.
+
+Sirve para meter valores de manera dinámica en la cadena de texto. Es como tener n hoyos en la cadena.
+
+¿Pregunta, si python no me concatena un str con un int, debo de transformar {} a una variable que me permita la concatenación?
+
+
+Funciones: Operan de manera general para manipular todas las variables.
+Métodos: Son funciones específicas que sirven para manipular objetos en concreto, un str, un int,  se ve así: variable.Método()
+
+
+len():Es uan función de uso general que me devuelve el númeor de caracteres de una cadena
+variable.find()
+variable.upper/lower: Mayúsuclas o minúsculas
+varaible.find() para encontrar un caracter en una cadena de texto.
+cariable.replace () para reemplazar una palabra en uan cadena de texto.
+
+'texto' in varaible: Es una expresión que me busca una cadena de texto en otra cadena.
+
+
+Operadores aritmeticos funcionan igual.
+Exiten unos operadores que se llaman  aumentadores +=  -=
+variable += contadidad
+
+
+las fuinciones matemáticas se invocan mediante import math
+Ya que las trae como un objeto que posee unso métodos
+
+
+
+
+
+
+
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+PHYTON
+
+
+Hasta la fecha, 
+
+Toda la clase la he registro en sublime. me han hablado de funciones, sintáxis básica.
+
+https://www.youtube.com/watch?v=VY448UWAQ_0&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS&index=5
+Nota: respecto a Sublime, en la pestaña donde se activa el "lenguaje al que le escribo" hay otros más, vi R. Que también es de nuestro interés.
+ 
+
+
+Phyton es muy amable con el usuario, el lenguaje es sencillo, no es agresivo. No es culebrero.
+
+
+Lesson5 
+
+Se pueden definir funciones delcarandoles primero mediante Def Nom ():
+
+El código o cuerpo que habla sobre lo que hace la función
+
+Y se cierra en una lína no identada o sin sangría.
+
+Se puede llamar a la función durante todo el programa.
+
+Lesson 6
+
+
+Python puede generar funciones de dos tipos , sin argumentos dentro y con argumentos.
+ 
+
+La primera es aparentemente más sencilla pues que hay que declararle las variables con las que la funcion va a trabajar. 
+
+Las funciones con argumentos pueden usarse para guardar un valor que se va a usar constantemte durante todo el programa.
+
+Estas funciones poseen el parámetro return para devolver un valor, es como una máquina expendedora de dulces.
+
+
+
+NOTAS:
+
+Repasar uso de operadores y la sintáxis y alfabeto básico.
+
+Concatenar un texto 
+
+
+
+
+/////////////////////Open Course Python Certification.///////////////////////////////////////////////////////////////////////////////////////////////
+
+Se le dan instrucciones al computador.
+Acepte un numero, ejecute esta operación guardelo en la memoria y muestre el resultado.
+Un computador procesa una lista de instrucciones IL. 
+Todo lenguaje posee.
+
+Un alfabeto, un léxico, Una sintáxis, y semántica.
+
+
+Common lenguage Es el lenguaje común entre el lenguaje máquina y el lenguaje humano.
+
+Nace lenguajes de altonivel. Con sitnáxis y normas legibles para humanos. Un programa escrito en este lenguaje se llama código fuente. Así como el archivo que lo contiene se llama archivo fuente.
+
+
+Un programa escrito en un lenguaje de alto nivel hace dos procesos para transformarlo a lenguaje máquina.
+
+Compilar e interpretar.
+Compilar: Es la transformación del código fuente.
+Interpretación: Es la transformación que necesita hacer en todo momento para el usuario final.
+
+Un interpretador lee las lineas una por una hasta que encuentra un error y arroja un mensaje.
+
+Normalmente los mensajes de error peuden ser mal interpretados debido a que el programa no conoce las itnenciones de lo que se quiere hacer, pero si acerca a las aproximaciones de qué lo causa.
+
+Normalmente los errores están un poco antes de que lo detecte el interpretador.
+
+cYTHON ES UNA OPCIÓN PARA CORRER OPERACIONES MATEMÁTICAS DE GRAN TAMAÑO.
+
+Es el mediador de la falta de eficienacia para procesar esos cñalculos en Python.
+
+
+El compilador traduce al inforamció a lenguaje máquina díficil de interpretar, es monohardware pero se ejecuta rápidamente.
+
+El interpretador lee línea por línea cada vez que se ejectua, lo hace lento pero se guarda como lenguaje de alto nivel.
+
+Los lengusjes usados para interpretarse son Scripting lenguges. Mientras para ser compilados son Scripts.
+
+
+Python es un lenguaje interpretado.
+
+Los lenguajes coemptencia de python son Pearl y Ruby. Son lenguajes de Scripting Lengage.
+
+No es muy usado para aplicativos de celular y lenguajes de bajo nivel.
+
+
+Python está escrito en C. 
+Y seguirá estándolo debido a la catnidad de plataformas que compilan y corren en C.
+PSF python Software Fundation habla de CPython como el Pyhton superior.
+
+
+Jython.
+
+J de Java.
+
+Puede comunicar la infraestructura de JAVA de manera eficiencte.
+
+Es un pyhotn en Java.
+
+PyPy
+
+Es escrito python en pyhton.
+Es una herrameinta mayormente usada en el desarrollo para probar aplicativos.
+Los transforma a C. en ves de usar el interpretador de Python.
+
+
+Existe un tipo de error llamado End of File, es opinion... de que el texto debería tener más información.
+
+
+Vamos en el módulo 1. 
+en el 1 subindice.
+
+
+
+
+
+
+

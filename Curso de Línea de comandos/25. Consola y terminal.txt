@@ -1,0 +1,310 @@
+Clases de CMD
+https://www.youtube.com/channel/UCCuCUC5e6BPL1hLpXDoxAww/playlists
+
+Lección 1.
+
+El cmd es una aplicación de 16 bits que reposa en C:\windows\System32>
+Los comandos Ipconfig, Cd, y demás son aplicaciones, pero no pueden sostenerse. El cmd lo smantiene.
+Usa lenguaje de progarmación MSDOS DE WINDOWS.
+
+.. y . es para ir hacia adelante y hacia atrás de los directorios, los comandos escritos en cmd se guardan y pueden acceder a ellos mediante las flechitas direccionales.
+
+
+Cd, es change directory, para cambiar directorios.
+md, es para crear árbol de directorios.
+Dir, es para listar los directorios.
+cls, para limpiar pantalla.
+
+Cada comando posee una sintaxis, las direcciones \, las carpetas para los nomrbes serapados por _ 
+
+
+/// REVISION DE ROUTER
+
+https://www.youtube.com/watch?v=RUsg2mALkao
+
+Diferentres tipos de routers. Diferentees usuos y marcas, así como duración.
+Los routers tiene procesadores, parece haber una relación entre ancho de banda procesadores y numero de personas conectadas al router.
+Router baratos se cuelgan.
+
+Ejercicio de transferencia de datos da el estado del router. (Simulación de n personas conectadas) 
+
+//Mejorar el ping conectividad.
+
+Conexión nacional 
+conexion internacional.
+Especificaciones técnicas del servicio de claro.
+Verificar contrato con Claro.
+
+Los pings y la latencia me hablan de un retraso en la conectividad.
+Ping de 500 es muy alto
+Latencia muy bajita fibra optica.
+Revisar la resañl que le lleg aal módem
+
+
+/Consumo de ancho de banda pro n personas?
+
+Lo emjro de la fibra
+
+
+mtu// Unidad máxima de tranferencia.
+____________________________________________________________________________________________________________________________________________________________________________
+*RESUMEN*
+Recomiendo que vean la lectura numero 2 antes de ver este video. Gracias por este curso!
+Consola sirve para ejecutar y automatizar tareas en el ordenador, no requiere de interfaz gráficas para ser más óptimo.
+
+Comando es nombre del programa,Modificadores alteran lo que el programa hará, parámetros son argumentos necesarios.
+Esquema general para ejecució de comandos.
+>>>nombre_comando -flag ( modificadores)(espacio)argumentos
+date	(muestra la fecha)
+echo (muestra mensaje en patalla que debe estar entre comillas: "Mensaje")
+man ( es el manual de los comandos) + comando : Sirve para ver todas posibilidades.
+
+Conosola tiene:
+1.Comodines
+2.Sustituciones
+3.Combinaciones.
+
+>>Al escribir x letra en consola y presionar tabular muestra todos los comando disponibles que empiezan por la letra x.
+>>Usar las fechas hacia arriba me muestra lo usado
+>>ctrl+shit+r Busqueda hacia atrás de todo lo que escribi.
+>>comando history : me muestra todo lo que he escrito en algún momento.
+>>>al utilizar el signo de admiración ! y el # de la lista, puedo reescribirnun comando que ya escribí antes.
+
+ORGANIZACIÓN DE INFORMACIÓN.
+Archivos: Es lo que guarda información
+Directorios: Es la forma de organizar los archivos. Dentro podemos tener subdirectorios.
+
+Esto forma un árbol de directorios.
+/DIRECTORIO/SUBDIRECTORIO/ARCHIVO
+En un mismo directorio no pueden existir dos archivo con el mismo nombre, pero si vivir con el mismo nombre en rutas diferentes
+
+hay caracteres reservados. *, ?
+ls (sirve para ver los archivos de directorio)
+.  Puntero a directorio actual
+.. Puntero a directorio padre
+pwd muestra el directorio de trabajo
+cd (change directory) cambia directorio. 
+cd + ~ (virgulilla:alt+126) Sirve para llevar al home.
+cd + - te lleva al ultimo directorio visitado.
+cd .. me sirve para regresar al directorio padre
+
+Comandos para organizar.
+
+mkdir me permite crear directorios.
+ls -l sirve para saber cuando se creó un directorio o un archivo
+ls -a me sirve para ver los archivos ocultos.
+
+Copiar un archivo
+cp + archivo + directorio: Copia archivo a directorio
+rm + archivo :me permite  remover un archivo.
+
+Mover un archivo
+mv + archivo
+
+
+Primero se borra el contenido del directorio, no se puede borrar un directorio que tiene archivos adentro.
+
+Archivos binarios
+Programas ejectuables
+
+Archivos de texto.
+Archivos de datos.
+
+
+vim: Herramienta
+i Innsert:
+salir edicion esc
+: activa modo de comandos
+guardar con w
+salir de vim :q
+
+nano
+vim +archivo nuevo
+
+
+UTILIDADES BATCH
+
+Programas que procesan texto y emiten resultado.
+
+cat contenido archiv
+head muestra primeras lineas  puedo con -n que me muestra las n lineas que quiero.
+tail irar las ultimas lineas.
+
+grep Búsqueda de expresiones regulares. Lineas que coincidadn con expresion regular. -i me permite no discriminar por mayúsuclas. o si quiero con $ para que me traiga lo que termina en..
+sed Tratameinto de flujos de caracteres stream editors. 's/ sustitur /g' globalmente + archivo
+'$d' sirve para eliminar el ultimo contenido.
+
+Awk Tratamiento de texto delimitado.
+Sirve muy bien para textos estructurados.
+F ';' sE LE dice el delimitador.
+'{print $1}'+archivo.loqusea , me imprime la primera columna de un arhivo.
+' NR > 1 && ...{print $1} PUEDO MULTIPLICAR CON %number.
+
+Comunicación entre procesos: Qué son y cómo se utilizan los flujos estándar
+
+Flujos estandar.
+Frames.
+
+Entrada, Salida, Error.
+
+Redirección cambia la entrado de datos estandar a un archivo sirve para "guardar" archivos que quiero usar nuevamente
+>
+>>
+
+pipes: Toma la salida de un proceso y la pasa como siguiente. | alt 124
+
+Administración de procesos en backgroun y foreground
+
+Como lanzar nuevos procesos?
+El ampersadn me permite ejecutar en bacground 
+Serviciso daemon
+fg foreground
+
+para procesos que están en ejecución
+
+Herramientas
+
+ps me permite ver los procesos
+top me permite ver de manera interactiva lo que está sucediendo en los proceso.
+
+Los procesos pueden pasar en primer plano hasta uqe paren o con ampersadn al final para un background.
+
+kill y killall
+
+Permisos sobre archivos: El sistema de permisos octal:
+
+Permisos de lectura, escritura, ejecución.
+drw l es cuando es un link a otro directorio
+-rw el menos significa que se prohibe esa acción
+
+Permisis se altera con 
+chmod cambia el modo del archivo.
+chown usuario propietario del archivo.
+chgrp grupo de usuarios que pueden acceder
+
+Notación textual la anterior
+
+Notación binaria.
+
+r 100=4
+w 110=6
+x 111=7
+
+Para cambiar las 3 jerarquías
+ rwxrwxrwx  ugo	user group other
+ 110100000= 640
+ 100000000= 400
+ 111111111= 777
+
+sudo me da permisos root se antepone al comando
+
+
+
+Cuáles acciones y permisos puede tener un usuario sobre un archivo?
+lecutra, escritura, ejecución
+?
+¿Todos los usuarios tienen los mismos permisos sobre todos los archivos? ¿Quiénes pueden o no trabajar con estos documentos? ¿Cómo se dividen los permisos de un archivo o carpeta?
+?No todos tienen los mismo permisos, depende de si es un usuario, grup u otro.
+Al hablar de usuarios y permisos en el sistema operativo, ¿qué significa un 777? ¿Deberíamos preocuparnos?
+Si ya que tienen permiso de ejecución.
+?
+¿Que permisos debes tener para poder editar un archivo que creo otro usuario de tu sistema operativo?
+root
+?
+¿Con qué comando cambiamos los permisos que tienen los usuarios para trabajar con un archivo?
+chmod
+?
+No quieres que nadie pueda editar ni mucho menos ejecutar un script muy peligroso que estás creando. ¿Qué permisos debe tener este script para conseguir este resultado?
+?r only
+¿Quién es sudo? ¿Es peligroso?
+es un comando antepuesto para ser root momentanemate
+
+Para la instalción de paquetes hay programas que em permiten intalar paquete, otros, administrarlos
+hay que tenerla instalada previemante al uso.
+
+
+Paquetes binarios
+apt Distribuciones de linux
+rpm es universal
+
+
+Paquete de librerias para manejar
+pip py
+composer  php
+npm node js
+
+Otros.
+conda
+homebrew
+
+
+Herramientas de compresión y combinación de archivos
+
+ls archivo -l me muestra el contenido del archivo con lo que tiene.
+gzip +archivo comprimir.
+gzip -d para descomprimir
+
+Combinación de archivos.
+tar( el que me permite combinar) cf (create file) +archivo.tar archivo/*
+tar tf para ver contenido de lo que tiene.
+tar czf agrupa y comprime +archivo.tgz archivo/*
+tar xzf recupea los rchivos
+
+
+Busqueda de archivos
+
+locate me da la ubicación de las localidades, hay que actualizar la base de dartos mdieante updatedb
+whereis me permite encontrar archivos binarios /comandos/ejecutables
+find busca dentro de un arbol de directorios. Utilizando criterios.
+find . -user -perm -type f -mtime +-7 
+finde . -exec cp {} ./backup/ \;
+
+
+Herramientas para interactuar a través de HTTP
+
+curl se utiliza para hacer pedidos a un servidor y se recive http
+curl -v muestra toda comunicación http
+puedo redireccionar con > a un archivo que es un agujero negro /dev/null que me permite mostrar lo que quiero ver.
+
+wget realiza descargas desde servidores http
+wget + url
+
+ssh terminal segura. paramentros usuarios y host  Me permite hablar con el server y realizar consultas. solo si mi clave privada coincicde co id_rsa en el server podré tener permisos de admin.
+
+sudo apt update me permite tener mis paquetes de distribución al día.
+
+Postfx es un servicio de sendmail creado en IBM. 
+sudo DEBIAN_PRIORITY=low apt install postfix
+
+echo “Hola Mundo!” | mail -s “Testing” TU_EMAIL para enviar emails sin psar por gmail..u otro servidor de correos.
+
+Qué son y cómo se utilizan las variables de entorno?
+
+
+Varaibles de entrono es una definicion global a la que todos tienen acceso
+Variable $PATH EL SIMBOLO PESOS EXPANDE EL CONTENIDO DE ESA VARIABLE. Todos los comando están alojados en alguna parte.
+
+Asignación de variables de entorno.
+Se pueden hacer para un omando en particular, o para toda la sesión
+export VAR=valor
+Asignación particular
+VAR=Valor comando.
+
+
+AUTOMATIZACIÓN DE TAREAS.
+
+Scripting Bash 
+Se ejecuta con vim
+En un #! /bin/bash/
+If se cierra con fi, las sentencias se hacen en corhcetes, texto funciona igual.
+
+Para ejectur script ./script 
+
+TAREAS PROGRAMADAS
+
+at +now +n minutes
+at> "echo"
+cron tab -e me permite crear automatizaciones sin tener que escribir at
+cron me permite hasta crear archivos todos los días o hacer lo que queira.
+
+
