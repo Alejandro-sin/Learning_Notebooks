@@ -6,12 +6,6 @@
 * RESUMEN MAESTRO:
 
 
-Credenciales MongoDB:
-
-platzi-admin
-Y9xEelie9n1e46Dn
-
-mongo "mongodb+srv://platzi-admin:Y9xEelie9n1e46Dn@curso-platzi-mongodb-pbcyv.mongodb.net"  --username platzi-admin
 
 * GLOSARIO UNIVERSAL DE TÉRMINOS:
 * ATAJOS:
