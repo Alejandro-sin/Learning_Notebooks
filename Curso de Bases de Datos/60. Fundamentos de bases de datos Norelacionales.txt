@@ -21,7 +21,7 @@ BD Según modelo de datos.
 Grafos, columanres, Keyvalu stores, Documentos.
 
 
-Key Values_Store Redis: Utilizadas para guardar sesiones usarios, caché, debido a simplicidad no puee modelar muchos casos de vida real. Memcached
+Key Values_Store Redis: U tilizadas para guardar sesiones usarios, caché, debido a simplicidad no puee modelar muchos casos de vida real. Memcached
 Grafos: Establecer relacioens dentro entidades, un tweet tiene relacion con usuarios con un enlace. Neo4j, JanusGRAPH
 Columnares. Poseen dos llaves, filas y columnas, querys rapidas, BOG DATA iot, Sistemas de recomendación, modelar datos es complejo, Alto rendimiento arquitectura escalable. Cassandra, HBase
 Documentos,.Mongo DB, colecciones, Podemos modelar casos de la vida real de una manera sencilla, porpósito genral.Couchbase, estructura tipos JSON.
