@@ -4,8 +4,6 @@ Este programa tiene como propósito explroar el ámbito de las variabels en pyht
 con global y nonlocal.
 
 '''
-
-
 def prueba_ambitos():
     def local():
         algo = "ALGO LOCAL"
