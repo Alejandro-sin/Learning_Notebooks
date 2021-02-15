@@ -1,9 +1,0 @@
-.main-container{
-    background-color: rgba(49, 48, 48, 0.534);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.lines path {
-    border-radius: 10px;
-}

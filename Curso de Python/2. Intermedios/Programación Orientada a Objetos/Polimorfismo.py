@@ -1,5 +1,0 @@
-"""
-
-Leer más sobre poliformismo.
-
-"""

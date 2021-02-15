@@ -1,6 +1,0 @@
-"""
-
-Lambda functions
-
-
-"""
