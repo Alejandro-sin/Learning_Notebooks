@@ -1,0 +1,7 @@
+h2 + p {
+  color: crimson;
+}
+
+.general-sibling h2 ~ p {
+  color: green;
+}

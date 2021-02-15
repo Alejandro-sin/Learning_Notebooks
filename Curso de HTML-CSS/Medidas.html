@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Medidas.css">
+</head>
+<body>
+    <main>
+    <h1>Medidas</h1>
+    <p>El overrflow sucede cuando la pantalla se me sale debido a las proporciones del CSS, la idea 
+        es generar un contendor flexible</p>
+    <h2>Medidas Absolutas</h2>
+    <p class="absoluta">Son medidas fijas, las dimensiones no varían según la pantalla.</p>
+    <ul>
+        <li>Pixeles</li>
+
+    </ul>
+    <div>
+
+    </div>
+    <h2>Medidas relativas</h2>
+    <p class="relativa">Son aquellas que varían e función del tamño de la pantalla heredan el tamaño 
+        o se basan en algun tamaño que se seleccione
+    </p>
+    <ul>
+        <li>Percentual y Em ( Elemento), renm maxwith, min with. vw viewport with, vh iewport height</li>
+        <li>EM: Elemento, toma el tamño de fuente que hera del padre</li>
+    </ul>
+    <div>
+        <h2>EM</h2>
+        <p>Entenderemos la medida relativa em.</p>
+        <div class="text-container">
+            <p  class="text-container__paragrpah"> Entendiendo EM</p>
+            <div>
+                <p> Entendiendo EM</p>
+            </div>
+        </div>
+        <p> EM lo que hace es que toma una porción de lo que hereda, esa porción es el pixelaje dle padre directo.
+            ejemplo: padre-16px , hijos 1.5px, al multiplicar  1.5 *16 tenemos 24, porque aumenta 1,5 veces el tamaño que heredó.
+        </p>
+        <p>EM prsenta el problema de la desproporciçon a medida que se anida</p>
+    </div>
+        <h2>REM</h2>
+        <div class="entendiendo-rem">
+            <p>Entendiendo REM: Rem tiene referencia al root, en este caso puede hacer referencia al tamño etiqueta html</p>
+            <p>Para saber cuantos pixeles haremos lo siguiente, ajustaremso el tamaño de html a 62.5%</p>
+        </div>
+        <div class="entendiendo-rem__ejemplo">
+            <p>Entendiendo REM</p>
+        </div>
+
+</main>
+</body>
+</html>

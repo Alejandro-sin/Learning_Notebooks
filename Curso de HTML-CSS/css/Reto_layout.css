@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.nav-container {
+  display: inline-block;
+}
+.nav-bar {
+  list-style: none;
+  color: blue;
+  font-size: 5rem;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.image-header {
+  width: 30px;
+  height: 30px;
+}
+.qa {
+  background-color: green;
+  text-align: center;
+}
+
+.question-answer_container {
+  background-color: rgb(0, 34, 128);
+}

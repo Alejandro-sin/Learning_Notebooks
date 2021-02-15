@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 300px;
+  margin-left: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  width: 500px;
+  border: solid 1px black;
+}
+
+.nav-container {
+  display: inline-block;
+}

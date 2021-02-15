@@ -1,0 +1,61 @@
+/*  MOBILE FIRST */
+
+/* Los brea points me permiten detectar los cambios de las dimensiones
+
+TRABAJAR: Primero en mobile First/Only, Es decir, empezar priemro desde el celular
+E ir escalando a uan tablet o un desktop.  Para esto se usa este código base.
+
+
+Debido a las cascadas si pongo el mediaquerie mas arriba, nunca se van a aplciar los más pequeños
+Respetar el orden.
+*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+}
+.box {
+  background-color: blueviolet;
+  border: solid black 1px;
+  /*   display: flex;
+  justify-content: center; */
+  width: 150px;
+  height: 150px;
+}
+
+.box1,
+.box3,
+.box5 {
+  background-color: coral;
+}
+
+/* Cel */
+@media (min-width: 480px) {
+  .box1,
+  .box3,
+  .box5 {
+    background-color: rgb(80, 255, 80);
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .box1,
+  .box3,
+  .box5 {
+    background-color: rgb(80, 127, 255);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .box1,
+  .box3,
+  .box5 {
+    background-color: rgb(167, 84, 6);
+  }
+}

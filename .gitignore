@@ -1,4 +1,11 @@
+*.mp4
+*.jpg
+*.png
 *.csv
 *.pdf
 .Rproj.user
+.repo-curso-definitivo-html-y-css-master/
+.video/
+.img/
+
 

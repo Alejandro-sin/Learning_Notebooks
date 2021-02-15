@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/More_css.css">
+</head>
+<body>
+    <h1>Combinadores</h1>
+    <p>Son una forma de referenciar o de hablar de las relaciones "familaires" de las etiquetas de HTML.<
+        para saber más de los  <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators">combinadores</a></p>
+    
+    <p>Aquí un <a href="https://flukeout.github.io/">juego</a> para practicar</p>
+        <h2>Adjacent Siblings (combinators)</h2>
+    <img src="https://static.platzi.com/media/user_upload/Captura%20de%20pantalla%20%2864%29-d9e9849d-5ced-4933-b653-eb9e6113f124.jpg" alt="">
+    
+    
+    <p>Los combinadores nos permite tener especificad mas certera</p>
+    <div>
+        <p> Etiqueta sibling o hermano adyacente</p>
+        <span>ejemplo: "h2+p{}", habla sobre el padre h2 y el hijo p primogénito, el hermano de este no recibe lso estilos,  Los estilos solo 
+            se comparten entre los primos primogénitos. En otras palabras, aplica estilos a todo lo que esté cerca de la etiqueta h2 osea p.
+        </span>
+        <h2>Padre 1</h2>
+        <p>Hijo 1</p>
+        <p>Hermano 1</p>
+        
+
+        <h2>Padre 2</h2>
+        <p>Hijo 2</p>
+
+        
+        <h2>Padre 3 </h2>
+        <p>Hijo 3</p>
+    
+    <h2>Combinadores: General Sibling</h2>
+    <p> El general sibling es una relación del tipo h2~p {} Donde le está indicando que aplique estilos si p contiene a un hermano cualquiera que sea h2 
+        ejemplo:
+    </p>
+    <div class="general-sibling">
+        <h2>Hermano h2</h2>
+        <h3>Hermano h3</h3>
+        <p> Hermano p</p>
+    </div>
+    <h2>Hijo y descendiente</h2>
+    <p> div >p  La eitqueta p hija directa de la etiquea div. Este es el combinador de Chil, hijo directo</p>
+    <p> div p   La etiqueta Descendiente, todas las etiquetas contenidas en.</p>
+    <div>
+        <articles>
+            <p></p>
+        </articles>
+        <articles>
+            <p></p>
+        </articles>
+        <section>
+        <div>
+            <p></p>
+        </div>
+        </section>
+    </div>
+
+    </div>
+</body>
+</html>

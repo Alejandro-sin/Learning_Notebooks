@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*  Me per */
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(129, 44, 126);
+}
+
+div {
+  width: 80%;
+  /* Min y max limitan el ancho el contenedor en modo resposnive */
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: palegreen;
+}

@@ -1,0 +1,144 @@
+/*  Para reseteear mis estilos, mediante le selecotr universal 
+
+Mediante la regla box sizing peudo ajusta el padding excedente que a vece sme queda y genera un scroll
+Box sizing suma el padding con el with del elemento,
+
+*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Las tablas tienen sus propios estilos */
+table,
+td {
+  border: 1px solid;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #ffffff;
+}
+
+.main-nav {
+  margin-top: 10px;
+  /* Cundo uso listas desordenadas por defecto me trae un bullet que podemos quitar */
+  list-style: none;
+
+  /* Padding: Es una dimensión interna que le estamos dando, es decir, los objetos en HTML vienen pro defecto con espacios.*/
+  padding-left: 0;
+
+  background-color: cornflowerblue;
+}
+
+.main-nav__item {
+  /* Es posible cambiar la orientación d elos elementos, la etiqueta ul los ordena por defecto en forma de lsita */
+  /* Displaye inline-block  los ubica d emanera horizontal*/
+  display: inline-block;
+  font-size: 50px;
+}
+
+/*  Puedo refirme a los anchor dentro de el menu de navegación */
+
+.main-nav__item a {
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: #333;
+  /* Quita la línea del hiervínculo */
+  text-decoration: none;
+}
+
+/* Pseudo Clases */
+
+/*  Hover cambia el estilo cuando el maouse pasa encima */
+.main-nav__item a:hover {
+  color: green;
+}
+
+/*  Cambia el colo cuando el lin esta actvo */
+.main-nav__item a:active {
+  color: pink;
+}
+
+/* Pseudo Elemento */
+
+/* Después de la etiqueta acnhor agregarle este cotneido */
+.main-nav__item a::after {
+  content: " ▬ ";
+}
+
+/*  Conociendo el modelo de cajas */
+
+.Modelo-cajas {
+  /*   */
+
+  /* Calcular el with para que se ajuste responsivamente */
+  width: calc(50% - 20px);
+  border: 50px solid green;
+  height: 500px;
+  padding: 20px 35px;
+}
+
+.herencia {
+  font-family: monospace;
+  color: red;
+  font-size: 60px;
+}
+
+.hijo {
+  font-family: inherit;
+  font-size: 12px;
+  color: rgb(97, 143, 52);
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+#page-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+
+.title {
+  font-size: 58px;
+}
+
+#main-nav {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#main-nav li {
+  display: inline-block;
+}
+
+#main-nav a {
+  color: white;
+  background-color: rgb(20, 114, 105);
+  padding: 5px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+/*  Este estilo no se aplica porque los estilso emebedidos tiene prioridad sobre los ID y las clases */
+#main-nav .especificidad {
+  background-color: yellow;
+}
+
+.numerosespecificos {
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 60px;
+  display: inline-block;
+  color: #333;
+}
+
+.numerosespecificos span:hover {
+  color: cornflowerblue;
+}

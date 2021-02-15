@@ -1,0 +1,72 @@
+/* Para declarar variables...
+ */
+:root {
+  --primary-color: #003476;
+  --secundary-color: #b4d2f7;
+  --header-size: 4rem;
+  --font: 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+}
+.container {
+  display: flex;
+  /*   flex-direction: row; */
+  flex-wrap: wrap;
+  /*   justify-content: space-around; */
+}
+
+.box {
+  /*  width: 10rem; */
+  height: 10rem;
+
+  /* order: Me cambia el orden
+  Los que no tengan un orden s emeuven a la izquierda, los que si tienen 
+  un orden se mueven a la derecha. */
+  /* order: 1; */
+
+  /* Estas dos líneas me permiten que mis contenedores se ajusten según
+  voy redciendo la pantalla. Se mueven dinámicamente*/
+  flex-basis: 10rem;
+  flex-grow: 1;
+}
+
+.box1 {
+  background-color: var(--primary-color);
+  border: cornsilk;
+  /* order: 4; */
+
+  /* Felx-grow es una propiedad que me permite hacer que los contenedores 
+  ocupen todo el espacio del with */
+  /*   flex-grow: 1; */
+}
+.box2 {
+  background-color: rgb(255, 94, 0);
+  border: cornsilk;
+  /*  width: ;
+  height: ; */
+}
+.box3 {
+  background-color: var(--primary-color);
+  border: cornsilk;
+  /*   width: ;
+  height: ; */
+}
+.box4 {
+  background-color: rgb(255, 0, 98);
+  border: cornsilk;
+}
+.box5 {
+  background-color: rgb(5, 5, 14);
+  border: cornsilk;
+}
