@@ -1,11 +1,12 @@
 <h1 align="center">
   <img src="images/logo.png">
   <br/>
-  Learning Notebooks
+  WALL
   <br>
 </h1>
 
 
+<h4 align="center">Curso de Lorep Ipsum <a href="https://platzi.com/r/alejandro-sin/" target="_blank">Reference</a>.</h4>
 <p align="center">
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
@@ -19,17 +20,15 @@
   <a href="https://methadata.wordpress.com/">
     <img src="https://img.shields.io/badge/Metha-Data-blue.svg?style=flat-square">
   </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/Project-red.svg?style=flat-square">
+  </a>
 </p>
 
 
 
 
-# Contexto
-
-Este repositorio servirá para almacenar todos mis apuntes sobre cursos, libros  y toda clase de material que como autodidacta consumo, cada curso contiene un markdown con los apuntes, proyectos y referencias.
-
-Espero que esto sea una mecha para que otros compartan su conocimiento de manera libre, y una humilde guía para quienes buscan claridad y llegaron aquí.
-
+# Wall
 
 
 * [BRICK](#brick-name)
