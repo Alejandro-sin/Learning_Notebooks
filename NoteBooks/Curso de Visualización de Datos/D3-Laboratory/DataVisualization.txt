@@ -1,0 +1,91 @@
+Data Visualization
+
+
+Tablas
+Multidemnsional tables,data cubes
+data tabular, fials y columnas.
+
+Atributos:
+*Categorico
+*OrdennadoS
+	*ORDINALES
+	*CUANTITATIVE
+
+
+
+Redes
+Tiene nodos y links que ocnectan los nodos, 
+un subset son lso arboles que tiene una jerarquia definida.
+
+
+Espacial Data
+Identificadores geografico
+
+
+Un data set puede tener las 3 caractetisticas.
+
+
+TAREAS
+
+Qué preguntas quiero responder?
+Que es el problema que trato de resolver?
+Cual desiciones estoy tomando?
+Cuales son los resultado que estoy esperando?
+Cual es la historia que quiero contar?
+Cuales tareas debe´rian ser posiblesde realizar para el usuairo visitante?
+
+
+
+
+
+Que es un XML?
+Tener buen conocimeinto de lo que represnta un SVG
+
+
+SVG files are XML-based text files that can be manually
+edited and (at least in principle) searched. SVG produces a
+DOM tree (not a “flat,” canvas-like image)
+
+SVG images can be standalone documents (which is rare), or
+included in a web page. Contemporary browsers can handle
+<svg>...</svg> elements included in HTML documents. SVG files
+can also be included like other images: <img src="file.svg" />. In
+this case, it is mandatory that the SVG file declares the appropriate
+namespaces:
+<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:svg="http://www.w3.org/2000/svg">
+
+SVG me presenta unos recursos rendereables como formas básicas, textos, lineas, curvas, que peuden ser
+controladas con atributos de presentación. Color. Posición, tamaño.
+
+Finally, SVG documents can receive user events and invoke appropriate
+event handlers. Documents can change in response to events,
+thus providing a form of interactive graphical user interface
+
+D3 is primarily an access layer to the DOM tree. As a rule, D3
+makes no attempt to encapsulate underlying technologies, and
+instead provides convenient, but otherwise generic, handles on
+them. For example, D3 does not introduce “circle” or “rectangle”
+abstractions of its own, but instead gives the programmer direct
+access to the SVG facilities for creating graphical shapes. The
+advantage of this approach is that D3 is tremendously adaptable
+and not tied to one particular technology or version. The disadvantage
+is that programmers need to have knowledge of the
+underlying technologies, in addition to D3, since D3 itself does
+not provide a complete abstraction layer.
+
+
+
+
+***Many D3 functions
+use the following idiom: when called with appropriate
+arguments, these functions act as setters (setting the corresponding
+property to the supplied value); when called without
+arguments, these functions act as getters (returning the current
+value of the property). To entirely remove a property, call the
+appropriate setter while supplying null as argument.***
+When called as setters, functions typically return a reference to
+the current object, thus enabling method chaining. (This idiom
+is so intuitive and consistent that it will rarely be mentioned
+explicitly again
+

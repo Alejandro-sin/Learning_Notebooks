@@ -1,0 +1,143 @@
+
+******************************************************
+#    **CURSO:**
+******************************************************
+* LECTURAS MAESTRAS:
+* RESUMEN MAESTRO:
+* GLOSARIO UNIVERSAL DE TÉRMINOS:
+* ATAJOS:
+
+##   **TEMA:**
+
+**||||||||||||||||||||||||||||||||||||||||||||||||||||||**
+####    **NOTAS:**
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+¿Qué es una interfaz?
+Interfaz es la conexión que se da de manera física y a nivel de utilidad entre dispositivos y sistemas.
+
+Existen 2 tipos de interfaz:
+
+Interfaces físicas (análogas),
+Interfaces digitales
+El humano al ser un sistema, o un conjunto de sistemas se conectará con una interfaz para poder solucionar problemas y comunicarse con otros sistemas y dispositivos.
+
+Para poder definir una interfaz debemos plantearnos preguntas que nos permitan entender:
+
+Los problemas con el uso de mi producto
+Las limitaciones de mi producto
+Las problemáticas a resolver
+Las posibles soluciones
+Los tipos de usuario
+¿UX y UI?
+User Experience es la experiencia que tiene el usuario al interactuar con una interfaz, pero no solo se limita a la interfaz por sí mismo, sino al todo.
+
+La diferencia entre UX (user experience) y UI (User interfaz) es que el UI es una parte del UX, pero que el UX implica más.
+
+UX implica convertir a tus usuarios en Seres Humanos con historias, limitaciones, sueños y necesidades.
+
+El término User Experience fue acuñado por Donald Norman, quien nos ayuda a entender mejor ésto:
+
+Hoy el término experiencia de usuario (UX) ha sido horriblemente mal usado. Lo han usado personas que dicen “soy diseñador de experiencias de usuario, diseño sitios web” o “diseño aplicaciones”, y no tienen ni idea de lo que están haciendo, y creen que la “experiencia” es un simple dispositivo, el sitio web o la aplicación o quién sabe qué.
+
+No, la experiencia de usuario es todo - es la forma en que experimentas el mundo, es la forma en que experimentas tu vida, es la forma en que experimentas un servicio y, sí, una aplicación o un sistema informático, pero es un sistema que lo es todo.
+
+percepción y satisfacción.
+
+FUNCIONALIDAD. QUE RESUELVA EL PROBLEMA.
+Ux es aglo qu em  dala facilidad de cosnumir el producto, de entenrderlo y enamorarme.
+
+
+Interfaces físicas, digitales, auditivas y otras
+Una interfaz puede ser prácticamente lo que sea y ahí es donde la tecnología nos podría ayudar, hace no mucho tiempo las pantallas táctiles no permitían mucho, al igual que la tecnología de reconocimiento facial y de voz, y hoy en día, éstas son interfaces para las que podemos generar proyectos antes inimaginables.
+
+Esas interfaces hace 20 años eran tan solo ciencia ficción y poco a poco mediante las innovaciones tecnológicas abrirnos el límite tecnológico, quizá no falte mucho para poder guardar nuestras memorias y programar nuestros cerebros para poder aprender mejor, muy al estilo de la Matrix mediante la tecnología EEG.
+
+
+Los límites define lo que peude se rel diseño.
+Gestos para generar comunicaci`´on con nuestro hardware.
+Interfaces son sistema de comuniación humano máquina.
+
+1- Entiende e identifica los problemas centrales: resuelve lo fundamental, los problemas que están escondidos debajo de la superficie, no los síntomas.
+
+2- Pon a la persona en el centro: cuando diseñas poniendo a las personas en el centro “people- centered” en lugar de poner a la tecnología como protagonista “technology- centered”, garantizas que el producto final es apropiado para el momento histórico, la cultura y el ambiente de tu usuario final.
+
+3- Usa un método que te permita aproximarte a tu sistema de diseño global mediante la suma de las actividades que va a desarrollar tu usuario: los diseñadores UX debemos enfocarnos en el sistema global de nuestro producto y no en componentes aislados. Piénsalo así, las actividades aisladas no existen, todas son parte de un gran flujo de interacciones.
+
+4- Prueba, prototipa e itera rápido: Comienza con prototipos simples, dibujos simples, ilustra tu idea y luego después de probarla, refínala, nútrela a través de iteraciones sucesivas.
+
+Como ves, hablamos de Don Norman porque su experiencia nos ayuda a nutrir la nuestra. Te invito a que en el panel de discusiones compartas cuáles son tus referentes en el mundo del diseño UX.
+
+
+
+Creación y planeación de un producto digital
+Los productos digitales Son aquellos productos que pueden ser vendidos y utilizados sólo a través de un dispositivo digital, los productos digitales más usados son las aplicaciones móviles, y de escritorio.
+
+Es importante tener la definición escrita del producto digital para crear una comunicación coherente con tu equipo.
+
+El primer paso para crear un producto digital es hacer la planeación, el la que definiremos:
+
+El problema,
+La solución,
+Los alcances del Producto.
+Para definir una buena idea:
+
+Inspírate viendo qué cosas existen en el mercado,
+Conoce los productos similares y productos diferentes al tuyo,
+Pivota tus ideas hasta que no se pueda más,
+Observa cómo lo hacen dentro y fuera de tu círculo.
+Debemos tomar en cuenta que los mejores productos son soluciones simples que solucionen un problema, no intentes hacer un producto con varias funciones, al menos no por ahora.
+
+Y recuerda: Sé rápido, falla rápido, más rápido
+
+Los foundations y principios del diseño de productos digitales
+Los Foundations definen el estilo de nuestra aplicación, son los puntos fundamentales de los elementos que comprenderán todas nuestras interfaces, desde la que tenemos en mente hasta las que puedan salir a futuro.
+Algunos foundations son:
+
+Colores: Definir la clasificación de los colores, entender muy bien las paletas de colores de nuestra aplicación. Una manera muy sencilla es utilizar colores de material design.
+Tipografía: Define la personalidad de la aplicación, es importante que nuestras fuentes sean funcionales para la programación y que sean legibles y muestren el carácter de nuestra aplicación.
+Espaciado: El espaciado hace que todo tenga un orden y un ritmo entre elementos y ayuda a que se vea tal cual el diseño y la programación.
+Es muy útil antes de diseñar cualquier cosa definir los principios que sirvan para tomar decisiones más rápido, pudiendo calificar con base a los principios nuestros diseños y decisiones.
+Ejemplos de principios:
+
+Forgiveness: Que pueda deshacer sus acciones cuando se equivoca.
+Direct Manipulation: Que el usuario sienta que tiene el control.
+WYSIWYG: Mostrar de manera específica lo que tiene el sistema, sin trabas.
+Feedback and Dialog: Comunicar al usuario lo que está sucediendo.
+Conforme vayas sistematizando todo te darás cuenta de que lo importante no es cómo, sino que sistematices los procesos y tu diseño.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+
+#### **PREGUNTAS:**
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+* 
+* 
+* 
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+#### **RESUMEN PARCIAL**:
+______________________________________________________
+
+```
+<code>
+
+```
+
+#### **REFERENCIAS INTERESANTES**:
+______________________________________________________
+
++ [Hipervínculo](url)
+
+******************************************************
+## EXÁMEN:
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||

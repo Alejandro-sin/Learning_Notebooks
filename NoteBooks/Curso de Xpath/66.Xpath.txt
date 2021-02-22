@@ -1,0 +1,117 @@
+
+******************************************************
+#    **CURSO:**
+******************************************************
+* LECTURAS MAESTRAS:
+* RESUMEN MAESTRO:
+* GLOSARIO UNIVERSAL DE TÉRMINOS:
+* ATAJOS:
+
+##   **TEMA:**
+
+**||||||||||||||||||||||||||||||||||||||||||||||||||||||**
+####    **NOTAS:**
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+netstat -ano | findstr :3000
+
+taskkill /PID 3000 /F
+
+
+Introducción a Xpath
+Es un lenguaje que está pensado para hacer webscrapping profesional,  especificamente.
+
+Web scrapping es una téncia que sirve para extraer información de estructurada.
+
+js puppeteer
+python request
+
+beutiful soup. py.
+
+Xpath es uan manera estandarizada. 
+Podemos extraer la info d eun html cualquiera.
+
+XML xceible markaed lenguaje.
+Esun lenguaje que es raiz de muchos lenguajes.
+Un lenguaje extensión es HTML. 
+
+Nodo. En xml es un etiqueta y su contenido mas los atributos.
+
+Nodo en html e slo mismo
+Nodo es uan etiqueta , atributo y contenido.
+
+img, src alt sería un nodo.
+Xpath permite obetern nfo y buscar patrones en un html...
+
+quotes.toscrape.com
+
+Curso de fundamentos de xpath
+
+$x('')
+
+Expresiones predicatos intercep
+
+$x('/') singnifica la raíz. El root, me trae abosultamente todo por encima del hmtl.
+
+$x('/hmtl')--> me trae el nodo HTML
+$x('/hmtl/Body') el slash me permite pasar de nodo padre a nodo hijo.
+
+$x('//') significa saltar niveles independientemente de donte estén
+
+$x('//span')  me trae todos los span.
+Para saber que nodo necesito, debo leer el html para estar claro que requiero y uso predicados para filtar la información
+
+$x('//span[@class="text"]') arroba significa atributo me trae la clase todo lso que tienen text.
+
+Para visualizar lo que estoy trayendo uso:
+
+$x('//span[@class="text"]/text()')  text() es uan función que me trae el texto. Sin embargo me trae un pseudo nodo.
+atrobuto hold text
+
+
+$x('//span[@class="text"]/text()').map(x=>x.wholetext) me permite tranformar las cosas.
+
+
+$x('//div[contains(@class,"tags-box)]//a[@class="tag"]/text()')..map(x=>wholeText).. me permite buscar una subcadena en una cadena msa grande, le primer parametro el lugar donde voy a buscar.
+
+and es la expreison logica y, me permite filtrar entre atributos.
+
+al contenido de un atributo como src imagen value
+
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+
+#### **PREGUNTAS:**
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+* 
+* 
+* 
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+#### **RESUMEN PARCIAL**:
+______________________________________________________
+
+```
+<code>
+
+```
+
+#### **REFERENCIAS INTERESANTES**:
+______________________________________________________
+
++ [Hipervínculo](url)
+
+******************************************************
+## EXÁMEN:
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||

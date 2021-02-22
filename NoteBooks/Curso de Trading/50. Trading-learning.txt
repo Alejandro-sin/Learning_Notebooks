@@ -1,0 +1,516 @@
+﻿
+
+//TAREAS:
+
+Google Preferencias de noticias.
+Para ver noticias económicas de ls alzas y bajas del mercado.
+¿De qué depende que una divisa "pierda" valor?
+
+
+CURSO TRADING
+FUENTE: "LOS 7 PASOS"
+
+__________________________________________________________________________________________________
+FECHA: DICIEMBRE 4
+TEMA: (0-15) min.
+Mercados Financieros.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Aprenderé sobre inversión financiera.
+Concepto de riesgo
+Clasificación de las inversiones por su potencial de rendimiento
+Comprensión de los mercados.
+Porceso paso a paso de inversión en línea
+Plataformas Online
+Análisis para inversión en mercados.
+Juego de psicología en la inversión financiera. //Behaviur Finance.
+Análisis fundamental.
+
+
+
+Clasificación activos.
+
+Aquellas cosas que podemos adquirir. Inventado por Luca Pactiolli.
+
+Balance contable.
+
+Todos los bienes empresa que son prestados, lo que se debe.
+Los bienes que la empresa posee Activos.
+
+Los activos financieros son aquellos que representan una obligación de un tercero que se compromete a hacer entrega de un pago.
+ejemplo: Billete, acción. Paper Trades.
+
+Comercialización mediante bonos, letras o notas: Sin promesas de pago en el futuro por un préstamo que se concede valor de descuento.
+E sdecir es posible pagar bajo la palabra de que se va a pagar y la utilidad del prestamos se ve beneficiada
+
+
+Acciones: Representa una porción de uan empresa por la cual obtienes unaparte proporcional de sus ganancias.
+
+Derivados: Son contratos que prometen la entrega de un activo en el futuro o la compra o venta en un detereminado plazo.
+Los derivados nos permiten comrpar cosas a precios razonables No se corre riesgo por flctuación. Historia de Holanda, la TuipManía. Sucedió que la gente estaba enloqueeida por unos patrones muy raros que salían en as palntas,  la genete estaba comprando felizmente plantas enfermas.
+
+Se pactaban la compra después de que crecían.
+
+
+Estos son los 3 principales mercados.
+
+
+FECHA: DICIEMBRE 6
+TEMA: (15-36) min.
+Mercados Financieros.
+Se estableceieron el gremio de la bolsa.
+
+Establecer un marco de competenci justa. Mayor confiabilidad pulica financiera.
+
+Controlar los activos.
+La calidad d elas mercancias.
+Grantizar las operacciones. (Operaciones con margen y aplancadas).
+
+Tipo de contrato Foward. Unificar producción con producción.
+Sé cuando se cosechan mis naranjas y sé cuanto necesito para producir.
+
+
+La bolsa es la contraparte. Entre el negociante y el vendedor.
+
+La bolsa quita riesgos de las operaciones. 
+
+Margen y apalancamiento.
+El margen es la cantidad de dinero de garantía que el piso de remates exige para aaceptar sus operaciones.
+
+Al cierre de la sesión se compensan las operaciones(Se tienen que reconocer las pérdidas o ganancias) El porcentaje no debe superar el porcentaje que se le entregó a la bolsa.
+
+
+Margen
+
+En acciones volátiles el margen suele ser de 50%.
+En derivados el margen suele ser del 10%
+En divisas el margen suele ser del 10%-5% en USA
+dIVISAS EN uk 1%
+Otros lugares 0.25%
+
+Este valor es porcentual del monto pedido.
+
+"Con una cantidad pequeña puedo contratar una operación mayor"
+
+
+Puedo "Apalancar" de 2 a 1 en un 50%. 400% de 0.25% 
+Es un potencial que no necesita usar en todo ( El buffet está disponible, pero no te lo comes todo.)
+
+
+CLASIFICANDO A LOS MERCADOS.
+
+Están clasificados por la ganancia.
+A mayor rentabilidad mayor el riesgo.
+
+1 DIVISAS
+
+2 MERCADO DE DERIVADOS (FUTUROS Y OPCIONES)
+
+3 MERCADO DE ACCIONES
+
+4 MERCADO DE CAPITALES.(Papel corportaivo, Gubernametal)
+
+Capitales y accionarios.
+
+Emisores buscan a hacerse de fonods.
+Inversionistas buscan ganancias.
+
+Los emisores hacen lelgar bonos a inversionista. Buscando un baco de inversión para que sean abalados por la ley de cumplimiento.
+Este es el mercado primario. Una vez vendidas al banco, se venden. Mediante mercado secundario.
+
+Derivados.
+
+Comerciales/Mitigan el Riesgo
+Buscan cubrirse el riesgo.
+
+Especuladores Buscan generar ganancias.
+
+Chicago Mercantil Exchange.*
+
+
+Los especuladores son personas que predicen hacia donde va el precio y reaccionar en funciñon de esto.
+La función de los especuladores está basada en movimeintos de la vida real.
+Las políticas que giran en torno a la sociedad, al mercado impactan de maenra directa en el valor de las operaciones. Si una mala polítca de planeación estrategica de un país, por ejemplo en los mercados energéticos, explica el alto costo del petroleo, ya que al no invertir ennuevas formas de energía hace que se dispare hacia arriba el costo.
+
+
+¿Como e negocia más allá de la mercancía?
+
+//En derivados no se compra o vende nada físico. Solo se vende una promesa en el fuutor o un plazo. Si un contrato llega  asu fecha de vencimiento pactado se debe cumplir, o pagando o entregando la mercancía.
+
+
+OVER THE COUNT.
+
+Proveedor: Institución financiera. broker, Market MAKER.
+Cliente: institución, particular o un broker.
+
+No existe un piso centralizado. Por lo que debe se ra través de una intitución.4
+
+Ambas partes buscan ganar.
+Buscamos brokers intermediarios qeu nos ayuden a operar entre las partes
+
+
+FECHA: DICIEMBRE 7
+TEMA: (36-51:54) min.
+
+La importancia de la líquidez.
+
+Es la capacidad para convertir un activo en dinero, y diner en un activo.
+
+La falta de liquidez genera movimientos brisco de precio.
+
+EL ESPECIALISTA:
+
+Existe un particupante que su única razón de ser es proveer liquidez en la bolsa.El especialsita vela por las acciones que no se vendieron y compraron sean vendidas y compradas. Gana un precio mucho menor del que la acción de las n empresas que tiene a su cargo inicialment evendían.
+Tiene la obligación de comprar o vender cualquier acción asigada al precio prevalente del mercado.
+
+EL BROKER:
+Tiene la obligación de ofrecer a su cliente el mjor precio disponible en el mercado tanto para comprar como para vender una acción. Por el más bajo precio y por elmás alto posible. El gana una comisión que le cobra al cliente,
+
+
+Market Maker:
+
+Hace lo mismo que el broker, pero puede mantener un inventario, pero además puede mantener un inventario y busca ganar por comisión y pro el diferencial de precios entre su precio de compra de un activo y el de la venta.
+Puede guardar las aaciones siconsidera que peuden haber mejores precios.
+
+
+4 RAZONES PARA HACER OPERACIONES EN UN MERCADO
+
+Especulación.
+Un de las partes busca obtener ganancia por el aumento o disminucuon de un activo.Ganar con la pérdida de un activo se llama: hacer corto.
+
+Creación del mercado (Especialstas y market Maker):
+
+Compro no por especulación del activo, si no porque me interesa ser su contraparte.
+
+Cobertura:
+
+
+
+Arbitrante:
+Equilibrio de precios, un activo vale diferente en distintos lugares, el arbitrante detecta las diferencias en los mercados, mira donde está más barato y lo vende donde está mas caro.
+
+Los precios tienden a mantenerse en equilibrio entre operadores y entre mercados precisamente debido al arbitraje.
+
+Cuando la diferencia de precio entre un lugar y otr es más alto en un activo, más alla del costo de aprovechamiento de la oprotunidad, el arbitraje entra en marcha.
+
+Los mercados tienden a mantener los precios en equilibrio, en la bolsa y en los derivados.
+
+
+
+
+TENDENCIAS DE LOS MERCADOS FINANCIEROS.
+
+(Buscar más de esto.)
+
+1. Negociación en la red.
+2. Globalización, todo el mundo es mercado de todos. Toda la economía está interconectado. (Como se evalua esto?
+3. Bursatilización
+4. Ingeniería FINANCIERA.
+5. Trade algorítmico.  HFT. Micro arbitraje.
+6. Refuerzo marco regulatorio.
+
+
+High Frecuency Trading.
+
+Toda época ha tenido su "miedo"
+
+Trade algorítmico es una forma de hacer que una máquina abra posturas de operación con el fin de obtener una ventaja.
+
+ICebergTrade. Calcular valores bajitos de una operación gigantezca.
+
+
+RoboTrading. Trade automatizado fue el siguiente paso.
+HFT es una forma que busca sistemáticamente oportunidades de operación que duran milisegundos.
+Busca oportunidades en una cantiadad de tiempo muy pequeña.
+Entre más cerca de los servidores mejor.
+Mejor tasa de milisegundos.
+40% de las operaciones en USA son HFT.
+
+El fenómeno de Flash Crash.Es una caída de lso precios generalziada. 
+Las caísdas de cietto tamaños  suspenden las operaciones.
+
+
+PRINCIPALES INSTRUMENTOS DE OPERACIONES/INVERSIÓN ONLINE.
+
+Acciones.
+
+Compras una parte física de la empresa.Variará lo que la gente esté dispuesta a pagar por dicha acción.
+Ganas por la diferencia, compras cuando está barato, vendes cuando está caro. Y ganas por la diferencia*el número de acciones.
+
+Cuando eres dueño de una empresa si al mesa directiva acepta que hay ganancias para distribuir. Ajusta las ganancias.
+Cada trimestre se gana la cantidad repordata como dividendos. Simpre y cuando no se vendan.
+
+Las acciones se nominan 
+Se identifican asignadoles entre 1 y 4 letras en el Ticker dependiendo de donde cotizan. ACCIONES TECNOLOGICAS TIENEN 4 Letras. 
+
+MMM Minesota Mining.
+NVIDIA NVDA
+
+Viene de la cosutmbre dle telégrafo. para identificar. Tiker Tape.
+
+SEC. Stock Exchange Comisión. Encargado de regular mercado accionario.
+FINRA. Agencia regulatoria de que las reglas accioanrias se cumplan.
+Clasifican clientes de brokers.
+
+CLIENTES PATRON INTRADIARIO.
+Abren y cierran operaciones el mismo días más de 3 veces>25 mil dolares. Apalancamiento de 4 a 1. No pueden tener poeraciones apalancadas y deben cerrar el mismo día. Day Trader Pattern?
+
+Operación Intradiaria, se abra y cierre por una cantidad igual el inicio al final.
+
+
+CLIENTES INVERSIONISTAS:
+Apalancamiento 2 a 1.
+No puedes realizar operaciones intradiarias de más de 3 a la semana.
+
+
+Es decir SON UMBRALES PARA LAS OPERACIONES.
+
+
+Vender en cortor.
+Rentar una acción y venderla en el marcado para recomprarla para cuando requiera cerrar la operación. 
+Si compro una acción el riesgo está limitado al valor de la acción.
+
+
+FUTUROS.
+Es un contrato que pacta la compra de un activo en una fecha determeinada en el futuro. Done el comprador se compromete a comprar una determinada cantidad en el futuro.
+Promesa de compra.
+
+
+Subyancente: Mercancia 
+Fecha determinada:Vencimiento
+
+Vendedor de futuro se compromente a entregar determinada cantidad de mercancía.
+
+Se contrara directamente con el piso de remate. con mercados. CME.
+
+1. Un contrato estandarizado en cantidadas. (Bushel 25,6 lB)
+2. CAlidad, especificadas con detalle de lo que es o no entregable.
+Vencimiento generalmente cada 4 meses comenzando por abril.
+4. Lugar de entrega ( Hangares de la bolsa)
+
+Puede ser por viva voz o electronicso
+Los de viva voz son corrs que son humanos que con su gestos corporales representan diferentes contratos. y solicitudes.
+
+Los contratos no representan más qu eun comproimiso en el futuro entre el 2 y el 5 % de los contraton terminan en la entrega del subyacente. ( El truco; Nadie estña comprando o vendiendo nada)
+
+
+OPCIONES.
+
+ES UN CONTRATO PARA TENER DERECHO A LA POSIBILIDAD DE COMPRAR Y VENDER UN ACTIVO.
+Es como comprar un seguro.
+
+Los contrato tiene 2 posturas.
+
+CALL:
+
+El emisor a cambio de una prima se obliga a vender determinada cantidad de un activo a un precio fijo, durante la vigencia d ela opción.
+mME protejo de las altas.
+
+PUT:
+El emiso a cambio de una prima se obliga a comparr determinada cantidad de un activo a un precio fijo durante la vigencia de una opción.
+Me protegjo de las caidas, el que escribe o vende asegura.
+
+
+CAPÍTULO 7 EL MEOLLO DEL DAY TRAGING.
+
+
+
+
+/////////////////////////////////////////////////////////////////////SEMANA 2//////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+FECHA DICIEMBRE 10
+DÍA 9
+TIEMPO/ 1:12:00 
+
+Las opciones se pueden utilizar tanto para especular como cubrir parte de la exposición del riesgo.
+Se pueden argamar estrategias modulares para inversiones complejas. Escaleras, collares.
+
+1. In the money. La opción genera valor por el precio subyancente.
+2. At the mone, el precio es igual al del ejercicion de la opción.
+3. Out the Money- No es suceptible para lopciones ejercerse el precio del subyacente.
+
+
+Las mejores probailidades están ATM.
+
+1. Delta es la probabilidad de que el precio de la prima esté al precio del subyacente.
+2. Gamma. Es la aceleración de la delta ( probabilida d de que cambie delta)
+3. Theta, Sensibilidad de la depreciación por vigencia, e slo que baja por cada día que se acerca al vencimiento el valor de la opción.
+
+Mientra más lejano el vencimiento, más incertidumbre.
+
+4. Vega: Sensibilidad que tiene la opción a la volatidilidad, los precios de las opciones tienden a aumentar cuando auemnta la volatilidad subyacente.
+Mientras más difícil sea calcular la probabilidad, más caro es la opción.
+5. Rho. Es la sensibilidad que tiene la opción a la tasa de interés si es positivo les ayuda al valor las tasas altas, si es negativo las tasas bajas.
+
+Las opciones pueden cerrarse comprando si vendiste la opción, o vendiendo si ya la tenías comprada. La pla<a en el contrato se mantien y es reemplazada.
+
+Las opciones que son más largo plazo (1 a 3 años) se les ñllama Long Term Equity anticipation Securities LEAPS.
+
+
+
+LOS BONOS.
+
+
+Los bonos son pagarés a una tasa de descuento, cada año el emisor pagará un % como renta y además puede pagar % del capital.
+
+Son papeles de deuda, que tuñlitzan soberanso y goboernos estatatles y empresas.
+
+Una entidad se peude hacer de recursos haciendo dividiendos een acciones y diluirse, pueden hacer prestamos y pueden dar boos en letras, emitidos de manera global.
+
+Bonos FMI.
+Los inversionistas los comrpan en mercado secundario.
+Los bonos se pueden comprar en el mercado secundario ( es decir, se le recompra a los que pujaron por estos vs los gobiernos  o las corporaciones)
+
+Los bonos poseen valor y rentabilidad  inversamente proporcional.
+
+Si comrpo un bono a 100$ como valor nominal en 80$ la rentabilidad del bono aumenta. 
+
+Instrumentos de renta fija. Cuando compras un bono sabes cuanto dinero te pagará a término fijo.
+Puedes ganar con los bonos si su precio aumenta o puedes perder si está más abajo a la hora de  venderlos.
+
+Los bonos por lo general se usn para mantener un flujo constante de fondos y puede ser usados como un margen en algunos brokers.
+
+se puede ganar de la siguiente manera;
+Si compro el bon o para una compañçia que está perdiendo puntos muy barato y luego se recupera de manera abismal. puedo inclusive valorizar mi bono y venderlo a un porcentaje de rantbilidad más caro.
+
+
+INTRUMENTO ETF Y ETC
+
+Exchange Trade Funds y Exchange Trade  Commodities.
+
+Fondos de indices cotizados, fondos de comercio con comodities.
+
+
+Vamoes en el minuto 1:31:25
+
+
+
+
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
