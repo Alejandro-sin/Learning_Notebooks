@@ -1,0 +1,1171 @@
+﻿__________________________________________________________________________________________________
+TEMA: Qué es un system on a chip
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:	
+
+Menristor?	
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Sistemas enteros en un chip. 
+Raspberry Py es un computador.
+GPU Uniddad de procesamiento gráfico.
+
+BROADCOM. ES una cpu que tiene ram, y disco duro, y la bios, donde arranca todo.
+Puertos USB Y Eternet tienen protocol para funciionar.
+Otro chip controla la correinte electrica,
+Un ping, o bs de datos. Mand 1 byte, 
+
+
+Perifericos Bateria, Imputos se pegan al system on a chip
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: Cómo funcionan las computadoras y los teléfonos móviles
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Email a laptop.
+
+La ube no existe, es otro PC.
+
+
+1 Señal del teclado. Manda electricidad a la Mother board, que contiene una cpu, ahí se ejectua el código de programación.
+La board, es la placa por donde van todas las señales d elos dispotiviso. 
+
+CPU Envia a OS, OS entiende que señal significa el evento x( oprimir teclado).
+
+Los software que entienden las señales eléctricas de cualquier tipo de hardware se llaman DRIVERS.
+
+OS, Entiende el estado en el que está operando actualmente, y envía a una capa superior donde corre el software del sistema operativo la señal y envía al navegador que alguien hizo  Enter.
+
+Navegador.
+
+El ejemplo del Giroscopio que capta el cambio en la rotación y la señal eléctrica se envía al la CPU para que mediante los DRIVERS interpreten que está girando.
+
+Todo funciona mediante Drivers.
+
+EN el navegador, JavaScript encapsula Los eventos todo lo escrito en el navegador. 
+Aplication Program Interface Es una "cosa" que usan progeramdores para comunicarse sin hablar en tre ellos.
+Cosas que representan globalmente un conjunto de "cosas" para que todos hablen el mismo valor.
+AJAX rs una api de JS.
+podemos enviar cualquier cosa a un server sin recargar la página.
+"Me manda a través de cualquier API Unos datos y uso la cosa".
+
+Ajax encapsula información del usuario y la envía al server. Ese encapsulamiento es un "Formatos de archivo". JPG, Json.
+La forma de enviarlo al server es mediante un protcolo. API Rest.Tecnica para enviarle datosl aserver.
+
+
+
+
+El protoculo fundamental es HTTPs // La s habla de que la informaicón está cifrada. Para que solo el servidor y yo la vea.
+
+// Hayformas de intervenir esas comunicaciones.
+
+
+DNS Domain Name Server. lA PARTE DE LA URL QUE ME INTERESA. // gmail.com/enviar.
+
+la IP es uan dirección que equivale a un nombre en 
+
+EN HTTP estámos en una capa superior.
+
+Aincronuous Java and XML AJAX para poder
+
+"El tubo p" por el que se transfiere es HTTP.pROTOCOLO DE TRANFERENCIA DE HIPERTEXTO.
+ARCHIVOS GRANDE FTP.
+SERVER REMOTO TELNET// SSH Secure Shell.
+BITORRENT //
+Muchos protocolos... 
+
+Una vez mi server recibe mi solicitud el busca en el mundo al servidor más cercao para que me envíe ala información.
+
+El server es donde está sucediendo verdaderamente el código. 
+OS de server Linux tiene DRIVERS que le permiten conectarse a la electricidad del cable de RED.
+La electricidad del cable de RED, a través de routers y switch que transmiten información de la IP le dicen a la electricidad haga lo que pueda, EL DRIVER.
+Reinterpreta la electricidad en una capa de RED ETHERNET. LInux encapsula todo esto TCP/IP Y de este a HTTP. NGNEX O Apache. SEVERS  a nivel de software. Dea quí va a JAVa, PHP, Python
+Go. Existen del lado del server. 
+
+Manda a una base de datos para guardar el archivo de los "mails".
+
+ENVIAR EL MAIL.
+EL email necesita usar un servidor de correo que viene en la petición. Los Mails tienen un dominio, y sé cual es la ip del correo, y tienen un nombre que se necesito para la casilla. Los protcolols de emailing, smtp/pop3, de envio y de recibido
+
+Alguien recibe el mail. Un server que itnerpreta diferente a email server de gmail. como POST FIZX.
+
+Cuando el cambio sucede en google, s como si las cartas se estuvieran copiando en estanterías, pero existen diferentes estanterías. como postfix.
+Ella hace todo el proceso de reinterpretar  mediante Lnux, ethernter/TCP-IIP/LENGUAJE DE PROGRAMCIÓN/BASE DE DATOS Y DOMINIO al que se nvi.
+Muestra una notificaión.
+
+Para no estarle preguntando al server si hay notificaciones, existe un server de noticifaciones que está atento al celular en todo moment, o a lo que está conectado y le avisa.
+
+Los telefonos tienen ID /IP, sabe encontrarme. La conexión entre Celular y Server. UDP.Este no espera respuesta. y se conceta a un OS.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Qué son Bits y Bytes
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+La elecetricidad es representada como una onda sinusoidal.
+Alguien encontró que al poner a vibrar una onda en una membrana en diferente diferección se creaba el sonido.
+Así como alguien encontró que diferentes ondas en un mismo tubo catódico generaban color, y asi se hizo la Tv Catódica.
+
+El texto era transmitido inicialmente con tonos. Y la clave morse dió ocurrencia.
+Para volver más barato esta tecnología se estudio la forma de pasar los tonos a entidades discretas de BIT 0 y 1. 
+El teléfono análogo de cable, interpretaba las señales de internet y sonaba ese caracteristico sonido de internet conmutado.
+
+IBM estableció los estándares para poder que todos pudieramos conversar en la misma forma.
+
+Creando los Byte, seccionó 8 espacios de Bit, para interactuar con la cpu y poder procesarlos.
+
+1 2 4 8 16 32 64 128
+
+Fueron las divisiones.
+
+0 representa nada
+1 representa esta
+
+Los estados binarios crean  en estas subdivisiones números.
+
+0 1 0 0 0 0 0 0  1
+1 2 4 8 16 32 64 128
+
+Equivale a sumar  2 +128=130 Representando el número 130.
+Un BYTE puede ser un color, pues representa un pixel.
+
+Asssembler interpreta los 8 Bits en el código que interpretamos.
+
+Luego para el texto la empresa UNICODE se formó para establecer una tabla ASCII cuyas combinaciones en 8 Bit permitían abarcar todos los caracteres mundiales. Nace UTF 8 Y 16. En la actualidad UTF16 cuenta con todos los caracteres de la humanidad, y en los espacios que sobran se están añadiendo emojis.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Procesadores y arquitecturas de CPU
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Inicialmente se llegó al consenso de que era preciso tener las mismas arquietecturas en nuestras tecnologías para poder trabajar en conjunto a lo largo del mundo.
+
+Los fabricantes poseen diferentes tipos de BIOS. La BIOS es un chip instalado en la tarjeta madre que permite dar el arranque a todo el OS.
+Empieza distribuyendo electricidad a la CPU o Computer Processing Unity. Aquí existe Intel, AMD que producen procesadores.
+Los procesadores tienen diferente "medidciones" GHZ y Núcleos.
+
+Los constructores se dieron cuenta que no necesitaba ir mas rápido si podían lograr dividir los espacios en más pequeños. De allí el nanonizado de las cosas, y el límite de las leyes de la reducción.
+
+Los materiales de silicio impiden que la electricidad sea manipulada d emanera óptima. Se supercalientan y se derriten. Naciendo opciones como el grafeno, y semiconductores que son de tierras raras que permiten manipular la electricidad a esos niveles. 
+
+La BIOS habla con el DISCO Duro para que lea mi información.
+
+Los discos duros son de diferentes tecnologías.
+SSD Solid State Disc es una malla electrónica por la que una señal electrcia pasa y recibe. Dando respuesta de manera más rápida. Esta tecnología pertenece a las USB que usan chip FLASH.
+
+Los Discos convencionales son un tocadiscos miiatura, es un laser que lee la información que va girando en el disco duro. Es lento porque debe leer todo para encontrar la información necesaria. Los bits y Bytes.
+
+
+
+
+La CPU se conceta con Todos los perfiricos. 
+Pantalla:
+
+Usa un chip especial que se llama GPU es la unidad de procesamiento gráfico, qu ene la actualidad hacen cálculos de algebra tridimensional para mejorar los gráficos. Interpreta todo oq eu vemos. Y está enfocada a mostrar la inforamción.
+
+Teclado, Mouse, Speakers, Periféricos todos que usan DRIVERS, para traducir la señal eléctrica que se transmite entre el periférico y la tarjeta Madre.
+
+El disco Duro necesita de alguien que arranque todos los aspectos del sistema operativo, y para ello tiene la RAM, la RAM se especializa mediante reacciones quimicas acido base-0 y 1 el procesamiento de la información activa. La ram no retiene nada, solo la lee de manera muy veloz.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: GPU
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Las GPU Son unidades de procesamiento avanzadas que poseen de forma integrada una memoria V.RAM, Muchísimos cores, que funcionan en paralelo para poder procesar los videos. Y mediante CODECS (son operaciones matemáticas para representar modelos 3d, de audio, de x en la GPU) muestra en pantalla la informaicón en tiempo real.
+
+Ls GPU son las bases de las tarjetas de video. Y son más costosas que los mismísimos procesadores.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Periféricos y sistemas de entrada de información
+
+El sistema operativo está divido en anillos, cada configuración depende del OS, en el caso de windows, sucede mediante unas capas que empiezan por el Kernel capa 0
+Aquí está el control de todo lo que ocurre en PC.
+Kernel es el mayor dominio y es la que da privilegios a las demás cosas, periféricos, aplicaciones y demás.
+
+El anillo 1 están los drivers de periféricos uque se encargan de interpretar las señales eléctricas de hardware para que OS haga lo que necesite.
+Anillo 2 están los drivers que tiene que ver con las apps. Permisos que piden las apps para usar un periférico especifico, microno, mouse...
+Anillo 3 apps. Es el permiso que pide la app para poder operar y mostrarse.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+__________________________________________________________________________________________________
+TEMA: Qué es un system on a chip
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:	
+
+Menristor?	
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Sistemas enteros en un chip. 
+Raspberry Py es un computador.
+GPU Uniddad de procesamiento gráfico.
+
+BROADCOM. ES una cpu que tiene ram, y disco duro, y la bios, donde arranca todo.
+Puertos USB Y Eternet tienen protocol para funciionar.
+Otro chip controla la correinte electrica,
+Un ping, o bs de datos. Mand 1 byte, 
+
+
+Perifericos Bateria, Imputos se pegan al system on a chip
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: Cómo funcionan las computadoras y los teléfonos móviles
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Email a laptop.
+
+La ube no existe, es otro PC.
+
+
+1 Señal del teclado. Manda electricidad a la Mother board, que contiene una cpu, ahí se ejectua el código de programación.
+La board, es la placa por donde van todas las señales d elos dispotiviso. 
+
+CPU Envia a OS, OS entiende que señal significa el evento x( oprimir teclado).
+
+Los software que entienden las señales eléctricas de cualquier tipo de hardware se llaman DRIVERS.
+
+OS, Entiende el estado en el que está operando actualmente, y envía a una capa superior donde corre el software del sistema operativo la señal y envía al navegador que alguien hizo  Enter.
+
+Navegador.
+
+El ejemplo del Giroscopio que capta el cambio en la rotación y la señal eléctrica se envía al la CPU para que mediante los DRIVERS interpreten que está girando.
+
+Todo funciona mediante Drivers.
+
+EN el navegador, JavaScript encapsula Los eventos todo lo escrito en el navegador. 
+Aplication Program Interface Es una "cosa" que usan progeramdores para comunicarse sin hablar en tre ellos.
+Cosas que representan globalmente un conjunto de "cosas" para que todos hablen el mismo valor.
+AJAX rs una api de JS.
+podemos enviar cualquier cosa a un server sin recargar la página.
+"Me manda a través de cualquier API Unos datos y uso la cosa".
+
+Ajax encapsula información del usuario y la envía al server. Ese encapsulamiento es un "Formatos de archivo". JPG, Json.
+La forma de enviarlo al server es mediante un protcolo. API Rest.Tecnica para enviarle datosl aserver.
+
+
+
+
+El protoculo fundamental es HTTPs // La s habla de que la informaicón está cifrada. Para que solo el servidor y yo la vea.
+
+// Hayformas de intervenir esas comunicaciones.
+
+
+DNS Domain Name Server. lA PARTE DE LA URL QUE ME INTERESA. // gmail.com/enviar.
+
+la IP es uan dirección que equivale a un nombre en 
+
+EN HTTP estámos en una capa superior.
+
+Aincronuous Java and XML AJAX para poder
+
+"El tubo p" por el que se transfiere es HTTP.pROTOCOLO DE TRANFERENCIA DE HIPERTEXTO.
+ARCHIVOS GRANDE FTP.
+SERVER REMOTO TELNET// SSH Secure Shell.
+BITORRENT //
+Muchos protocolos... 
+
+Una vez mi server recibe mi solicitud el busca en el mundo al servidor más cercao para que me envíe ala información.
+
+El server es donde está sucediendo verdaderamente el código. 
+OS de server Linux tiene DRIVERS que le permiten conectarse a la electricidad del cable de RED.
+La electricidad del cable de RED, a través de routers y switch que transmiten información de la IP le dicen a la electricidad haga lo que pueda, EL DRIVER.
+Reinterpreta la electricidad en una capa de RED ETHERNET. LInux encapsula todo esto TCP/IP Y de este a HTTP. NGNEX O Apache. SEVERS  a nivel de software. Dea quí va a JAVa, PHP, Python
+Go. Existen del lado del server. 
+
+Manda a una base de datos para guardar el archivo de los "mails".
+
+ENVIAR EL MAIL.
+EL email necesita usar un servidor de correo que viene en la petición. Los Mails tienen un dominio, y sé cual es la ip del correo, y tienen un nombre que se necesito para la casilla. Los protcolols de emailing, smtp/pop3, de envio y de recibido
+
+Alguien recibe el mail. Un server que itnerpreta diferente a email server de gmail. como POST FIZX.
+
+Cuando el cambio sucede en google, s como si las cartas se estuvieran copiando en estanterías, pero existen diferentes estanterías. como postfix.
+Ella hace todo el proceso de reinterpretar  mediante Lnux, ethernter/TCP-IIP/LENGUAJE DE PROGRAMCIÓN/BASE DE DATOS Y DOMINIO al que se nvi.
+Muestra una notificaión.
+
+Para no estarle preguntando al server si hay notificaciones, existe un server de noticifaciones que está atento al celular en todo moment, o a lo que está conectado y le avisa.
+
+Los telefonos tienen ID /IP, sabe encontrarme. La conexión entre Celular y Server. UDP.Este no espera respuesta. y se conceta a un OS.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Qué son Bits y Bytes
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+La elecetricidad es representada como una onda sinusoidal.
+Alguien encontró que al poner a vibrar una onda en una membrana en diferente diferección se creaba el sonido.
+Así como alguien encontró que diferentes ondas en un mismo tubo catódico generaban color, y asi se hizo la Tv Catódica.
+
+El texto era transmitido inicialmente con tonos. Y la clave morse dió ocurrencia.
+Para volver más barato esta tecnología se estudio la forma de pasar los tonos a entidades discretas de BIT 0 y 1. 
+El teléfono análogo de cable, interpretaba las señales de internet y sonaba ese caracteristico sonido de internet conmutado.
+
+IBM estableció los estándares para poder que todos pudieramos conversar en la misma forma.
+
+Creando los Byte, seccionó 8 espacios de Bit, para interactuar con la cpu y poder procesarlos.
+
+1 2 4 8 16 32 64 128
+
+Fueron las divisiones.
+
+0 representa nada
+1 representa esta
+
+Los estados binarios crean  en estas subdivisiones números.
+
+0 1 0 0 0 0 0 0  1
+1 2 4 8 16 32 64 128
+
+Equivale a sumar  2 +128=130 Representando el número 130.
+Un BYTE puede ser un color, pues representa un pixel.
+
+Asssembler interpreta los 8 Bits en el código que interpretamos.
+
+Luego para el texto la empresa UNICODE se formó para establecer una tabla ASCII cuyas combinaciones en 8 Bit permitían abarcar todos los caracteres mundiales. Nace UTF 8 Y 16. En la actualidad UTF16 cuenta con todos los caracteres de la humanidad, y en los espacios que sobran se están añadiendo emojis.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Procesadores y arquitecturas de CPU
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Inicialmente se llegó al consenso de que era preciso tener las mismas arquietecturas en nuestras tecnologías para poder trabajar en conjunto a lo largo del mundo.
+
+Los fabricantes poseen diferentes tipos de BIOS. La BIOS es un chip instalado en la tarjeta madre que permite dar el arranque a todo el OS.
+Empieza distribuyendo electricidad a la CPU o Computer Processing Unity. Aquí existe Intel, AMD que producen procesadores.
+Los procesadores tienen diferente "medidciones" GHZ y Núcleos.
+
+Los constructores se dieron cuenta que no necesitaba ir mas rápido si podían lograr dividir los espacios en más pequeños. De allí el nanonizado de las cosas, y el límite de las leyes de la reducción.
+
+Los materiales de silicio impiden que la electricidad sea manipulada d emanera óptima. Se supercalientan y se derriten. Naciendo opciones como el grafeno, y semiconductores que son de tierras raras que permiten manipular la electricidad a esos niveles. 
+
+La BIOS habla con el DISCO Duro para que lea mi información.
+
+Los discos duros son de diferentes tecnologías.
+SSD Solid State Disc es una malla electrónica por la que una señal electrcia pasa y recibe. Dando respuesta de manera más rápida. Esta tecnología pertenece a las USB que usan chip FLASH.
+
+Los Discos convencionales son un tocadiscos miiatura, es un laser que lee la información que va girando en el disco duro. Es lento porque debe leer todo para encontrar la información necesaria. Los bits y Bytes.
+
+
+
+
+La CPU se conceta con Todos los perfiricos. 
+Pantalla:
+
+Usa un chip especial que se llama GPU es la unidad de procesamiento gráfico, qu ene la actualidad hacen cálculos de algebra tridimensional para mejorar los gráficos. Interpreta todo oq eu vemos. Y está enfocada a mostrar la inforamción.
+
+Teclado, Mouse, Speakers, Periféricos todos que usan DRIVERS, para traducir la señal eléctrica que se transmite entre el periférico y la tarjeta Madre.
+
+El disco Duro necesita de alguien que arranque todos los aspectos del sistema operativo, y para ello tiene la RAM, la RAM se especializa mediante reacciones quimicas acido base-0 y 1 el procesamiento de la información activa. La ram no retiene nada, solo la lee de manera muy veloz.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: GPU
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Las GPU Son unidades de procesamiento avanzadas que poseen de forma integrada una memoria V.RAM, Muchísimos cores, que funcionan en paralelo para poder procesar los videos. Y mediante CODECS (son operaciones matemáticas para representar modelos 3d, de audio, de x en la GPU) muestra en pantalla la informaicón en tiempo real.
+
+Ls GPU son las bases de las tarjetas de video. Y son más costosas que los mismísimos procesadores.
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Periféricos y sistemas de entrada de información
+
+El sistema operativo está divido en anillos, cada configuración depende del OS, en el caso de windows, sucede mediante unas capas que empiezan por el Kernel capa 0
+Aquí está el control de todo lo que ocurre en PC.
+Kernel es el mayor dominio y es la que da privilegios a las demás cosas, periféricos, aplicaciones y demás.
+
+El anillo 1 están los drivers de periféricos uque se encargan de interpretar las señales eléctricas de jardware para que OS haga lo que necesite.
+Anillo 2 están los drivers que tiene que ver con las apps. Permisos que piden las apps para usar un periférico especifico, microno, mouse...
+Anillo 3 apps. Es el permiso que pide la app para poder operar y mostrarse.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Arquitectura de la computación
+______________________________________________________________________________________________
+sub TEMA: Introducción a las redes, protocolos e Internet
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+ISP proveedor servicios internet.
+
+
+RED LOCAL.
+Para conectar a reedes de inter se usan un Switch. Comparte al red con todos los conectados a mis slots de reds.
+Ethernet. 8 cables por dentro 8 pines.
+Switch usan un algoritmo que le pregunta a todos los conectados para quien es el menjsae.
+En la redes internas de computación. Muchos datos son compartidos.
+
+RED WI FI
+Para esto necesitamos un Router WIfi. para que emita una señal mediante sus antenas. Los puedo conectar al switch.
+Al autenticar el usuario se forma un cable virtual.
+
+En ocasiones se puede reemplazar el switch por un wifi.
+
+Los Swiches no son inteligentes.
+Los Routers si. Usan una tabla de enrutamiento. Puden o no tener WiFi
+Internamente necesita saber el nombre de la reed. El pasword. y la lista de las IP. DHCP (Es el que le asigna las IP) PARA QUE SE CONECTE A LA red LOCAL.
+
+
+cOMO RECUERDA EL PC QUIEN ES? 
+Todas las interfaces de red tienen MAC ADREESSS Viene quemado dentro del harware.
+Cada conexión, internet, bluetooth, MAC ADREESS es el número de identificación único que tienen las piezas del Hardware
+
+
+(Mac Adress Spufing)fingir identidad.
+
+El Wifi señales de radio tiene esta lsita para asignarlo.
+
+
+La conexión a intenert, 
+Muchos se conectan a un modem del ISP.
+sE CONECTA MEDIANTE 
+
+adsl
+tELÉFONO
+aNTENA DE RADIO 4g/lte
+fibra optica.
+
+
+
+
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Puertos y protocolos de red
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+IP Internet Protocol.
+Ip numeros de identificación.
+
+
+El pc tiene multiples IPs. La que nosidentifica en la red local... decicido por el routers. Puertas de enlace a diferentes redes.
+
+El protocolo DHCP es el que decido por donde lo entrega.
+
+IP 127.0.0.1
+LocalHost.
+
+
+IP LAN Local Area network
+
+El router me da un protocolo reservado con 192.168.0.20, que es por defecto e l estándara para identificar la lsita de IPs WiFi.
+0.20 Con 20 variando hasta 255 y >1  y con 0 variando de la misma forma.
+
+255eSTÁ RESERVADO PARA BROADCAST
+
+Existen 65,032 combinaciones de Ips.
+Como los pines eldel hardware existen puertos en los esquemas de red. Todo virtuales.
+
+Los puertos tienen números del 1 al Byte más alto posible. con 2 bytes.
+
+65,535.dEFINIDOS LOS PUERTOS. QUE Existen. Cadapuerto tiene funcionalidades diferentes.
+
+En los anillos del OS distribuye los puerto a través de lso anillso. Puertos cerrados pro defecto. 1-1024 están reservados para el sistema operativo.
+ara que los ejectue como administrador.
+
+Muchos protocolo coreen en estos puertos. HTTP usa el puerto 80. Bit Torrent Usa puertos del 6881 hasats 6889.
+HTTPs es securo. Funciona por el puerto 443.
+SSH puerto 22.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Qué es una dirección IP y el protocolo de Internet
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+
+NOTAS:_____________________________________________________________________________________________________
+
+
+
+Las direcciones ip están compuestas por 4 Bytes. Osea osea cada uno de 8 bits (o y 1). 
+Existen un conjunto de IPs reservadas para que como protocolos se puedan interpretar y no conufndir. La Mascara amplia el intervalo de IPs, para que no se repitan. 
+Los dos primeros Bytes están casi siempre reservados para un internet privado y público y así marcar la diferencia.
+Las direcciones IP permiten que cada computador o dispositivo pueda conectarse al exterior, es decir a Internet, esto a través de tecnologías como NAT o Network Address Translation.
+
+El gateway 
+Mascara de Red
+SubRed
+Gatway
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Cables submarinos, antenas y satelites en Internet
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+INTERNET EXCHANGE POINT.
+
+Silos donde convergen los puntos de acceso a la internet.Estos puntos de acceso redirigen los protocolos.
+Existen redes gubernamentales que eran cableadas pro los paises a est puntos, con el itempo nacieron un montón de cableados y redes que conectan al mundo en londres jhya una muy importante.
+LINX London Interenet Exchange Coencta EEUU con Europa. EN amterdam en méxico, ... Estos centros reciben los cableados y mediante protocolos ip conectan con DNS en servidores dedicados.
+
+Internet se acae todo el tiempo el 1% funciona con Satéltites, que se conectan en casos reomotos y espciales. Las catastrofes climáticas destruyen muchas veces estos cables. O son robados. O la naturaleza los daña.
+Exiten empresas dedicadas a cablear y reciir IXP para proveeder de conectividad a todas las peticioens que se hacem,
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+__________________________________________________________________________________________________
+TEMA: Qué es un dominio, DNS o Domain Name System
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+DNS Son servidores que te dan las paginas mediante IPs
+Subdominios son la ip Movil.
+
+MX record de emails. Sub base de datos
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+__________________________________________________________________________________________________
+TEMA: Cómo los ISP hacen Quality of Service o QoS
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+isp pagana a IXP para intercambiar tráfico. Subastan con gobierneos , se negocia, e smuy caro conectarse a IXP. Todo sucede en fibra optimca en unos cables envueltos.
+
+El dinero que paga esto, viene de nostros.
+La ultima milla. Es el cable que tiene el servideor a lo que llegan a nuestra casa.
+
+Debe se rsencillo para el consumidor.
+?Como hacen para que ciertos clientees hacen que sea mas rápido?
+
+Los isp tienen Metropolitan area network se usa para que se conecten entre mis "vecinos"
+La troncal es el ancho de lo que me da el cable para mejor velocidad.
+
+Los ISP crean proriodad, agrandan o acortan las conexiones.
+Las empresas necesitan más tranferiancia de datos.
+Mediante FireWlls. regulan la pririodiad para diferentes tipos de datos. Ya sea Videos, Txto.. y demás.Bit Torrent.
+
+Quality Of Service QoS//Internet Shaping//Throttling, acelerar o desacelerar la conectividad.
+Allí se eafect ala velocidad de internet. 
+
+ISP.
+
+CDN Content Delivery Networl.
+Cuando los datos no son procesados or algoritmos se replican por todo el planeta. Hay multiples CDNS conectados a IXP. Viviendo en el mismo datacenter donde estan los IXP. Datos estáticos.
+
+CDN te da la versión más cercana al contenido de la ISP par aque lo tengas más rápido. Es gracias a esto qu enuestro internet no se satura y funciona.
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+__________________________________________________________________________________________________
+TEMA: Cómo funciona la velocidad en internet
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Ping.
+Se da en ms y es la velocidad que tarda entre pc e internet.
+
+La velocidad en Mbs Es el valde de agua que contiene X cantidad de agua. Es mi cantidad en Mb.
+El límite es la velocidad de la luz. 1ms es casi siemrpe en ese tiempo.
+El ping mínimo es de 31, 14 ms
+Cuando el Ping es inferior es porque hay CDNs.
+
+Cuando aumentamos los Mbs aumenta el acnho del tubo. Anch o de banda de la cantidad de Bytes que limitados por las leyes físicas viajan por el tubo.
+
+La mayoría de los ISPs (Internet Service Providers) nos venden ancho de banda en Mb y debemos tener claro qué significa, ya que existe una importante diferencia entre Megabits y MegaBytes.
+
+Otro aspecto importante en el funcionamiento del internet es la velocidad. A menudo confundimos la velocidad con el ancho de banda por eso debemos tener en claro que la velocidad del internet se mide obteniendo el tiempo que le toma a la información viajar a través de un punto a otro en milisegundos, a esto se le conoce como ping o latencia.
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+_______________________________________________________________________________________________
+TEMA: Permisos, niveles de procesos y privilegios de ejecución
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+sE CREAN GRUPOS DE PRIVILEGIOS.
+
+ADMIN TEAM Y PUBLIC.
+
+ReadWriteXecute
+
+Lo que hace ejectuable un archivo se ejectue realmente es el RWX permiso de ejcución para wue OS le pase instrucciones de moverse en el anillo de segurdad.
+
+ADMIN RWX
+TEMA RW-
+PUBLIC R--
+
+
+linux
+
+chmod 666 rw- ,
+777 rwx  me manda entonces en inarios para gestionar admin ...team public.
+
+En Linux
+
+Se puede usar el comando sudo para aumentar los privilegios que se tiene como usuario, escalando en el anillo de seguridad.
+
+A menos de que use mi propio servidor virtual secugro. Nunca tendré una contraseña Root.
+Root en Linux significa administrador.
+
+
+
+
+
+
+WINDOWS.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+__________________________________________________________________________________________________
+TEMA: Fundamentos de sistemas operativos móviles
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Los sistemas operativos móviles difieren a los sistemas operativos normales en seguridad, el acceso y manejo de hardware especial para telecomunicaciones, y la forma en la que se aceptan y distribuyen sus aplicaciones.
+
+Dos tiendas Playsotre y Amazaon Sotre.
+
+
+Independientemente de las plataformas para tener aplicaciones. en MAC, LINUXO O WONDOWS, 
+
+Los archivos .dmg, MAC, .exe, son archivos que son ejectuables.
+
+En linux se descargan paquetes de líneas de comando como get... que le permiten a linux descargar de repositorios centrales de lInux.
+
+Para winows y Mac tambien existen esto paquetes.
+
+Herramientas de hackeo informñatico.
+
+
+Todas las apps tienen manifiestos de permisos.
+
+Declaración de tus permisos.
+GPS, ACCOUNTS, 
+SD 
+Sistema archivos *NIX o lunux,
+
+MAC usa SandBox.
+File sharing API.
+
+WINDOS APP DEVELOPER.
+
+Xamarin
+
+ANDROOID APPS DEVELOPER
+ ADNROID STUDIO. Aplicaciones nativas.
+
+Xamarin, React Native, Ionic. Son intermediarios de más bajo rendimiento.
+
+
+¿Implica que el rendimiento de una  aplicación depende del nivel de abstracción del lenguaje?
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+__________________________________________________________________________________________________
+TEMA: Sistemas operativos embebidos e Internet of Things
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+ARM 
+Prioriza el uso de la electricidad para n mism flujo de datos qu eun intel. Es preferido para termostados, y dispositivos de medición
+
+INTEL
+El intel prioriza en la velocidad
+
+
+
+Los raspberry Pi, arduino. Funcionan para cada dispositivo que conocemos, telefonos, hornos.
+
+Son los anteriores a RTM, Release to amnufccture.
+COn este se pueden crear y ensamblar dispositivos.
+
+Una maleta intligente.
+
+
+RaspberryPy es un pc entero.
+Arduino es mas pequeño
+
+Rasberry corre Linux.
+
+SMART CARDS, SIM CARDS SON PC!!
+
+Java Card... Una llave especial de cifrado, del operadar movil se asegure que no se filtre.
+La encargada d ela llamada es la CPU de la SIm card.
+
+SMART CARD usa muy poca electricidad, se alimenta de una onda de radio. Usa la electricidad del ambiente para poder funcionar.
+Prenden y ejecutan. A una velocidad muy rápida.
+
+MULTOS.(C++ o en C)
+
+
+Puede empezar a prototiparse en un Arduino y miniaturizarse.
+
+TODO LO ANTEIOR EN ESTE CURSO ES UN SISTEM ON A CHIP
+
+
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+__________________________________________________________________________________________________
+
+
+///////////////////////////////////////////////////////UNIDAD//////////////////////////////////////////////////////////////////////////////////////
+
+TEMA: Cómo funciona .zip: Árboles binarios
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+Los árboles binarios parten del principio matemático binario.
+La idea es seccionar mediante un algoritmo una cadena de Bytes de cualquier tipo, agrupandolo por freceuncia de aparación, lo que permite organizarlos mediante un algoritmo de Arbol y así expresar el archivo original en menos cantidad de Bits.
+
+¿Cómo se escucha un archivo comprimido de audio? O como se ve uno de video?
+
+
+¿Cómo funciona la compresión de un archivo sin perder ningún valor de ese archivo?
+
+Los árboles binarios nos permiten comprimir sin perder información. En este caso, vamos a comprimir “amo leer panama paper”.
+
+Debemos ver cuantas veces se repite cada letra
+a = 5
+m = 2
+r = 2
+s = 1
+o = 1
+  = 3
+p = 3
+l = 1
+e = e
+n = 1
+
+La letra con más frecuencia va a estar en el primer punto de la rama. Cuando se encuentra es 1, y cuando no se encuentra es cero
+
+Con esto debemos volver a construir nuestro mensaje siguiendo eárbolol, esto quedaría
+
+1 0001 0000001 01 00000001 001 001 000001 01 0001 1 0000000001 1 00001 1 01 0001 1 0001 001 000001 000000001
+
+Aunque en este ejemplo no se reduce drásticamente el tamaño. Imagina párrafos más grandes u otro tipo de archivos.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+__________________________________________________________________________________________________
+TEMA: Metadatos, cabeceras y extensiones de archivos
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Tu aprendiste que .jpg significa la extensión de archivos de imagen, históricamente windows tenia muy pocos bytes para la extensión, por esto la extensión normalmente era de 3 dígitos.
+
+Existen muchas otras extensiones como .html para páginas web, .mpg4 para vídeo.
+
+Cuando abres los archivos vas a ver su codificación binaria o dependiendo del editor puedes verlo en hexadecimal.
+
+Un sistema operativo lee los primeros bytes del archivo para entender a que archivo corresponde, esta información se llama cabecera.
+
+Cada sistema operativo tiene una base de datos de que programa abre que tipo de archivo.
+
+Cuando estas transmitiendo un archivo por Internet se especifica el tipo de archivo con mime types, el cual se transmite en la cabecera de un paquete http.
+///
+
+Cuando un archivo lo abro y me sale en Simbolos y cosas "raras" lo que quiere decir es que es un archivo binario. Que debe manejarse con un editor hexadecimal. Los editores Hex me permiten leer archivos binarios y tranformarlos a Hexadecimal, que guardda en 6 digitos mis 8 bitos.
+
+Por lo que FA 10 E2 significa un caracter y sea plausile leerlo.
+
+Las extensión . X siginifica el tipo de compresión y algoritmo que usa pra trabajar X o y tipo de archivo.
+
+Por ejemplo la compresión usada por mp4 s diferente a la compresiín usada por MPG O flac, o .ogg. Cada tipo de algoritmo de compresión posee sus ventajas y bniblezas.
+
+Los primeros Byetes del archivo es la cabecera del archivo.
+OS agarra los primeros bytes hasta reconcoer un patrón . 
+OS los reconoce de esa manera. Leyendo lso primeros Bytes.
+
+OS posee una base de datos de esos archivos.
+
+Un nuevo software agregan  a OS: Siel archivo inicia con estos Bytes? Es tal.
+
+Usamso mimes type usamos para tranferencia de todo.
+
+Diciendome qu´é tipo es y me retorna el tipo de archivo.
+Mime me permite enviar archivos rápidos para saber que tipo de archivo está enviando.
+
+El navegador usa los mimes types para permitir la interpretación del archivo de manera más rápida.
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+__________________________________________________________________________________________________
+TEMA:Cómo funciona el formato JPG 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Asumamos que tenemos una foto de 600*800, si esto estuviera en un formato sin compresión pesaría 840KB,solo representando un color por pixel
+
+Para tener una calidad de 32 bit la imagen debe pesar 1.9MB para esto podemos comprimir las imágenes y usar formatos como jpeg
+
+jpg lo que hace es aproximar áreas de color, si un color esta en áreas continuas solo se declara la zona y el color de esa zona, de esta forma se pueden tener imágenes que pesan mucho menos.
+
+////
+
+
+
+Los algortimos funcionan bajo una teoría de ingeneira de la información, para saber cuanto puedo comprimir un archivo con matemáticas.
+PNG no pierde calidad de la imagen.
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+__________________________________________________________________________________________________
+TEMA: Videos, contenedores, codecs y protocolos
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+En un vídeo hay muchos factores para comprimir, un vídeo es si es una serie de fotos vistas muy rápido. por ejemplo si un vídeo tiene 100 frames a 24 frames/segundo y si cada frame pesara 1.9MB el vídeo pesaría más de 100MB por 4 segundos de vídeo.
+
+Por esto en los vídeos se utilizan varias formas de compresión
+
+Contenedores: es el formato es que se guarda el vídeo como .avi, .mp4, .flv, .mpg, .webm
+Codecs: es un algoritmo que comprime un vídeo y lo descomprime como divx, h.264, ogg, vp9
+Protocolos: es la forma de transmitir los vídeos como RTMP
+Keyframes: cada cierta cantidad de frame existe un frame que vuelve a definir todo el área
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+__________________________________________________________________________________________________
+TEMA: Videos, contenedores, codecs y protocolos
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+En un vídeo hay muchos factores para comprimir, un vídeo es si es una serie de fotos vistas muy rápido. por ejemplo si un vídeo tiene 100 frames a 24 frames/segundo y si cada frame pesara 1.9MB el vídeo pesaría más de 100MB por 4 segundos de vídeo.
+
+Por esto en los vídeos se utilizan varias formas de compresión
+
+Contenedores: es el formato es que se guarda el vídeo como .avi, .mp4, .flv, .mpg, .webm
+Codecs: es un algoritmo que comprime un vídeo y lo descomprime como divx, h.264, ogg, vp9
+Protocolos: es la forma de transmitir los vídeos como RTMP
+Keyframes: cada cierta cantidad de frame existe un frame que vuelve a definir todo el área
+
+////
+
+
+
+En videos hay muchos factores en la compresión. Funciona teniendo en cuenta que es como un paquete, un video trae subtítulos, sonido, imagen.
+
+Por parte de la imágen los formatos que son cerrados y levan la bandera son MP4 Y H264 pateentados por MEGP LA. Webm es un formato de google abierto.
+
+El algorítmo bsca las fercuencias que se repiten en una cantidad n de frames o imagenes .y mira dódne no cambian. También cuando hay un cambio abrupto de imagen se pega al key frame y retorna para que el cambio no sea muy brusco. La imagen tarda en reahcerse cuando está en movimiento debido a estos algoritmos.
+
+Respecto al sonido, los algoritmos cortan las frecuencias no audibles por los seres humanosm y el procesador tratad e adivinar conectando los putnos de la onda, Kbps Lyloo Bytes per Second.
+
+La tasa de Bytes que poesee a mayor, mayor fidelidad.
+Los archivos wav son lo más puro. porque tienen la mayor tasa de Bytes de la onda.
+
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+////////////////////////////////////////////////////////////////UNIDAD/////////////////////////////////////////////////////////////////////////////////
+
+__________________________________________________________________________________________________
+TEMA: Red neuronal
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Cardena de Markoff, Algoritmo Bayesianos...
+Y redes Neuronales.
+
+Redes neuronales es un conjunto de deciciones condicionales que puede tomar máquina, todas las entradas se relacionan con todas las salidas de 3 formas.
+
+
+O y 1, 
+-1,0,1 
+Y Sigmoide. Toca todos los puntos.
+
+
+Se comparan las entradas debido a su "peso" o importancia y la máquina compara las deiciones con una base de datos. Esta comparación permite aprender mediante el error. Por loque toma la mejor decisión.
+
+El teclado predictivo es una cadena de markoff qyue te dice la palabra más probable según como hablas.
+las redes neuronales son de muchísimos tipoas. El más simple es el perceptron De dos entradas nace una sola.
+
+El que exista un data center nos aventaja porque podemos usar IA de manera más sencilla. 
+IA necesita computación de gran tamaño.
+NVIDIA está apostando a generar móduclos de procesamiento de imagen externos adapatados a IA.
+
+(Invertir en NVDIDIA)
+
+
+RESUMEN:
+_________________________
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+

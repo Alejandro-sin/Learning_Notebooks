@@ -1,0 +1,307 @@
+FUNDAMENTOS ARQUITECTURA DE SOFTWARE
+
+**RESUMEN:**
+La arquitectura de software se encarga de las estructuras, modelos, comunicación entre módulos del sistema. Habla sobre como se da el proceso de desarrollo y como la arquitectura es crucial para este.
+
+
+
+Etapas del proceso de desarrollo de software:
+
+NOTA: Cabe aclarar que el profesor  habla del módelo en cascada:
+
+1. Requisitos de usario. Explorar la necesidad
+>2. Diseño de requisitos. Hablar el mismo lenguaje que el cliente para concretar objetivos.
+>>3. Desarrollo y evaluación. Desarrollo, test automatizados y planeación de User Test Aceptance
+>>>4. Despliegue. Disponibilidad de la herramienta creada
+>>>>5. Mantenimiento y evolución. Oportunidad de mejoras hasta caducidad del software.
+
+Sin embargo existen otros modélos de desarrollo como el modelo V, prototipos, espiral... una cantidad que variará con la década, la tecnología y nuestra forma de relacionarnos con ella.
+
+Dificultades en el desarrollo de software:
+
+Las nuevas tecnologías resuelven problams accidentales o esenciales?
+
+Hay que analizar el contexto del problema para diseñar la solución del momento.
+Las dificultades esenciales son aquellas inherentes al nivel de abtracción de máquina, a la manipulación que tenemos de esas abstracciones, al grado de complejidad y libertad de las variables, a la conformidad y tolerancia al cambio del diseño.
+
+Las dificultades esenciales se pueden solucionar:
+No desarrollando, buscando solucioens previas e integrando subsistemas es mucho más eficiente.
+Prototipado rápido, metodologías ágiles de trabajo. Feedback constante del usuario es crucial para metodologías modernas.
+
+Desarrollo evolutivo, plantea que consigas resultados pequeños y de allí crezcas. Grandes diseñadores, son ingenieros que se abtraen dle problema puntual y entienden un marco más amplio para una solución simple y elegante. La mejor calidad con el más alto grado de refinamiento.
+
+
+
+Roles:
+
+Experto del dominio: En una metodologia tradicional, es la persona a la que acudimos para entender las necesidades del negocio. 
+En metodologias Agiles --> stakeholders.
+
+Analista: funcional/de negocio, la persona responsable de definir los requerimientos que van a llevar al software a u buen puerto. En el caso de Agiles el dueño del producto es quien arma las historias y que nos acompaña en el proceso de construcción del software.
+
+Administrador de sistemas / DevOps: Es el rol de operaciones y desarrollo, son las personas responsables de la infraestructura que alojara nuestra aplicación.
+
+Equipo de desarrollo: QA / Testing se encargan de la evaluación de nuestro software, comprobar que lo que se esta haciendo es lo que se espera que se haga. Desarrolladores involucrados en la construcción del software. Arquitecto, diseña la solución y analisis de los requerimientos, es un papel mas estrategico. La arquitectura emerja del trabajo de un equipo bien gestionado.
+
+Gestor del proyecto / facilitador: Llevan al equipo a través del proceso iterativo e incremental, entender lo que pasa con el equipo y motivar el avance en el desarrollo del producto.
+
+
+¿Qué es arquitectura de software?
+
+La arquitectura de software modela elementos de software, sus propiedades visibles. Es un conjunto de desiciones princicpales de diseño para llegar a un resultado de calidad en el sistema. La arquitectura emerge de un equipo autogestionado o de un arquitecto externo.
+
+Ejemplo de la arquitectura de twitter:
+
+Inicialmente procesa el mensaje que se twitteará a través de una API que se comunica con unos servicios separados que a su vez tienen diferentes funciones y que están en Asyncronous path.
+
+Amazon web services, orienta su aarquitectura al despliegue, disponibilidad , carga y crecimiento de una aplicación. Mientras Flux, de React, habla en un alto nivel de su arquitectura según un flujo monodireccional de los datos.
+
+
+La importancia de la comunicación - Ley de Conway
+
+Los sistema monolíticos son disfuncionales, los nuevos modelos consideran la segementación pro equipos/células de trabajo de un organismo mayor, las céluas se comunican entre sí.
+Una empresa genera estructuras que emitan las vías de comunicación de su organización.
+
+Las organizaciones dedicadas al diseño de sistemas [...] están abocadas a producir diseños que son copias de las estructuras de comunicación de dichas organizaciones
+Objetivos del arquitecto
+
+Es un intermediario entre partes interesadas y los requerimentos con la implementación del sistema.
+
+Cliente: Entregas y resultados a tiempo, en presupuesto. Encontrar cuales son los riesgos más altos asociados al desarrollo.
+Manager: Gestionar recursos para que tiempos se den. Gestor de equipos. Modularización y flexibilidad.
+Dev: Que sea mantenible e implementable. Es necesario que pueda evolucionar.
+Usuario: Que sea confiable y pueda usarse y estará disponible cuando se necesite.
+QA: Que sea fácil de comprobar.Sistemas que cumplen atributos de calidad para porbarse. Que el sistema pueda probarse y que responda de determinada manera, y que pueda probarse poro modularización.
+
+
+Arquitectura y metodologías
+
+Arquitectura varía según la metodología.
+
+Tradicional:
+
+Deinifición del problema, requerimentos, riesgos, restricciones hacen parte de las etapas iniciales. El arquitecto diseña y modela la arquitecrua para posterior desarrollar en base a documentción.
+
+Desventaja es que no tiene feedback de su trabajo hasta el despliegue.
+
+Agiles:
+
+Consiste en momentos. Los springs sirven para planear los momentos importantes, definimos arquitectura/prioridades backlog. Se lleva al usuario y se recibe feedback  mediante métricas. En base a estas se asegura de cuanto mi arquitectura está funcionado.
+
+Podemos hacer esqueletos de la solución, tracerbullet. Hacer arquitectura interactivamente.
+
+
+Entender el problema:
+
+Espacio del problema y espacio de la solución:
+
+Espacio del probelma ayuda a ener qué resolvemos sin entrar en detalles.
+Espacio de la solución habla sobre todos los detalles necesarios que se requieren para la solución.
+
+
+Requerimentos:
+
+Requerimentos del producto.
+Negocio//Reglas de negocio qeu alimentan estos requerimentos de negocio. El problema
+Usuario//Como el usuario se desenvuelve usando el sistema.Atributos especificos, seguridad de los usuarios,pagos con tarjetas de crédito. Garantías.
+Funcionales//Es lo que hay que hacer específicamente. Que tiene que pasar operativamente, por ejemplo alarmas, pagos automáticos, emails. Esta capa está limitada por restricciones de todo tipo.
+
+Requerimentos de proyecto.
+Arquitecto y gestor trabajan juntos para priorizar  acciones.
+
+Recursos.
+Capacitación
+Certificaciones
+Documentación
+Infaraestructura
+Licencias
+Plan de despliegue
+Plan de transacción
+Acuerdos de servicios.
+
+
+R.FUNCIONALES.
+
+Como el sistema se comporta en un estímulo. Como implementa una historia.
+
+R.NO FUNCIONAL.
+
+Alta prioridad. Cualidades inherentes al sistema. Sistemas seguros, legibles. Atributos que brindan calidad. Están relacionados al contexto, según su comportamiento en situacioens adversas.
+
+
+Requerimentos significativos: Es uan mezcla de los funionales y no funcionales. agrupan cualquier tipo de requriemnto que afecte el diseño de la arquitectura correcta.
+
+
+Riesgos:
+
+Encontrar los riesgos que el sistema puede tener.
+¿Qué pasaría si fracasamos?
+
+Latencia alta.
+Attack midle men. Intercepción entre la comunicación. se soluciona con protocolo http
+
+
+Riesgo de ingeniería
+
+Es con la implementación del sistema?
+
+Riesgo de gestión.
+
+Ausencia de recursos, secuenciamiento de trabajo...
+
+Framework para identificar riesgos.
+
+REQUERIMENTOS: COMPLEJO/DIFICIL.
+ATRIBUTOS CALIDAD: INCERTIDUMBRE SOBRE LO QUE PODEMOS O NO MEJORAR.
+CONOCIMIENTO DLE DOMINIO: RIESGO PROTOTÍPICO. Lo conocido y docuemtnado que podemos atacar de forma estándar.
+
+POSTERIORMENTE SE DEBN PRIORIZAR LOS RIESGOS para mitigar de lo más crítico a lo menos crítico.
+
+Restricciones:
+
+Limitaciones de diseño e implementación. Ya sea por contexto de plataformas,procesos de negocios, integraciones con otros sistemas, cuestiones políticas y legales.
+
+
+Arquitectura, panorama y definición.
+
+Arquitecturas poseen framworks de referencias.
+
+Panorama
+
+Microservicios y partones de arquitecutra. Ningun patrón tiene solo beneficios. No hay balas de plata.
+
+¡Qué es un estilo de arquitecutra?
+Es todo aquello que da contexto sobre algo que conecta estructuras. TCP/IP en paginas web en el modelo cliente servidior, usados para solicitarle a server que me traiga un documento HTML.Entre p2p dos sistemas comunicación. 
+
+Un estilo de arquitectura es una colección de desiciones de diseño, aplicables en un contexto determinado, qie restringen las desiciones arquitectonicas específicas en ese cotnexto u obtienen beneficios en cada sistema resultante.
+
+Es decir podemos reciclar de soluciones que ya han funcionado soluciones para usarlas en diferentes contextos.
+
+
+Set de desiciones tomadas ya tomadas que tuvieron exito aplicadas a nuestro problema para recibir un exito similar 
+
+
+/Estilos de ARQUITECTURA: Llamado y retorno /
+
+En este módulo se explica el estilo de arquitectura de llamada y retorno, consiste en que una parte A quiere comunicarse con una parte B, a veces con la necesidad de que b devuelva algo o no. Existen diferentes abstracciones de este suceso:
+
+1. Programa y subrutinas.
+
+Programa es el conjunto de instrucciones, sub rutina tiene la cualidad de ser fragmentos de código que utilizaremos  muy a menudo, al que necesitamos hacer un llamado.
+
+2. Orientado a objetos.
+
+Objetos tienen diferentes propiedades y métodos que se comunican entre sí. Objetos pertenecen a una clase que instancia objetos que se llaman y otros responden.
+
+3. Cliente Servidor
+
+Una aplicación le habla a un servidor mediante una petición y servidor responde. Si ahondamos en este modelo el nivel de detalle aumenta. Aplicación le pregunta a REST/API y luego a server
+
+/Estilos: Flujo de datos 
+
+**RESUMEN:**
+
+¿Cuando tenemos que usar estilo arquitecura de datos? . cUANDO Un proceso necesita una salida clara, puede ser dividio en partes que procesan en tiempo real la información sin intervención del usuario, o cuando se nos da un dato que necesita ser procesado y entregar un dato de salida
+
+Es posible entenderlo como procesos modulares que pueden ordenarse para manipular x informaicón y darme un resultado, por ejemplo: necesito sumar n datos de una base de datos, luego mostrar un reporte de total de ventas mensuales, todo hasta llegar al usuario final. Este estilo habla del flujo de transformación de los datos de entrada en un proceso hasta su salida.
+
+
+/Estilos: Centrados en datos
+
+**RESUMEN:**
+
+** Centrados en datos**
+
+El estilo pizarron se puede usar cuando se espera que diferentes partes de un proceso terminen de procesar la información para después hacer algo con ella. Por ejemplo un dashboard que toma datos procesados en tablas dinámicas para mostrar los charts.
+
+Módulos que le entregan a un sistema central.
+
+
+**El estilo centrado en datos.**
+
+Diferentes aplicaciones usan la misma base de datos. Cualquiera de los componentes deciden escribir a la base de datos, y no están conectadas entre si, aunque pertenezca a un mismo sistema monolítico.Dependiendo del nivel en que se encuentre el monolito es pertinente evaluar que hacer con este, si disgregarlo o no.
+
+**Estilo basado en reglas.**
+
+Componente cliente revisa si es una regla o una consulta, estas inferencias a medida que las vamos procesando se agregan en una base de conocimientos que luego podemos usar mediante consultas, por ejemplo los sistemas de inteligencia artificial que aprenden de datos de entrada y que luego consultan para ejecutar n-operación.
+
+
+
+//Estilos: Componentes independientes
+
+
+
+**Componentes independientes:**
+
+Es posible desarrollar componente independientemente, no fuertemente acoplados. Existen familias de esa comunicación implícita y explícita entre componentes:
+
+**Invocación implícita. **
+Las apps mandan mensajes sin saber a quien hablan.
+
+En el bus de eventos los componentes escriben y el bus comunica a otros componentes.
+
+>>**El bus** tiene dos modalidaes grandes.
+
+**Publicar suscribir:** 
+Componente inicial publica bus recibe y suscribe en otro componente.
+
+**Orientado a servicios:**
+Componente notifica a bus, es un bus inteligente, (enterprise services bus ESB),  decide a quien comunicar y qué.
+Tiene registrados componentes que le hablan a el. El ESB  sabe que hay que hacer. Los componentes no están comunicados entre si.
+
+**Invocación explícita. **
+Si saben quienes se hablan.
+Todos los componentes publican cual es la vía de comunicación que tiene disponible.
+Componentes son servicios, se registran a un punto central y luego dicen como opueden operar entre si.
+Los componentes que se encuentran en ejecución cuando el centro de recepción de servicios dice qué pueden hacer.
+
+Esta arquitectura permite desarrollar independientemente, pero cuenta con APIS sensibles, es decir por más que sean independientes la compatibilidad entre componentes debe ser impecable para garantizar que cuando se hacen cambios no se deje de funcionar para ciertos clientes.
+
+**Comparando estilos: ¿Cómo elijo?**
+**Estilos monolíticos.**
+
+Estilos donde se despliegan un artefacto de software
+
+1.	**Eficiencia: **Al tener un solo artefacto se puede ser optimizado de manera más personalizada. // En estilos distribuido, es un problema debido a los canales de comunicación, red, intenet que comunican los componentes.
+
+2.	**Curva de aprendizaje:**  El monolitico contiene toda la información allí. Un monolitico bien diseñado permite tener todas las piezas en el mismo lugar, por lo que se facilita la lectura y entendimiento. // El el caso distribuido hay que entender cada componente.Nota: Un componente interno en un distribuido puede ser visto como un monolítico. Es la base de los microservicios.
+
+3.	**Capacidad de prueba: **Son más fáciles de probar una funcionalidad de principio a fin. // En distribuidos necesito tener todos lso componentes disponibles, incluyendo los BUS de eventos.
+
+4.	**Capacidad de modificación:** Un cambio que se despliega todo junto garantiza menos estaddos intermedios. Las versiones nunca coexisten // En distribuidos diferentes compoentes tienen diferentes versiones, por lo que requiere de compatibilidad entre versiones. Una modificación en un distribuido es más difícile hacer llegar.
+
+**Estilos distribuidos.**
+
+Componentes que luego de ser desplegados se conectan de alguna forma.
+
+1.	**Modularidad:** Es separar componentes que prestan servicios 
+
+2.	**Disponibilidad:**Es mayor que en monolítica, podemos tener multiples copias de un componente, que esté disponible significa que sea más barato, tener una copia entera de un monolitco es mucho más caro que copiar el componente distribuido que necesitamos que escale. Microservicios aprovecha recursos.
+
+3.	**Uso de recursos:** Es m{as f{acil gestionar los recursos del sistema
+
+4.	**Adaptabilidad:** Al ser distribuido se puede detewctar mucho más fácil qué componente necesita ser adaptado del sistema y es más fácile realizar esa actualización // en monolítos puede ser mucho más complicado, como lanzar una app en un sistema operativo  diferente.
+
+**¿Como elijo qué necesito?**
+
+Tener en cuenta los requisitos, los objetivos de negocio / arquitectura de software, atributos de calida/ Estrategias de arquitectura, Escenarios/ Desiciones arquitectonicas. Con el fin de analizar que sacrificios, riesgos y no riesgos cuento y como impacta en mi proyecto
+
+
+Un producto muchos estilos
+
+Poyecto PlatziServicios:
+
+
+
+
+
+
+
+Pregunta:
+
+Es posible realizar un lenguaje de programación visual?
+Que sea en forma de lego, se tiene piezas con forma definidas que podrían ser los tipos de variables, las redes, módulos. A cuyas cosas se le escriben funciones para que hagan algo específico...
+
+Es decir, si fuese a traducri cadad una de las estructuras de datos a formas geométricas qeu se ensamblan, a qué formas habría de recurrir?
+
+

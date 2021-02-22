@@ -1,0 +1,1855 @@
+__________________________________________________________________________________________________
+TEMA: Bienvenida conceptos básicos y contexto histórico de las Bases de Datos
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Historia de la persistencia de la información.
+
+En búsqueda de dejar huella de la ideas, la huamnidad empezó a tallar piedras, pieles, papiros y papel, acetatos de celulosa, pasamos por el disco y llegamos a la nube.
+
+BD. del tipo relacionales y no relacionales. Clásicamente se ha trabajado las relacionales, las abses de datos no relacionales son un forma de almacenamiento emergente.
+
+Existen bases de datos que son administradas y dependen de un humano que vele pro las actualizacioens, y demás gestiones.
+Existen no adminitradas que se valen de servicios que hacen las operaciones de mantenimiento.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+__________________________________________________________________________________________________
+TEMA: HISTORIA DE RDB
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Esquema de arquitectura de von Newman.
+Los 12 mandamiento s de COD
+https://www.w3resource.com/sql/sql-basic/codd-12-rule-relation.php
+
+
+
+DML trata del contenido de la base de datos. Son las siglas de Data Manipulation Language y sus comandos son:
+
+Insert: Inserta o agrega nuevos registros a la tabla.
+Update: Actualiza o modifica los datos que ya existen.
+Delete: Esta sentencia es riesgosa porque puede borrar el contenido de una tabla.
+Select: Trae información de la base de datos.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Entidades y atributos
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+**RESUMEN**
+Así como en POO, las entidades son objetos que son modelables de la realidad, las entidades pueden ser de dos tipos:
+**Entidades fuertes**:No dependen de ninguna otra entidad para existir.
+**Entidades débiles**:No pueden existir sin una entidad fuerte. Se representan con un cuadrado de doble línea.
+**Débiles identidad**:No se diferencien entre sí más que por la clave.
+**Débiles por existencia**: Significa que aunque agregues un ID propio a esta entidad, si por contexto depende de una entidad fuerte, es débil por existencia.
+__________________________
+Las entidades poseen atributos. Los atributos pueden ser:
+**Compuestos**: Poseen atributos en sí mismos.
+**Llave**: Son atributos que identifican a las entidades  de los demás. Las llaves pueden ser naturales o artificiales.
+**Naturales**:  Son aquellas identificaciones que por su naturaleza identifican al atributo.
+**Clave artificial**: Son las identificaciones que se asignan arbitrariamente para identificar un atributo.
+**Multivaluados:** Atributos que poseen muchos de sí mismo se encierra en un doble círculo.
+
+
+
+
+RESUMEN:
+
+
+
+Una entidad es algo similar a un objeto (programación orientada a objetos) y representa algo en el mundo real, incluso algo abstracto. Tienen atributos que son las cosas que los hacen ser una entidad y por convención se ponen en plural.
+
+Los atributos compuestos son aquellos que tienen atributos ellos mismos.
+
+Los atributos llave son aquellos que identifican a la entidad y no pueden ser repetidos. Existen:
+
+
+Naturales: Son inherentes al objeto como el número de serie
+Clave artificial: No es inherente al objeto y se asigna de manera arbitraria.
+Entidades débiles: No pueden existir sin una entidad fuerte y se representan con un cuadrado con doble línea.
+
+Identidades débiles por identidad: No se diferencian entre sí más que por la clave de su identidad fuerte.
+Identidades débiles por existencia: Se les asigna una clave propia.
+
+
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Relaciones
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:____________________________________________________________________________________________________
+
+
+Las relaciones son la forma de ligar entidades, se representan con un rombo en lo que se usan verbos. La cardinalidad es una propiedad de las relaciones y está asociado con conjuntos y relaciones.
+0 a 1: Puede que exista un elemento sin asociar
+1 a 1: Solo un elemento puede tener otro elemento asociado.
+1 a n: Un elemento tiene muchos otros elementos asociados.
+0 a n: Un elemento puede estar asociado a muchos elementos.
+n a n: Muchos elemento puede estar asociado a muchos elementos.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Diagrama Físico: tipos de datos y constraints
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Para llevar a la práctica un diagrama debemos ir más allá y darle detalle con parámetros como:
+
+Tipos de dato:
+
+Texto: CHAR(n), VARCHAR(n), TEXT
+Números: INTEGER, BIGINT, SMALLINT, DECIMAL(n,s), NUMERIC(n,s)
+Fecha/hora: DATE, TIME, DATETIME, TIMESTAMP
+Lógicos: BOOLEAN
+
+
+
+Constraints (Restricciones)
+
+NOT NULL: Se asegura que la columna no tenga valores nulos
+UNIQUE: Se asegura que cada valor en la columna no se repita
+PRIMARY KEY: Es una combinación de NOT NULL y UNIQUE
+FOREIGN KEY: Identifica de manera única una tupla en otra tabla
+CHECK: Se asegura que el valor en la columna cumpla una condición dada
+DEFAULT: Coloca un valor por defecto cuando no hay un valor especificado
+INDEX: Se crea por columna para permitir búsquedas más rápidas 
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Diagrama Físico: normalización
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+Formas normales son reglas para normalizar bases de datos.
+
+Reducir columnas repetidas y atomizarlas.
+Los campos de la tabla deben estar una sola vez. Separar tablas.
+Campos no clave no deben tener dependencias.
+Los campos multivaluados se identifican por una clave única.
+
+
+La normalización como su nombre lo indica nos ayuda a dejar todo de una forma normal. Esto obedece a las 12 reglas de Codd y nos permiten separar componentes en la base de datos:
+
+Primera forma normal (1FN): Atributos atómicos (Sin campos repetidos)
+Segunda forma normal (2FN): Cumple 1FN y cada campo de la tabla debe depender de una clave única.
+Tercera forma normal (3FN): Cumple 1FN y 2FN y los campos que NO son clave, NO deben tener dependencias.
+Cuarta forma normal (4FN): Cumple 1FN, 2FN, 3FN y los campos multivaluados se identifican por una clave única.
+
+
+Cero: El sistema debe calificar como relacional, como base de datos y como sistema de gestión
+Uno: Información
+Dos: Garantía
+Tres: Nulos
+Cuatro: Catálogo
+Cinco: Sub-lenguaje
+Seis: Updating
+Siete: Alto nivel
+Ocho: Independencia física
+Nueve: Independencia lógica
+Diez: Integridad
+Once: Distribución
+Doce: No sub-división
+
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+__________________________________________________________________________________________________
+TEMA: Diagrama Físico: normalizando Platziblog  y Formas normales en DB relacionales
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+En esta clase vimos como se ven las entidades con las columnas que lo componen, el tipo de variable que se almacenará y sus restricciones. Cada relación x a x tiene una respuesta en la otra entidad. Es decir, 1 a n posee un id primario en (1) y un foráneo en (n) que es la forma en la que realmente se unen. Vimos que las relaciones n a n requieren de una tabla pivote que es intermediario en las relaciones.
+
+
+
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Historia de SQL
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+SQL significa Structured Query Language y tiene una estructura clara y fija. Su objetivo es hacer un solo lenguaje para consultar cualquier manejador de bases de datos volviéndose un gran estándar.
+
+Ahora existe el NOSQL o Not Only Structured Query Language que significa que no sólo se utiliza SQLen las bases de datos no relacionales.
+
+SQL tiene dos grandes sublenguajes:
+DDL o Data Definition Language que nos ayuda a crear la estructura de una base de datos. Existen 3 grandes comandos:
+
+Create: Nos ayuda a crear bases de datos, tablas, vistas, índices, etc.
+Alter: Ayuda a alterar o modificar entidades.
+Drop: Nos ayuda a borrar. Hay que tener cuidado al utilizarlo.
+3 objetos que manipularemos con el lenguaje DDL:
+
+Database o bases de datos
+Table o tablas. Son la traducción a SQL de las entidades
+View o vistas: Se ofrece la proyección de los datos de la base de datos de forma entendible.
+
+
+
+RESUMEN:
+
+
+DDL:
+Data definition Lenguage.
+
+CREATE me permite crear instancias de tablas, vistas, indices, funciones, triggers-
+ALTER Altera la estructura de 
+TRUNCATE
+COMMENT
+RENAME
+
+DML
+Data Manipulation Lenguage
+
+SELECT
+Se encarga de proyectar o mostrar datos.
+
+El nombre de las columnas o campos que estamos consultando puede ser cambiado utilizando AS después del nombre del campo y poniendo el nuevo que queremos tener:
+SELECT titulo AS encabezado
+FROM posts;
+Existe una función de SELECT para poder contar la cantidad de registros. Esa información (un número) será el resultado del query:
+SELECT COUNT(*)
+FROM posts;
+
+
+"Select nos permite tomar los datos que queremos mostrar, filtrar y manipular"
+
+FROM indica de dónde se deben traer los datos y puede ayudar a hacer sentencias y filtros complejos cuando se quieren unir tablas. La sentencia compañera que nos ayuda con este proceso es JOIN.
+
+Los diagramas de Venn son círculos que se tocan en algún punto para ver dónde está la intersección de conjuntos. Ayudan mucho para poder formular la sentencia JOIN de la manera adecuada dependiendo del query que se quiere hacer.
+
+INNER JOIN Intersección 
+OUTER JOIN
+
+INSERT
+UPDATE
+DELETE
+MERGE-UPSERT
+CALL
+EXPLAIN PLAN
+LOCK TABLE
+
+DCL
+Data Control Lenguaje
+
+
+GRANT
+REVOKE
+
+TCL
+
+COMMIT
+ROLLBACK
+SAVEPOINT
+SET TRANSACTION
+
+
+
+QUERYS
+
+
+WHERE es la sentencia que nos ayuda a filtrar tuplas o registros dependiendo de las características que elegimos.
+
+La propiedad LIKE nos ayuda a traer registros de los cuales conocemos sólo una parte de la información.
+La propiedad BETWEEN nos sirve para arrojar registros que estén en el medio de dos. Por ejemplo los registros con id entre 20 y 30.
+
+El valor nulo en una tabla generalmente es su valor por defecto cuando nadie le asignó algo diferente. La sintaxis para hacer búsquedas de datos nulos es IS NULL. La sintaxis para buscar datos que no son nulos es IS NOT NULL
+
+AND me permite filtrar con whre de manera más concreta
+GROUP BY me permite agrupar datos según un criterio.
+
+
+La sentencia ORDER BY tiene que ver con el ordenamiento de los datos dependiendo de los criterios que quieras usar.
+
+ASC sirve para ordenar de forma ascendente.
+DESC sirve para ordenar de forma descendente.
+LIMIT se usa para limitar la cantidad de resultados que arroja el query.
+HAVING tiene una similitud muy grande con WHERE, sin embargo el uso de ellos depende del orden. Cuando se quiere seleccionar tuplas agrupadas únicamente se puede hacer con HAVING.
+
+
+El interminable agujero de conejo (Nested queries)
+Los Nested queries significan que dentro de un query podemos hacer otro query. Esto sirve para hacer join de tablas, estando una en memoria. También teniendo un query como condicional del otro.
+
+Este proceso puede ser tan profundo como quieras, teniendo infinitos queries anidados.
+Se le conoce como un producto cartesiano ya que se multiplican todos los registros de una tabla con todos los del nuevo query. Esto provoca que el query sea difícil de procesar por lo pesado que puede resultar.
+
+SELECT: Lo que quieres mostrar
+FROM: De dónde voy a tomar los datos
+WHERE: Los filtros de los datos que quieres mostrar
+GROUP BY: Los rubros por los que me interesa agrupar la información
+ORDER BY: El orden en que quiero presentar mi información
+HAVING: Los filtros que quiero que mis datos agrupados tengan
+
+Preguntándole a la base de datos
+GROUP_CONCAT toma el resultado del query y lo pone como campo separado por coma
+.
+
+Categorías y usuarios.
+
+
+______________________________________________________________
+
+
+___________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: ¿Qué son y cuáles son los tipos de bases de datos no relacionales?
+Respecto a las bases de datos no relacionales, no existe un solo tipo aunque se engloben en una sola categoría.
+
+Tipos de bases de datos no relacionales:
+
+Clave - valor: Son ideales para almacenar y extraer datos con una clave única. Manejan los diccionarios de manera excepcional. Ejemplos: DynamoDB, Cassandra.
+Basadas en documentos: Son una implementación de clave valor que varía en la forma semiestructurada en que se trata la información. Ideal para almacenar datos JSON y XML. Ejemplos: MongoDB, Firestore.
+Basadas en grafos: Basadas en teoría de grafos, sirven para entidades que se encuentran interconectadas por múltiples relaciones. Ideales para almacenar relaciones complejas. Ejemplos: neo4j, TITAN.
+En memoria: Pueden ser de estructura variada, pero su ventaja radica en la velocidad, ya que al vivir en memoria la extracción de datos es casi inmediata. Ejemplos: Memcached, Redis.
+Optimizadas para búsquedas: Pueden ser de diversas estructuras, su ventaja radica en que se pueden hacer queries y búsquedas complejas de manera sencilla. Ejemplos: BigQuery, Elasticsearch.
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Servicios administrados y jerarquía de datos
+Firebase es un servicio de Google donde puedes tercerizar muchos elementos en la nube.
+Jerarquía de datos:
+
+Base de datos
+Colección
+Documento
+__________________
+
+
+Top level collection con Firebase
+El modelo de bases de datos no relacionales es un poco más cercano al mundo real en su comportamiento.
+
+Las top level collections son las colecciones que se tienen de inmediato o entrada en el proyecto.
+Firebase es un servicio que tiene múltiples opciones y está pensado principalmente para aplicaciones móviles y 
+web.
+
+La particularidad de las top level collections es que existen en el primer nivel de manera intrínseca. Las subcolecciones ya no vivirán al inicio de la base de datos.
+
+Si tienes una entidad separada que vas a referenciar desde muchos lugares es recomendado usar un top level collection. Por el otro lado si se necesita hacer algo intrínseco al documento es aconsejable usar subcolecciones.
+
+
+
+
+
+______________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: 
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+LECTURAS MAESTRAS:
+RESÚMEN MAESTRO:
+GLOSARIO UNIVERSAL DE TÉRMINOS:
+ATAJOS:
+
+
+******************************************************
+MODULO: INTRODUCCION SQL Y MySQL
+
+******************************************************
+TEMA: La consola de MySQL
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+Las bases de datos deberían ser lo más cercanas posibles a la máquina. Por eso usamso consola
+Existen muchas formas de conectarse mediante drivers,  OBRM object reletionships manager.
+
+Lo importante es entender que está haciendo la interfaz por detrás. La terminal es tu amiga.
+Las interfaces gráficas suponen un ligero retraso en a manipulación de los datos.
+
+Para acceder a mi base de datos uso mysql -u root -h localhost -p  Me permite acceder a mysql mediante el usuario root a un host que es local, y que me permite ingresar el password de acceso. Por buenas prácticas no es ideal adjuntar el password despuñes de -p debido a que si quiero usar una conexión con un servidor externo estaría enviando la contraseña abierta.
+
+Para saber que bases de datos están en mi server: show databases:
+
+// El informatio schema es una bd principal. Tenemos toda la meta información de las tablas, columnas.
+// Para acceder a una base de datos puntual usamos ----> use + nombreBD:
+// Para listar las tablas que tengo en la base de datos uso ----> show tables: 
+// Para saber en que base de datos estoy:.---> select database(): Es una función.
+
+Consola ejecuta los comando escritos. Es conocer bien la mayor cantidad de comandos que podemos escribir.
+
+**PROBLEMAS**
+
+---> Windows
+
+**CASO_1**
+
+Al ejecutar el comando mysql -u root ... me retorna command not found. Esto puede deberse a que no es posible invocar a MySql  porque la ruta del directorio de MySQL bin no está en las Variables de entorno PATH del sistema de Windows.
+
+**RESPUESTA_1**
+
+1. En terminal al estar en la raiz y simplemente arrastrar a la pantalla la ruta en la que se encuentra ej: C:\Program Files\MySQL\MySQL Server 5.6\bin , automáticamente se abrirá en consola y podrás continuar con el material del curso.
+
+2. En las variables de entorno del sistema (MiPC/Propiedades/Configuración Avanzada del sistema/Opciones Avanzadas/Variables de entorno/) o en inicio escribir "Variables de entorno" allí es posible añadir el PATH- Se copia la ruta de MySQL bin y se añade mediante ;  o desde el cuadro emergente. Es importante que el PATH esté en el lado del Usuario.
+____________________________________
+
+Al ejecutar el mismo comando: mysql -u root ...
+
+Luego,  tengo dos errores diferentes y sucede en diferentes consolas. en cmd, powerShell, Windows cmder:
+ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO) (PASSWAORD YES)
+https://stackoverflow.com/questions/21944936/error-1045-28000-access-denied-for-user-rootlocalhost-using-password-y/42967789#42967789
+
+
+Este error tiene que ver con los servicios del OS, hay que iniciar el servicio de MySQL manualmente. En el panel de servicios.
+ERROR 2003 (HY000): Can't connect to MySQL server on 'localhost' (10061)
+r: 
+https://stackoverflow.com/questions/119008/cant-connect-to-mysql-server-on-localhost-10061
+
+En hyper, ubuntu. 
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+r:
+https://stackoverflow.com/questions/11657829/error-2002-hy000-cant-connect-to-local-mysql-server-through-socket-var-run
+
+
+PREGUNTAS:
+______________________________________________________
+
+______________________________________________________
+
+**RESUMEN**:
+______________________________________________________
+
+```
+<code>
+
+```
+______________________________________________________
+TEMA: La consola de MySQL
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+
+Una base de datos, es un lugar dodne almacenamso datos puntuales de cualquier tipo para poder operar sobre ellso y convertirlos en información, operaciones de negocio y conocimiento. El como operamos sobre lso datos lo logra.
+La forma de MySQL es una forma es un modelo relacional entre tablas dependientes entre sí.  Las conexiones entre tablas nos brinadn mucha información, podemos crear mucha más información que los datos por sí solos. Es decir, podemos realizar consultas, podemos preguntarle a la data. 
+
+
+
+
+PREGUNTAS:
+______________________________________________________
+
+______________________________________________________
+
+**RESUMEN**:
+______________________________________________________
+
+```
+<code>
+
+```
+______________________________________________________
+TEMA: Comando CREATE.
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+
+**RESUMEN**:
+______________________________________________________
+
+
+En esta clase empezaremos creando las dieferentes tablas que requerimos para las operaciones. La cantidad de tipos de datos en MySQL es enorme, en el sistem de archivos está la lista de de tipos y subtipos de datos.
+Dos principales tipos de tablas por defecto:
+innoDB y Myisam
+InnoDb es un tipo de tabla robusta, segura en caso de fallas en disco duro y es lenta.
+Myisam es una tabla directa, sencilla, y las operaciones y transacioens 1 a 1.  La lectura y escrituro es mayor.
+
+Estas condiciones afectan la estrategia en el momento de crear la base de datos.
+
+Tablas que crecen lento: Hacerlas en innoDB para realizarlas robustas.
+Tablas que crecen rápido, tulizamso mucho y tienen acceso a disco duro: Hacerlas en Myisam para darles agilidad al sistema
+
+PREGUNTAS:
+______________________________________________________
+
+______________________________________________________
+
+**RESUMEN**:
+______________________________________________________
+
+```
+<code>
+
+```
+______________________________________________________
+TEMA: Tipos de columnas/Creación de la tabla Books.
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+https://disenowebakus.net/tipos-de-datos-mysql.php
+
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+
+iniciamos con---> CREATE DATABSE  platzi_operation;
+
+creamos DB----> CREATE DATABASE IF NOT EXISTS platzi_operation;
+Si ay existe, dirá que el Query es OK, está blindado y no será arrojado como error
+
+muestra---> SHOW warnings.
+La DB no peude crearrse por que ya existe.
+
+CREATE DATABSE platzi_operation; Me arroja un ERROR como un error porque ya existe.
+
+Nota: Cuando te arroja empty sets quiere decir que no hay nada de data en lo que estás consultando.Cuando te conectas en un driver las tuplas son nulas.
+
+**Tip**: Cada tabla se llame en el plural del sustantivo que vamos a guardar. Si guardas libros pues la tabla deberá llamarse LIBROS. Y de preferencia en ingles.
+Convention over configuration.
+**Tip**: No se gurdan archivos binarios en la base de datos relacional, nunca guardar una imagen, pero si  una referencia.
+**Tip**: Lo que necesita toda tabla es un ID. para ubicar a cada tupla de manera única, un entero autoincremental.
+
+CREATE TABLE IF NOT EXIST books ( 
+	book_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+	author, // Se deja sin indicar debido a que posteriormente tendrá un campo numérico ID en una tabla distinta.
+	title VARCHAR(100) NOT NULL, // Estamos diciendole que exija un dato no nulo, es decir que exista algo, asi sea un espacio, pues los espacios aunque invisibles ocupan memoria.
+	year INTEGER UNSIGNED NOT NULL DEFAULT 1900, // Si no le envío nada por defecto me pondrá un valor determinado. (1900),
+	lenguaje VARCHAR (2) NOT NULL DEFAULT 'es' COMMENT//  Convencion de idiomas en dos letras, comentarios solo los ven los que tienen acceso a la estructura.
+	cover_url VARCHAR (500),
+	price DOUBLE (6,2) NOT NULL DEFAULT 10.0,// Decimales. Escribame 6 digitos, y 2 decimales. Por lo que tengo 4 en las unidaes y 2 decimales.
+	
+________BANDERAS:
+	sellable TINYINT (1) DEFAULT 1, // Se puede vender si o no.
+	copies  INTEGER NOT NULL DEFAULT 1,
+	description TEXT
+
+);
+
+Llave primaria autoincremental. Al borrar una tupla el número autoincremental lo que hace es que sigue con el número en el que iba, MySQL no detecta la tupla eliminada.
+El número que existe en esta columna no necesariamente es la Cardinalidad de la tabla.
+La cardinaldiad es el número de elementos de un conjunto en esta tabla.
+
+Podemos hacer que un INTEGER sea +/- o,  Solo positivo: No almacena en el campo de byte  el signo, por lo que sea horran potencias de dos para mejorar el espacio.
+UNSIGNED No almacena el simbolo por lo que almacena solo positivo.
+
+NOTA: Los datos numéricos pueden ser del tipo TINYINT,SMALLINT,MEDIUMINT,INT O INTEGER, BIGINT. El tipo de dato entero que hoy en día circula en algunos contextos ya pasó la capacidad del tipo de dato INTGER existente,esto en casi cualquier lenguaje de programción, y si decidieramos almacenarla como string y luego castearla a int tendríamos un problema de overhead.
+
+
+CREATE TABLE IF NOT EXIST books ( 
+	book_id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+	author, 
+	title VARCHAR(100) NOT NULL,
+	year INT UNSIGNED NOT NULL DEFAULT 1900, 
+	lenguaje VARCHAR (2) NOT NULL DEFAULT 'es' COMMENT 'Ninguno'
+	cover_url VARCHAR (500),
+	price DOUBLE (6,2) NOT NULL DEFAULT 10.0,
+	sellable TINYINT (1) DEFAULT 1, 
+	copies  INT NOT NULL DEFAULT 1,
+	description TEXT
+);
+
+PREGUNTAS:
+______________________________________________________
+
+______________________________________________________
+
+**RESUMEN**:
+______________________________________________________
+
+```
+<code>
+
+```
+______________________________________________________
+TEMA:Tipos de columnas / Creación de la tabla authors
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+
+MySQL permite mayuscuñas y minusculas en palabras reservadas y en entradas.
+Tip: Palabras reservadas en mayus.
+La relación es lógica, al almacenar en la base de datos la msima información.
+La tabla books tendrá una referencia en author a la tabla author.
+
+describe authors me permite listar en forma d tabla todo el contenito, campo, tipo, null, key, default, extra.
+show full columns from + table;
+
+CREATE TABLE IF NOT EXISTS books ( 
+	book_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+	author INTEGER UNSIGNED, 
+	title VARCHAR(100) NOT NULL,
+	year INTEGER UNSIGNED NOT NULL DEFAULT 1900, 
+	lenguaje VARCHAR (2) NOT NULL DEFAULT 'es' COMMENT 'Ninguno'
+	cover_url VARCHAR (500),
+	price DOUBLE(6,2) NOT NULL DEFAULT 10.0,
+	sellable INT(1) DEFAULT 1, 
+	copies INTEGER NOT NULL DEFAULT 1,
+	description TEXT
+);
+
+CREATE TABLE IF NOT EXIST author (
+
+	author_id INTEGER UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+	name VARCHAR (100) NOT NULL,
+	nationality VARCHAR (3) NOT NULL,
+	
+
+);
+
+
+
+PREGUNTAS:
+______________________________________________________
+
+______________________________________________________
+
+**RESUMEN**: 
+______________________________________________________
+
+```
+<code>
+
+```
+______________________________________________________
+
+TEMA: Tipos de columnas usando/Creación de tablas de clientes
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+
+Tener un autoincrement desde el inicio de las aplicaciones me permtie tener consistencia en los datos
+
+Timestamp y Datetime
+Los dos se escriben yyyy-mm--dd hh:mm:ss la diferencia es la manera e nc omo se guarda.
+
+Timestamp está basado en el número EPOC,  desde 1970 hasta la fecha, es un reljo funcional que tiene las computadores, es un numero entero que despues se forma en yyy
+Datetime es un valro cualquiera. Se guarda de una forma distitna y no es tan eficiente a la hora de hacer calcul..s
+Enum ('X'...'X+1') es una enumeración de datos. Cuales opcioens puede tomar esta DB.
+
+Tip: Siempre tener una columan que sea activa.  Nunca borrar una tupla, desactivarlas.
+active TINYINT (1) NOT NULL DEFAULT 1;
+
+Current_Timestamp: Cuando se inserte un dato, o venga vacío por defecto me tomará la hora actual del computador.
+create_at columna que meustra TIMESTAMP
+update_at columnas muestra cuando se actualizaa un dato. de TIMESTAP-
+
+Son meta nformación qu ebrinda información al modelo de negocios.
+
+
+
+
+PREGUNTAS:
+______________________________________________________
+
+______________________________________________________
+
+**RESUMEN**:
+______________________________________________________
+
+```
+<code>
+
+```
+
+______________________________________________________
+
+TEMA INSERT 
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+Evitar duplicar la inforamción lo más posible.
+ El comando INSERT puede realizarse una sola vez para añadir diferentes valores
+
+INSERT INTO authors (name, nationality)
+VALUES (...,...),(...,...),(...,...),(...,...),(...,...);
+
+
+
+PREGUNTAS:
+______________________________________________________
+
+______________________________________________________
+
+**RESUMEN**:
+______________________________________________________
+
+```
+<code>
+
+```
+______________________________________________________
+
+TEMA Comando on duplicate key
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+
+Select *from +table
+
+ON DUPLICATE KEY UPDATE SET variable = VALUES (variable) sirve para cuando encuntre un valor duplicado actualice el valor con el que estoy enviando.
+
+IGNORE ALL--> SI hay algun error lo ignora y lo ejecuta sin problemas. Es muy mala práctica.
+
+Si cerramo con diagonal g \G me meustra la información de manera legible.
+Existen subquerys, o queris anidados. El tiempo se eleva al caudrado por cada tupla que necesitemos trabjar.
+
+
+
+// Hay forma de como meter archivos bien formados en formta SQL desde la terminal.
+
+mysql -u root -p < all_schema.sql
+
+//mysql -u root -p -D base de datos < all_schema.sql   menor que hhabla sobre tecnología unix, ajena a SQL.
+
+SELECT es la herramienta modular más importante,  me peermite realiza consultas mediante el nombre de la columna. Crea un atabal diseñada con la información que ya existe.
+
+
+
+Para no traer toos los datos uso LIMIT, y va hasata el final LIMT n
+
+FROM
+
+WHERE
+
+Los manejadores de datos tienen muchas funciones. (Consultar dodnes están estas funciones) year me extrae el año de una fecha, puedo operar matemáticamente entre las columnas.
+
+funciones de columnas.
+like es una función de comparación. sirve para buscar cercanía de textos.
+
+los aliases as , me crea un nombre para la operación = year - year (birtday) , un nombre de columnas en el nuevo display d ela tabla del query.
+
+
+between me sirve apra mostrar intervalos
+
+JOIN es una relación entre tablas
+inner join 
+
+SELECT . c.name, b.title,t.ytpe
+FROM transaction as t
+join books as b
+	on t.book_id = b.book_id
+join clients as c
+	on t.client_id = c.client_id
+
+Left join es un cruce de tablas.
+
+
+
+select a.author_id, a.name, b.title
+from authors as a
+left join books as b
+	on b.author_id = a.author_id
+where a.author_id between 1 and 5
+order by a.author_id;
+
+
+select a.author_id, a.name, b.title
+from authors as a
+inner join books as b
+	on b.author_id = a.author_id
+where a.author_id between 1 and 5
+order by a.author_id;
+
+
+Group by y count, me cuenta n dat. y me lo agrupa en un pivote, diciendome cual es el dato que no repite.
+
+
+
+Existe full outher join
+outher join
+... excluding join.
+
+
+Tener claros los requisito.
+
+¿Que nacionalidades hay?
+
+SELECT DISTINC nationality FROM authors; // Me trae solo las nacionalidades sin repetir, incluyendo el null.
+SELECT DISTINC nationality FROM authors ORDER BY nationality; //me lo ordena en forma alfabética de manera ascendente.
+
+¿Cuantos escritores hay de cada nacionalidad?
+
+// Le estoy diciendo, selecione nacionalidad, cuentemelos por el ID del autor y pongame una columna de esa cuenta que haga con el nombre/alias de c_authors
+// Traiga todo esto de la tabla de autores, agrupelos por la nacionalidad y ordenelos de mayor a menor en términos de cantidad.
+// Devuelvame todo lo que no sea nulo y deiscrimineme a Rusia y Austria de la busqueda.
+
+SELECT nationality, COUNT(author_id) as c_authors
+FROM authors
+WHERE nationality IS NOT NULL
+	AND nationality NOT IN ('RUS','AUT')
+GROUP BY nationality
+ORDER BY c_authors DESC, nationality   // Puedo darle tantos parámetros de ordenamiento como quiero. Ordena en orden de los parámetros que le digo separados por coma.
+;
+
+¿Cual es el promedio/desviación estandar del precio de libros?
+
+SELECT nationality,  
+  COUNT(book_id) as libros, 
+  AVG(price) as prom, 
+  STDDEV(price) as std
+FROM books AS b
+JOIN authors as a
+  ON a.author_id= b.author_id
+GROUP BY nationality
+ORDER BY libros
+;
+
+
+SELECT nationality,  
+  COUNT(book_id) as libros, 
+  AVG(price) as prom, 
+  STDDEV(price) as std
+FROM books AS b
+JOIN authors as a
+  COLUMNS a.author_id= b.author_id
+GROUP BY nationality
+ORDER BY libros
+;
+
+
+¿Cual es el precio máximo/mínimo de un libro?
+
+SELECT nationality,
+ MAX(price), MIN(price)
+ FROM books AS b
+ JOIN authors as a
+	On a.author_id= b.author_id
+GROUP BY nationality
+;
+
+
+REPORTE FINAL
+
+SELECT c.name, t.type, b.title,
+ CONCAT (a.name, " (", a.nationality, ")") as autor,
+ TO_DAYS (NOW()) -  TO_DAYS (t.created_at)
+FROM transactions AS t
+LEFT JOIN clients AS c
+ ON c.client_id = t.client_id
+LEFT JOIN books AS b
+ ON b.book_id = t.book_id
+LEFT JOIN authors AS a
+ ON b.author_id =a.author_id
+;
+ 
+
+
+REPORTEE FINAL.
+
+aPRENDÍ SOBRE FUNCIONES NUEVAS, CONCAT Y TO_DAY concat me permite concaenar columans, to day me permite realizar operaciones desde la feca 000-000.00 del calendario gragoriano hasta el día de hoy.
+
+DELET*FROM TABLE borra toda la tabla.
+
+rand() aleatoriament
+
+delete y update limit 1. para que solo me borre uno.
+delete from authors where author_id =n limit 1
+
+select count(*) from authors
+
+UPDATE tabla
+SET
+ columna= 'email'
+WHERE
+ columna_id =n
+LIMIT
+
+
+Truncate me permite eliminar los valores de la tabla.
+
+"Super Querys"
+
+La idea es generar una matriz, para realizar consultas inteligentes, condiciones marcadas columna a columna.
+
+
+SELECT DISTINCT nationality FROM authors;
+
+UPDATE authors SET nationality = 'GBR' where nationality = 'ENG';
+
+select sellable, sum (price*copies) from books group by sellable;
+
+CONDICIONES:
+
+SELECT COUNT(book_id), sum(if(year<1950,1,0))as ' Mne' from books
+
+
+Comando alter es la forma de moficiar el esquema de una base de datos.
+
+
+ALTER table autohors add column nombre de columna integer default after name.  La modificación sucede hasta el final de esta tabla, me creará una columna de nombre n como entero.
+
+modificar el nombre de uan tabla se hace con Alter y modify
+alter table authors modify columna nombre de columna year default
+
+
+alter table authors drop column nombre column nombre de columna, mue remueve la columan entera.
+
+shows table like '%i%' el like se puede usar en tables y data bases.
+
+
+Una forma de hacer backups // herramienta del siste,a-
+mysqldump -u root -p nombre de la base de datos
+Los datos se respaldan no se versionan.  Los esqueman se versionan con el código.
+Optimizar querys para ganar microsegundos
+
+iNNOdb MYiSSAM hablan del storage engine.
+
+PREGUNTAS:
+______________________________________________________
+
+**RESUMEN**:
+______________________________________________________
+ACID (Atomicidad, Consistencia, Aislamiento y Durabilidad)
+```
+<code>
+
+```
+______________________________________________________
+
+TEMA
+______________________________________________________
+
+**REFERENCIAS**:
+______________________________________________________
+
+[](url)
+______________________________________________________
+**NOTAS**:
+______________________________________________________
+
+
+
+******************************************************
+EXÁMEN: MYSQL
+******************************************************
+
+
+El operador para cruzar dos o más tablas en MySQL es:
+b
+
+Asumiendo un query que está bien escrito y que las dos tablas en cuestión no son vacías, ¿cuál es el principal problema cuando se omite el campo de unión entre dos tablas tras cualquier JOIN?
+c---NO el query une todas las tuplas de una tabla con otra.  a.
+
+¿Cuál de los siguientes comandos se usa para listar las bases de datos existentes en la instalación de MySQL?
+a
+
+En una tabla que almacene los datos personales de nuestros clientes, la restricción de UNIQUE es muy útil en una columna que almacene:
+a---NO--->b
+
+El caracter para denotar “todas las columnas” en una sentencia deSELECT es:
+b
+El campo de indentificador de cualquier tabla, debe ser (con respecto a lo visto en el curso):
+c
+
+Una vez que estamos dentro de la base de datos “library”, ¿cuál de los siguientes comandos sirve para listar todas las tablas que contengan la cadena de caracteres “books” en su nombre?
+a----NO---c show TABLES like...
+
+El comando para conocer la estructura de una tabla es:
+a
+
+El tipo de tablas MYSIAM es mejor para:
+b
+
+El formato correcto para agregar una tupla a alguna tabla, es:
+c
+
+¿Qué carácter denota el final de una sentencia de SQL en MySQL?
+b
+
+Si queremos que un campo no se pueda repetir en toda la tabla, usamos:
+d
+
+En MySQL, con una base de datos diseñada con respecto a la convenciones normales (vistas en el curso), las tablas se relacionan unas con otras a través de:
+d
+
+El tipo de tablas InnoDB tiene una de sus mayores desventajas en:
+a
+
+Una estrategia útil para almacenar imágenes generadas/usadas por nuestra aplicación en la base de datos es:
+c
+
+MySQL es una base de datos tipo:
+c
+
+¿Qué columna nunca debe faltar en una tabla de una base de datos relacional?
+d
+
+
+Asumiendo que existen las tablas books y authors con sus respectivas columnas de identificación, cuál de las siguientes sentencias es correcta a continuación de […] FROM books AS b JOIN authors AS a:
+d---NO---?????----// Si la respeusta es ON porque me la marca mala? a--->NO--->b
+
+
+
+La función TO_DAYS(fecha) regresa, el número de días desde:
+b---NO--->c
+
+¿Cuál de los siguientes es una consulta o query bien formado? (asumamos que existe una tabla llamada books con al menos una columna llamada book_id )
+a
+
+Según lo visto en clase, lo más importante antes de crear nuestra aplicación (con base de datos), es:
+a
+
+La sentencia que evita que se dupliquen datos y/o se violen reglas de unicidad en MySQL es:
+d la respuesta tiene un pequeño typo. Dice voluma1
+
+El comando para modificar el valor de una o más columnas en una tabla es:
+b
+
+Si quiero almacenar una fecha/hora sin restricciones de año, debo usar:
+a
+
+Según lo visto en clase, lo más importante antes de crear nuestra aplicación (con base de datos), es
+a
+
+Asumiendo que (a) […] FROM books JOIN authors […] y (b) […] FROM books, authors […] son sentencias equivalentes, a la segunda se le conoce comunmente como:
+c JOIN IMPLICITO.
+
+El comando para modificar la estructura de una tabla es:
+a---NO---d ALTER
+
+Selecciona la única opción correcta para completar el enunciado: el commando UPDATE , por definición permite:
+b---NO?---C
+
+El wildcard (caracter para denotar “lo que sea”) en una cadena de caracteres en MySQL es:
+d
+
+
+El wildcard (caracter para denotar “lo que sea”) en una cadena de caracteres en MySQL es:
+%
+
+
+¿Cuál de los siguientes comandos sirve para movernos a una base de datos específica? (supongamos que la base de datos se llama “library”):
+c
+
+El comando para explorar/traer el contenido de una tabla es:
+c ---NO----b
+
+El operador para traer sólo X número de tuplas tras hacer un query es:
+d
+
+
+Al diseñar todas las tablas de una base de datos relacional, una de las grandes ventajas mencionadas en el curso es:
+c---NO---b NO--->d--->NO---A
+
+Según lo visto en el curso, ¿cuál de los siguientes formatos es correcto (por convención) para nombrar una tabla?
+a NO--->b--->NO--->c
+
+Los dos tipos más comunes de tablas (por diseño) son:
+d
+
+
+
+******************************************************
+#    **CURSO:Postgresql**
+******************************************************
+* LECTURAS MAESTRAS:
+* RESUMEN MAESTRO:
+* GLOSARIO UNIVERSAL DE TÉRMINOS:
+* ATAJOS:
+
+##   **TEMA:Configurar Postgresql**
+
+**||||||||||||||||||||||||||||||||||||||||||||||||||||||**
+####    **NOTAS:**
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+Es un motor de bases de datos.
+Lenguaje, motor, servidor.
+El motor estructura todo dentro de un servidor, el servidor es un pc que procesa.
+
+Es una base de datos open source,
+PostGis servicio de geolocalización.
+PL/PgSQL es una forma de escribir código dentro de postgres para no depender de un backend.
+Cumple el estándar ACID.
+Atomicidad, Consistencia, Aislamiento, Durabilidad.
+
+Atomicidad, puedo separar una gran tarea en pequeñas tareas, si todas terminan bien pues ok, si no se hace un roolback
+Se dice que cada transacción es atómica, si una parte de la transacción falla, la transacción completa debe fallar.
+
+
+Consistencia, todo lo desarrollado está relacionado, los datos tienen congruencia entre si.
+Solo se escribirán datos válido en la base de datos, si una transacción viola las reaglas de coherencia d ela base de datos, la transacción completa se revertirá y la base de datos se restaurará a un estado anterior coherente con esas reglas.
+
+Isolation varias tareas ejecutandose al mismo tiempo en la BD. Tener aisladas las funcioens dentro de la BD.
+En caso de afectar al mismo conjunto de datos la base de datos debe realizar la transacción completa de uno u otra transacción, esta porpiedad no garantiza cual transacción se ejecuta primero, simplemente las transacciones no interferirán entre sí cuando se trate de la misma porción de datos.
+
+
+
+Durabilidad La seguridad de que la información no se va a perder, postgres guarda en una bitacora y luego hace el cambio efectiva en la BD, si algo falla, va y lee la bitacora y luego la pone en BD.
+De no cumplir los requisitos, no debería considerarse confiable.
+Son copias de seguridad de la base de datos y registros de transacciones que facilitan la restauración de transacciones compromentidas a pesar de cualquier falla de software o hardware. Postgresql usa archivos WAL. que son las bitácoras d emodificaciones. EN caso de falla el motor revisa la bitácora y evalúa en qué momento se produjo la falla para restaurar las modificaciones a partir de ése moemnto.
+
+
+Porque posgresql?
+Integridad de datos, concurrencia, rendimient, fiailidad, recuperación ante desastres, seguridad, extensibilidad, internacionailzación. Uber AIRBNB, Netflix.
+
+
+TEOREMA DE CAP:
+
+Para seleccionar qué tipo de base vamso a necesitar hay que tener en cuenta los Requisito de calidad o requerimentos no funcionales.
+R.no Funcionales son aquellos atributos inherentes a la operacion del sistema y de su comportamiento. Es importante definirlos desde el inicio del desarrollo del proyecto porque es a partir de ellso que se toman las desiciones más costosas del proyecto.
+
+
+* Consistencia, garantiza que una lectura nos retornará la escritura más recienet de un registro dado. La información siemrpe está accequible desde cualquier nodo y la inforamción siempre será la msima.
+
+* Disponibilidad,Un nodo en funcionamiento nos debe retornar una respuesta razonable en unperiodo razonable de tiempo. /No timeOut.
+
+* Tolerancia al particionamiento: El sistema nos debe seguir funcioando aunque algunos nodos no se encuentren disponibles. a que la información es consistente.
+
+El teorema habla de que puedo solo garantizar dos de tres atributos.
+
+CP- Consistencia y tolerancia al particionamiento:
+No garantiza la disponibilidad al 100%-El sistema está enfocado a aplicar los cambios de forma consistente aunque se pierda comunicación con algunos nodos.
+
+AP-Disponibilidad y tolerancia particionamiento:
+En este caso no se garantiza que los datos sean iguales en todos los nodos todo el tiempo. El sistema estará disponible para las peticiones aunque se peirda la comunicación entre nodos.
+
+CA-Consistencia y disponibilidad:No se permite el particionado d elos datos, porque se garantiza que los datos siempre son iguales y el sistema estará disponible respondiendo todas las peticiones.
+
+SQL son CA porque todas las escrituras y lecturas se hacen sobre la misma copia de lso datos.
+MongoDB ofrece velocidad en el almacenamiento y acceso a la información consistentemente.
+
+**Interacción con Postgres desde la Consola**
+
+Por consola puedo solucionar problemas que por interfaz gráfica no puedo.
+
+\? Accedo al listado de todos los comandos que posee Postgres
+
+**Comando de navegación y sconsutla***
+\l Me enlista todas las bases de datos actualmente en el sistema, hay unas bases datos por defecto.
+\dt lista las bases de datos de postgres, de manera predeterminada la BD de postgres es privada, debido a que es parte del nucleo. Muestra las tablas.
+\d + nombre_tabla describe una tabla
+\dn Lisar los esquemas de la base de datos actual
+\df Lista las funcioens disponibles de la base de actual
+\dv Listar las vistar de la base de datos actual
+\du Listar los usuarios y sus roles de la base actual
+\c + nombreBD Sirve para acceder a otra base de datos.
+
+** Comandos de inspección y ejecución**
+
+\s Ver el historial comandos ejectuados
+\s + nombre_archivos Si se quiere guardar la lista de comandos ejecutdas en un archivo de texto plano.
+\i nombre_archivo Ejectuar los comandos esde un archivo
+\e Permite abrir editor de texto plano, escribi comando y ejecutarse en lote, abre el arhcivo escribe allí comando, cierra el archivo y luego ejecuta todos los comandos guardados.
+\ef Lo mismo que \e pero me permite editar funcioens SQL.
+\h  Me permite ver todas los comandos SQL  y para consultar como funciona cada SQL \h nombre_de_comando
+SELECT version(); Me permite ver que versión de postgres está instalada, debido a que postgres maneja SQL las sentencias deberán terminar en ;
+\g me permite volver a ejecutar la función que acabo de ejecutar previamente, es muy util para revisar errores, y me permtie encintrar otros servicios que acceden a la base de datos.
+
+
+** Comandos para debug y optimización**
+\timing me permite saber desde consola cuanto tarda n comando.
+
+**Comando para cerrar la consola**
+ \q Cerrar la consola
+
+
+ctrl+ c cancelar
+ctrl+ l limpiar pantalla
+\! cls Sirve para borrar?
+
+Funciones de las bases de datos mostradas en postgrest
+	cast: Transformación de tipos de datos explicitos.
+	Ctalogs para catalogar medaitne subdirectorios
+	Triggers: Ejecutar según acciones
+	Extensiones: Por externos, creadas. Modulos
+	Foreing Data Wrappers: Accesos a bases de datos remotos.
+	Lenguages: Idiomas
+	Schemas: El mas importante, nos permite ver la información propia de la tabla.
+		Aquí están las tablas.
+El DASHBOARD te meustra lo que está sucediendo en la BD. Las transacciones enla base de datos que se ejcutan, se corren el background, consulta en postrgres para hacer consutlas asi mismo, mediante con su propio motor de busqueda.
+
+
+Query tool es un editor de consultas SQL, aquí el estandar es que en las funciones esten en mayúscula.
+
+
+ARCHIVOS DE CONFIGURACIÓN:
+	DIRECTORIO DE INSTALACIÓN: 
+LA CAUSA DE PROBELMAS PARA CONFIGURAR  son estos 3 archivos:
+
+postgresql.conf
+ Es quizá el archivo principal de configuración, es posible abrirlo con un editor de texto plano y ver su contenido. En este sucede mucha de la magia que está detrás de todo el servicio de postgres, cuenta con líneas comentariadas y descripción detallada de qué es lo que hace y cómo lo hace, aquí puedo conetcar un backend con un servidor, ver las replcias o copias que se hacen de mi BD, una buena práctica consiste en revisar todo este material para entender que es lo que hace.
+
+Cabe tener en cuenta que los comentarios # Significan qu ela base de datos sigue ejecutando estas configuraciones auqnue estén coemntariado,  y que para ver efectivamente la configuración modificada y/o ajustada debo reiniciar psotgres.
+
+
+pg_hba.conf
+
+Muestra roles, tipos de accesos a la base de datos. Autenticación, fuentes y demás. 
+5 columnas, la fuente, las acciones, los usuarios, la dirección y el método de autenticación.
+Si configuro mal la BD no puedo ni conectarme a mi propia base de datos.
+md5 es un algoritmo de encriptación.(Dame mas de este)
+Si no quiero que le pida contraseña a mis usuarios puedo modificar lso métidos como trust
+Puedo configurar desde donde puedo escuchar las ip de mis diferentes usuarios.
+
+Replication es el nombre d ela BD que está compaindo mis datos.
+
+Si tenemos conociemitno de un servicio maligno en nuestro sistema, podemos bloquear el host que se intenta conetar a nosotros. Y le ponemos deny al metodo para restringir esa IP.
+Es posible crear una estructura más profesional desde aqui..
+
+
+
+
+pg_ident.conf
+
+Nos permite mapear a los usuarios.
+AL tener servicios  que corren en diferentes OS, usuarios root y demás, le permite a postgres decir que usairo local del OS corresponde a que rol de la BD.
+
+admin, sudo,  o User correspone a un rol del sistema-postgres.
+
+Le estoy diciendo a postgres que X usuario que está ingresando a postgres me lo asigne como administrador o x rol. Logra que algunos equipos que tienen una configuracion predetereminada no peudan saltarse sus permisos.
+
+
+**Comandos más utilizados en PostgreSQL
+
+Tipos de datos unicos de postgres, 
+
+Geometricos
+Dirección de red
+Texto tipo bit
+XML,JSON
+Arreglos
+
+///// 
+Diagramando.
+
+Poner primero lso objetos tangibles como tables, clientes pasajeros, personas, estaciones, trenes, cuentas, casas.
+Tener presente que cuando las cosas sean objetos y tengan verbos puedo crear relacioens, o tablas de relaciones.
+Las relaciones entre entidades no tangibles suelen ser entidades muchos a muchos. Puedo tener muchos trayectos y mchos vaijes,
+
+Estándar de postgres es nombretabla_pkey
+
+
+
+PARTICIONES:
+
+Al tener mucha información en la base de datos, y si quisiera hacer una consulta la BD tendrá que recorrer toda la información para encontrar la inforamción que busco.
+Las tablas corresponden a un espacio en memora.
+
+
+Separación física de datos y conserva la misa Estructura lógica, loq ue hace es seprarse en disco, en diferentes espacios.
+Con el mismo nombre de la tabla se asocian diferentes rangos de la tabla, peude ser por rangos.
+
+Si quisiera buscar en un rango, pues me permite ir a solo ese rango.
+Esto me permite relizar que las tablas sean más eficientes al hacer que no se sature por exceso de consultas.
+
+No es posible crear llaves primarias en tablas particionadas a qeu la información esta toda divida. Normalmente las tablas particionadas es apra cuando queramos guaradr infromación en bmasa, se usa coo bitacora que gurada como refrencia a las llaves primarias externadas
+
+
+CREACIÓN DE ROLES
+
+CREATE ROLE- DROP ROLE.
+
+Los roles pueden crear o eliminar otros roles, tienen login. pueden agruparse, y hay roles predeterminados.
+
+Para crear ROL-- CREATE ROLE usuario_consulta; Alias CREATE USER.
+
+\h CREATE ROLE me muestra todas las caracteristicas.
+\dg nos lista toda la inforamción de los usuarios y atributos que tiene.
+
+Para darle y modificar permisos:
+ ALTER ROLE usuario_consulta WITH LOGIN;
+ ALTER ROLE usuario_consulta WITH PASSWORD 'etc123';
+
+DROP ROLE usuario_consulta; Me borra el usuario determinado.
+
+Para añadir permisos de forma masiva:
+
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE public."ESTACION" TO usuario_consulta;
+
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE public."PASAJERO" TO usuario_consulta;
+
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE public."TRAYECTO" TO usuario_consulta;
+
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE public."TREN" TO usuario_consulta;
+
+GRANT INSERT, SELECT, UPDATE, DELETE ON TABLE public."VIAJE" TO usuario_consulta;
+
+
+
+LLAVES FORÁNEAS.
+
+
+Se refiere a la relación existente entre las tablas. Todas las tabals tienen relación entre sí y la informaicón es congruente.
+
+Tabla de origen
+Tabla destino
+Acciones.
+
+ALTER TABLE public."TRAYECTO" DROP CONSTRAINT trayecto_estacion_fk; 
+
+// Esta me permite modificar las llaves foráneas que quiere crear par alas rtelaciones entre tablas.
+
+ALTER TABLE public."TRAYECTO"
+    ADD CONSTRAINT trayecto_estacion_fk FOREIGN KEY (id_estacion)
+    REFERENCES public."ESTACION" (id) MATCH SIMPLE
+    ON UPDATE CASCADE
+    ON DELETE CASCADE
+    NOT VALID;
+
+INSERCIÓN Y CONSULTA DE DATOS.
+
+Mediante el script INSERT. puedo insertar datos.
+
+INSERT INTO public."TRAYECTO"(
+	id, id_tren, id_estacion, nombre)
+	VALUES (?, ?, ?, ?);
+
+
+Mediante el script DELET puedo eliminarlos.
+
+DELET FROM public.tren
+	where id=1; //Me borra la línea que quiero.
+
+Mediante script UPDATE  puedo actualziar datos.
+
+UPDATE public. "TREN"
+	SET id=1
+	where id =2;
+
+CRUZAR TABLAS CON JOIN.
+
+Teoria de conjuntos.
+
+JOIN, LEF RIGHT Y FULL.
+
+
+FUNCIONES ESPECIALES DE POSTGRES
+
+ON CONFLICT DO
+Nos ayuda a solucionar conflicto al insertar datos en una tabla. SI queremos insertar un dato ya existente...nos actuliza
+
+INSERT INTO piblic.table(
+	id, x,y )
+	VALUES (1,'a','b')
+	ON CONFLIC (id) DO UPDATE SET x='a', y='b';
+
+
+
+
+RETURNING
+Nos permite devolver los datos para confirmar que quedó bien.
+
+INSERT INTO piblic.table(
+	id, x,y )
+	VALUES (1,'a','b')
+RETRUNING *;
+
+
+LIKE/ILIKE
+Busquedas tipo REGEX
+
+SELECT nombre
+	FROM public.tabla
+	WHERE nombre LIKE '';
+
+LIKE tien dos comando o dos atributos.
+
+ %: es 1 o cualquier valor
+ _: Es solo 1
+
+La diferencia entre like y Ilike es que Ilike tiene en cuenta mayúsculas y minusculas
+
+
+
+IS/ISNOT
+Nos permite comprara dos tipos de datos para saber si es tru o false.
+
+
+FUNCIONES ESPECIALES AVANZADAS:
+
+COASLESCE
+Me permite comparar dos valores y retornar cual no es null.
+
+SELECT id, COALESCE ( nombre, 'No Aplica') nombre...
+	FROM pulic.pasajero WHERE id =1;
+
+Me retorna en la columna de nombre No aplica  al entender que el valor comparado es NULL.
+
+NULLIF;
+Me permite comaprar dos valores y retorna null si son iguales.
+
+SELECT NULLIF (O,O);
+
+
+GREATEST:
+Me permite compara un arreglo de valores el mayor
+
+SELECT GREATES (1,2,3) Devuelve 3
+
+LEAST:
+Me permite compara un arreglo de valores el menor
+
+SELECT GREATES (1,2,3) Devuelve 1ç
+
+BLOQUES ANÓNIMOS:
+Me permite ingresar condicionales dentro de una cosnulta de bases de datos.
+
+SELECT id,  nombre...
+CASE 
+WHERE fecha>xxx.xx.xx THEN
+'Retorne cualquier cosa'
+ELSE
+'Me retorna si no encentra nada'
+END
+	FROM public.table;
+
+VISTAS:
+Las consultas a veces serán repetidas multiples veces, y para eso existen las vistas.
+La idea es que yo ejecute solamente SLECT*FROM nombre_vista para resumir toda la consulta
+
+
+Vistas volátiles: Simpre que hago la consulta reciente.
+Vistas Materializada: Persistente. Solo hago la consulta una vez y esa info queda en memoria, la siguiente vez que la conuslte la trae d ememoria. Si no actualizo la vista matieraliza puedo traer nada actualizado. Es util apra las consultas de ayer. y que no va cambiar.
+
+
+PL/PsSQL
+PL son procedimeitnos alamcenados. Nos ayuda a desarrolar códgo en als bases de datos. Van a cosnultsas de bs.
+
+// Estoy llamando a los pasejeros de pasajeros, lso nombre y les digo que se almacenen en rec, luego con contador le digo que me cuente cuantos humanos hay.
+
+DO $$
+DECLARE
+	rec record;
+	contador integer :=0;
+BEGIN 
+ FOR rec IN SELECT*FROM "PASAJERO" LOOP
+ 	RAISE NOTICE 'UN humano se llama% ', rec."Nombre";
+    contador := contador+1;
+ END LOOP;
+ 	RAISE NOTICE 'Hay % humanos', contador;
+END
+$$
+
+
+// Para llamar a una función lo único que puedo hacer en encapsularla. eS INDISPENSABLE DETERMINAR QUE TIPO DE LENGUAJE ESTÁ USANDO-
+
+
+CREATE FUNCTION nombreFuncion()
+  RETURNS void
+AS $$
+DECLARE
+	rec record;
+	contador integer :=0;
+BEGIN 
+ FOR rec IN SELECT*FROM "PASAJERO" LOOP
+ 	RAISE NOTICE 'UN humano se llama% ', rec."Nombre";
+    contador := contador+1;
+ END LOOP;
+ 	RAISE NOTICE 'Hay % humanos', contador;
+END
+$$
+LANGUAGE PLPGSQL;
+
+
+DROP FUNCTION  nombreFuncion()// Me vacía de memoria la memoria previamente alamcenada en memoria.
+
+
+CREATE  or REPLACE FUNCTION nombreFuncion()
+  RETURNS integer / le digo que tipo de dato quiero que me retorne, si le digo void, no trae nada.
+AS $$
+DECLARE
+	rec record;
+	contador integer :=0;
+BEGIN 
+ FOR rec IN SELECT*FROM "PASAJERO" LOOP
+ 	RAISE NOTICE 'UN humano se llama% ', rec."Nombre";
+    contador := contador+1;
+ END LOOP;
+ 	RAISE NOTICE 'Hay % humanos', contador;
+	RETURN contador;
+END
+$$
+LANGUAGE PLPGSQL;
+
+SELECT  nombreFuncion(); // Llamo la función.
+
+CREANDO FUNCIÓN DE PGADMIN.
+---
+
+TRIGGERS
+
+INSERT
+UPDATE
+DELETE
+truncate
+
+Se lanzan cuando alguna de esas funciones.
+
+
+DATOS EXTERNOS.
+
+dblink Me permite conectarme a servidores remotes dentro de una consulta.
+
+//Primero debe crearse la extensión.
+
+CREATE EXTENSION dblink;
+
+
+// Realizamos  la conexión.
+
+SELECT * FROM "PASAJERO"
+JOIN
+dblink
+	   ('dbname=remota
+	   port=5432	
+	   host=127.0.0.1-----> Esto puede variar dependiendo de donde se encuentre la IP de mi servicio a conectar.
+	   user=postgres
+	   password=toor', 
+	   'SELECT id, fecha FROM vip')
+	   AS datos_remotos(id integer, fecha date)
+
+USING (id) ----> Es equivalente a ON (...id = ...id)
+	   
+
+
+TRANSACCIONES:
+
+Así como en las transacciones de un cajero, que la transaccion fañlló Si algún proceso de esta falla todo se detiene.
+ACID atomicidad, la base de datos debe poder devolver todos los cambios automaticamente
+
+Iniciar transaccion de varias tareas que se ejecuten bien o si no devuelva.
+
+BEGIN Inicia el motor de base de datos que tenemos que hacer lo siguiente
+COMMIT me guarda todos los cambios si lelgamso al final.  Si dejamos esto al final prosigue con el script
+ROLLBACK Si algo falla devuelvame todo, me deshace todo lo que hicimos. Postgres lo hace de manera implicita por debajo y po reso no lo deja,
+Para usarlo de manera explícita se puede hacer en un PL que vaya después de un insert.
+
+Si no tiene nada y no tiene autocommit, ninguna transaccion, aun no debe aparecer nada de lo que ejecuté debido a que no le he echo commit a nada. Pero todo el script queda en memoria.
+
+
+
+OTRAS EXTENSIONES DE POSTGRES
+
+Muchas extensiones no están activas en postgres por defecto, muchas de estas sirven para hacer calculos, análisis, prototipado, para machine learning se activan asi:
+
+CREATE EXTENSION nombreextensión;
+
+SELECT script ().
+
+fuzystrmatch contiene comparación de strings  y leveshtein contiene comparación de caracteres para qeu sean igual!!!! Super poder para Genetica.
+Y el script difference me compara COMO SUENEA!!! Siri usa esto para entender la vces....
+
+
+Para hacer backups:
+
+Compresion ratio:
+
+custom: formato unici de pstgres, soo sirve ahi, es la mas potente.
+tar: archivo comprimido que contiene la base de datos
+plain: sql plano. las cosnutlas insert
+directory:  estructur sin comprimir.
+
+pg Dum es la funcion que me permtie realizar backups.
+
+
+Postegres hace mantenimiento isn consentimietno.
+Vacum. Quita las cosas que no están funcionando.  Dejar iflas marcadas para borrar despues.
+
+Dos niveles de limpieza
+LIVIANO se ejecuta toodo el tiempo y está limpaidno BD.
+FULL bloquea ls tablas para hacer limpeiza y luego desblouqea. No involucra humanos a menos que sea necesario. Cuando als tablas tienen problemas de idneación sucede esto.
+FREEZE congela y limpia
+ANALIZE analiza pero no ejecuta limpieza, indice de rendimiento X.
+
+Verbose mensaje me meustra en pantalla que está ucediendo.
+
+
+ANALIZE no hace cambios, solo muestra.
+REINDEX aplca apra llaves primarias y busquedas. Puedo encotnrar problamas para tablas grandes cuando indices somas grandes que tablas
+CLUSTER Le decimos al motor que reorganice la información en el disco.
+
+Es mejor hacer estas labores de manera automática.
+Mantenimiento tiene que ver con fisica y electronica.
+
+
+La opción manteinance Se peude hacer a nivel de bd o tablas.
+Para tablas solo afecta tabla en BD podría llegar a bloquear todas las tablas.
+
+
+
+
+
+REPLICAS
+
+Son mecanismos que nos permiten evitar problemas de entrada y salida. Es la solucion para los problemas d electura y escritura de mi bd. POseo límites físicos y electronico de almacenamiento, no puedo leer mientras modifico y visceversa. Las replicas son la solucion, tener uan bd principal donde se modifica todo. Y una secundaria para las lecturas.
+Solo se configura dos serves de postgres 1 maestro y otro como esclavo. Todas las modificaciones se hacen sobre Master, las lecturas sobre las copias.
+
+Al configurar maestro y replicas no podré hacer cambios en replicas.
+
+IOPS In operations per second. Es una limitante, server usa n IOPS.
+
+jelastic: Plataforma como ervicio.
+
+Evitar los bloqueos por inserciones.
+
+
+
+
+
+
+
+#### **PREGUNTAS:**
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+* 
+* 
+* 
+
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+#### **RESUMEN PARCIAL**:
+______________________________________________________
+
+```
+<code>
+
+```
+
+#### **REFERENCIAS INTERESANTES**:
+______________________________________________________
+
++ [teorema CAP](https://platzi.com/blog/que-es-el-teorema-cap-y-como-elegir-la-base-de-datos-para-tu-proyecto/)
++ [NoSQL](https://platzi.com/blog/aplicaciones-bases-datos-no-relacionales-nosql/)
++ [Instalación](https://platzi.com/clases/1480-postgresql/24177-instalacion-y-configuracion-de-la-base-de-datos/)
++ [Tipos de datos más usados](https://todopostgresql.com/postgresql-data-types-los-tipos-de-datos-mas-utilizados/)
++ [Tipos de datos](https://www.postgresql.org/docs/11/datatype.html)
++ [Generador de data](https://mockaroo.com/)
++ [Chapter 39 PL/pgSQL - SQL Procedural Language](https://www.postgresql.org/docs/9.2/plpgsql.html)
++ [pgSQL](https://www.postgresql.org/docs/11/index.html)
+
+
+******************************************************
+### **PROBLEMAS DE INSTALACIÓN**
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+"La variable de entorno comSpec no está apuntando a cmd.exe." 
+
+Inicialmente dice que hay que remover el punto y coma al final de la ruta en el entorno de variables del sistema, sin embargo, no aparece, o si haces un test de "echo %comspec% te devuelve que "C:\Windows\system32\cmd.exe" sin problemas.  Para arreglar este problema lo que debes hacer es configurar una nueva variable, las variables de entorno de USER  y no del Sistema en el entorno de variables de windows, es sencillamente añadir "Nueva" y en la ruta poner ->
+C:\Windows\system32\cmd.exe. Listo instala siemrpe como administrador.
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+
+
+## EXÁMEN:
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+
+¿Qué formato debes usar si queremos ver la consulta equivalente a nuestra base de datos al momento de hacer Backup?
+
+c Plain
+
+¿En una PL/PgSQL se puede ejecutar código tanto SQL cómo no SQL?
+c Siempre y cuando el lenguaje indicado sea Pl.
+
+La creación de llaves primarias y llaves foráneas en una tabla sólo se puede hacer con el comando CREATE TABLE.
+a
+
+Dos comandos de cierre para una transacción son:
+d
+
+
+¿Cuál versión de PostgreSQL es recomentable instalar?
+b NO ->a
+
+Vacuum Full es peligroso porque:
+a
+
+Las extensiones nos permiten:
+b
+
+¿Es posible usar bloques condicionales de tipo IF en una consulta de PostgreSQL?
+c
+
+La principal diferencia entre Vistas y Vistas Materializadas es:
+a NO---e
+
+Con PgAdmin sólo puedes modificar la estructura de base de datos de manera visual, no hay editor de código.
+a
+
+¿Cuáles dos acciones podemos capturar de una tabla maestra usando llaves foráneas?
+d
+
+
+La principal limitación de rendimiento que tenemos en bases de datos es:
+
+d
+
+
+Un forma de representar relaciones entre tablas es por medio de:
+e
+
+
+¿Es posible actualizar la información en una réplica?
+a NO
+
+¿Cuál de los siguientes tipos de datos permite texto?
+c NO--->a
+
+En la teoría de conjuntos, el INNER JOIN corresponde a:
+
+a
+
+¿En qué consiste la creación de particiones de una tabla en Postgresql?
+c NO--a
+
+
+Es importante crear ROLES y dejar de usar el predeterminado de Postgres porque:
+c
+
+¿Cuál es el comando que nos muestra la lista de todos los comandos tipo backslash disponibles en la consola?
+a NO ---d
+
+
+Para alivianar los IOPS de la base de datos podemos:
+a
+
+¿Cuáles son los 3 archivos principales de configuración de PostgreSQL?
+d
+
+
+Las replicas funcionan usando:
+b NO--->c
+
+Podemos usar DBLINK en medio de una consulta
+b
+
+El tipo de dato SERIAL sirve para:
+a
+
+¿Qué es Postgresql?
+
+c
+
+La única forma de insertar datos en una tabla usando un generador de datos aleatoreos es:
+b
+
+¿Los TRIGGERS pueden ser usados para ignorar inserts?
+d
+
+
+La relación entre objetos tangibles normalmente se traduce en:
+c
+
+
+ON CONFLICT DO nos permite:
+d
+
+
+¿Cuál comando nos sirve para activar la medición de tiempo de las consultas en la consola?
+e
+
+||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+bba9fa1ac6d278a99b95545a7ffe4235 -> Un mensaje de amor para ella encriptado.

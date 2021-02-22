@@ -1,0 +1,568 @@
+PLATZI
+https://platzi.com/clases/programacion-basica/
+_________________________________________________________________________________________________________________
+TEMA: Lección Peso en otro planeta
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+
+Aprendí que existe la necesida de parseInt o parseFloat, para convertir un númeor texto que se recibe,  un númeor entero trabajable, aprendi sobre los condicionales If ELSE if ELSE. Estructura de bloque código no se cierra con punto y coma, saltos de línea con back slash  alt + 92
+ \
+
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: Objetos del navegador:
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			_________________________________________________________________________________________________________________
+NOTAS:
+
+Navigator ( Navegador) Atributos de sistema operativo. Tengo acceso al disco duro mediante LocalStorage. Puedo acceder el GPS mediante la antena wifi del laptop.
+
+Window (Las ventanas) Ventanas flotantes como las de bancolombia, se usa window como nuevas ventanas, botones que cierran paginas, se hace cn window. Mediante eventos.
+
+Document ( Interno del navegador). Contiene cada elemtno de la página web. Visuales con los que interactua el usuario.
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: DOM, Document Objet Model.
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+_________________________________________________________________________________________________________________
+NOTAS:
+
+Crea un arbol de datos.
+
+La forma en el el navegador organiza toda la información mediante una estructura. Un arbol de datos. 
+Las etquites tienen un orden o jerarquía y es importante conocerlos debido a qué los objetos Document, Wondow y Naigator dse relacionan fuertemente en su lectura con este entramado.
+
+El árbol tien como raíz HTML y se subdividae en head, Body, //title , H1, P, SCRIPT y cualquier rama. 
+
+Console.log(), para depurar en consola, permite entender como está escrito un objeto pro dentro para poder sacarla la mayor cantidad de datos. Que objetos tiene y qué atributos posee
+
+
+Console.log(Window.location);
+Console.log(Console);
+
+ctrl+w ciera documento.
+
+
+Tarea, revisar console.log de todos los objetos, docuemnt, write, y navigator.
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: DIBUJANDO CON Javascritp.
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+_________________________________________________________________________________________________________________
+NOTAS:
+
+Se usa mediante etiqueta canvas. Las lineas y los procesos de las lineas hay que especificarlos. Pero se pueden agrupar en funciones para no repetir tanto.(Conozco la libreira p5.js) pero como las uso en un solo proyecto?
+
+
+Funciones, me permiter acortar mucho camino de cosas que necesito escribir multiples veces.
+
+*las variables en teoría se pueden usar con el mismo nombre, ambito de variables
+*Antialiasing es el borde de lso pixeles que se dibujan en el límite.
+*Variable ++ para l=l+1  para los ciclos for
+
+Buscar ciclo do while: Hacer mientras. Los ciclcos siguen contandose hasta que termina de cumplirse la condición.
+
+ámbito de variables:
+
+El ámbito de las variables  se refiere a qué dependiendo de donde se establezcan las variables en el código toman un carácter o globlal o local.
+Y el código tendrá acceso a dichas al ser leído. Por ejmplo, una variable local, en una función nunca será llamada de manera global y no podrá usarse en demás líneas del código.
+
+
+// Manejadores de evento permiten que las fuciones ocurran, Los eventos son funciones que se disparan
+En javascript sucede que los manejadores de eventos se llaman addEventLisener	
+
+Las funciones al estar cerradas: F() se ejecutan inmediatmente con junto se depura el código, sin embargo cuando F  no está cerrada : addEventLisener("click", F) la función se ejecuta dentro de la condición de que el evento ocurra.
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: DETECTAR TECLAS DEL TECALDO.
+_______________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+_________________________________________________________________________________________________________________
+NOTAS:
+Tiene como propósito dibujar con las teclas del teclado.
+El análisis se hace. Entendiendo:
+
+1. Como detecto cuando el usuairio teclea una flecha?
+2. Cual es el evento? KeyDown o Key Up?
+3. Como hago que el código entienda la última línea donde terminó para que empiece desde allí?
+
+
+los ASCII son guardados internos del computador par todas la steclas.
+El evento key down detecta la presión sostenida.
+
+Aprendí sobre las colecciones de variables.
+Núemros que signidfican algo precisan de variables fijas.
+Las variables deontro d elso conuntos de variables. Variables cuasi constantes se ubican en mayúsculas. No cambian durante mucho tiempo.
+
+JSON javascritp object notation es una artimaña que usa javascript para transmitr datos. La sisntaxis es parecida cuando ahblo de conjuntos de variables.
+
+INSTRUCCIÓN Switch (Estructura de control)
+
+¿MI USO DE SWICHT HACE MA´S FACIL DE LEER CÓDIGO? // COndición de uso.
+
+Agrupa los casos, entre case y break; es muy util para comparar una cosa inicial y una cosa final no apra establecer mayor qu eo menor que y demas oepradores.
+
+Desventaja,  la sisntaxis es particular.
+
+
+defalult. break;
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: DIBJUANDO CON TECLADO.
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+6040000 
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: Clases y Arrays en JavaScript
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+Atributos comunes son el mismo objeto.
+Por lo que no deberíamos clonarlos.
+Se agregan los 3 como un mismo oobjeto.
+Objeto literal atributos únicos.
+
+Las definiciones dle objeto son las clases.
+
+Uno instancia un objeto cuando  se quiere usar los atributos de un mismo objeto.
+Habilidades como vida, ataque, nombre del objeto Pakiman.
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+__________________________________________________________________________________________________
+TEMA: Fizz Buzz
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:		
+_________________________________________________________________________________________________________________
+NOTAS:_____________________________________________________________________________________________________
+
+
+
+Escrii los numeros del 1 al 100
+ Fizz para cuando es divisible por 3
+Y buzz por los divisibles por 5
+Y fizz buzz en los que son didivisbles por ambos.
+
+El residuo de una división es el módulo, en java es %
+
+4/3 es 1,333
+4%3 es 1 porque sobra 1 mod
+
+Describir de grande a pequeño.
+
+Escribir lso números del uno al 100
+si es divisible por ...
+
+En programación se ejectua primero la operación matemática, luego las comparaciones y por ultimo la instrucción.
+
+
+_________________________________________________________________________________________________________________
+TEMA: Clases y Arrays en JavaScript
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+Propósito de esta clase es enseñar arrays y clases en JavaScript  mediante un juego de objetos.png
+
+Los objetos con atributos iguales son instancias de una clase.
+
+Las variables que viven dentro de las llaves solo viven en la función.
+
+Las clses en JavaScript refieren sus fnciones con this.
+This es un indicador de la instancia de la clase.
+
+
+Cuando se escribe condio dentro del constructor se sobre entiende que todo allí es una funcón, debido a que aplica para todas las variables que se creen.
+
+
+En el inspector.
+
+Arrys se almacenan en corchetes  Es una variable que está dividida en multiples espacios.
+
+var cajitas =[]
+cajitas
+[]
+cajitas[0] ="Nunca";
+"Nunca"
+cajitas[1] ="Etrx";
+"Etrx"
+cajitas
+(2) ["Nunca", "Etrx"]
+cajitas.push="Developer"
+"Developer"
+cajitas
+(2) ["Nunca", "Etrx", push: "Developer"]
+
+
+Es posible escribir un array donde las posiciones [0,1,2,n...] sean texto. 
+cajitas["nombre"]="Platzi";
+"Platzi"
+cajitas["nombre"]
+"Platzi"
+
+Esto se hace con el fin de que el valor del texto sea equivalente al nombre de las imágenes a cargar.
+Se crean un diccionario de equivalencias.
+Arrays Asociativo, es cuando la posición es un string. Esto lo puedo asociar a los objetos que uiero. 
+En este caso las imagenes .png.
+
+
+Añadimso la imagen sin agregar canvas.
+
+
+Si html o discrimina de la fuente src para interpretar el .js en el explorador. 
+¿Puedo modificar un html(abierto)  y decirle que me lea un script de x locación?
+
+
+Push tambien sirve con las intancias de un objeto.
+
+var colección = [];
+colección.push(cauchin)
+
+
+Ciclos FOR especiales.
+
+Existe una forma de que me cuente los objetos y los indicadores.
+In para indicadores.
+Of para objetos.
+
+(for n in/of colección )
+
+Y en consola me meustra los indicadores.
+
+
+
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+Es posible crear un cursor de set focus que vaya a una posición deseada al ser arrastada con el mouse? El problema es que el set focus titilea al final de una palabra, pero si quiero que se posicione en la mitad de una hoja debo de ingresar los espacio de tabulación y asíc construir un texto, tabla... etc.
+
+Puedo yo, usar el evento del cursor para arrastrar esa propiedad? Y que se ajusta a la línea donde se encuentra...
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: Diagrama de Flujo del Cajero Automático
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+Para realizar este ejercicio es necesario manejar un algoritmo que me permita encontrar diferentes condiciones.
+
+1. Cantidad total de billetes en el cajero.
+2. El cajero debe darme la mínima cantidad de billetes para completar el monto que le pide el usuario.
+3. Si el cajero no tiene billetes no puede entregar esa cantidad.
+4. Si el valor pedido sobre pasa los billetes, el cajero no puede entregarlo.
+
+Algoritmo explicado:
+_____________________
+
+
+La idea es hacer un ciclo que pase por todas las denominaciones de los billetes. Que pase primero por la máxima cantidad. 
+Se divide el valor solicitado entre el billete de más alta denominación, y se realiza un Math.floor (operacióN) para poder discriminar los decimales y quedarse con la parte entera. Esto último es porque no existen 2.3333 billetes. El dinero se entrega físico. Luego, la cantidad de billetes entregado * el valor del billete me da el monto que lleva el cajero contando. Por lo cual es necesario restar la cantidad original al valor anterior, así:
+
+Debido a qué existen objetos con los mismos atributos es necesario crear una clase. La clase billetes, poseen atributos iguales. Valor.Cantidad.
+Al crear el array se debe indicarle el valor que poseen los billetes. 50,20,10.  Y la cantidad.
+La idea es que el algortimo reciba n cantidades de billetes de x denominaciones.
+
+caja []
+
+For b of caja.
+
+Iteración si NcantidadPedida=0.
+
+CantidadBilletesMínima(b) = (Math.Floor(NcantidaPedida/Xmax))
+
+// Aquí pasa algo, tengo que meter un condicional, porque si la cantidad de billetes no está disponible debo decirle al programa que solo entregue los disponibles.
+
+div>B.Cantidad
+
+Total= Ncantidad pedida - [(Math.Floor(NcantidaPedida/Xmax)) * Xmax] 
+
+o
+
+Total= Ncantidad pedida - [ b * Xmax] 
+
+
+
+En java Script se lee primero las funciones variable y clases.
+
+CASTEAR es el cambio de un tipo de variable a otras.
+
+Aunque el texto sea valdiado a Number en html. Es necesario hacer cambios mediante parseInt. Porque la función Floor solo recibe NUMEROS.
+El parseInt recibe texto que volverá numeros enteros.
+
+inner HTML es la forma apropiada de escribir un document.Write.
+Es un atributo de la variable etiqueta de html
+
+
+Operador +-= dice que la variable es la suma o resta  de sis mismo con otra cosa.
+
+Desafíos:
+
+
+Toma el código y ahora muestra los billetes entregados con imágenes.
+ 
+
+Crear el código para ir guardando el estado de billetes del cajero y poder verlo visualmente
+ 
+
+Intenta optimizar el código que hemos escrito
+
+
+Que se quede en cero.
+Que sepa cuanto dinero tien eel ATM y cuadno está entregando.
+ver el minuto 40 
+https://platzi.com/clases/1050-programacion-basica/5127-implementacion-del-cajero-automatico/
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+_________________________________________________________________________________________________________________
+TEMA: Modleo cliente servidor.
+
+
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+Según he entendido, uno le pide al servidor una copia del código html css y JS, y el servidor le entrega al cliente/navegador un frontend, que es el diseño de la página web. Los frontend traducen el diseño del disñador a web mediante html /css y js.
+
+Muchas veces se necesita una base de datos, un servidor y un lenguaje para procesar estos.
+Hay paquetes como node que permiten conectar mejro los servicios con unas librerías.
+
+
+Se usa NODE.js por su facilidad, y se usa NPM que es como el intermediario entre NODE.JS Y El script.
+
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+_________________________________________________________________________________________________________________
+TEMA: 
+¿Cómo funciona un circuito electrónico?
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+Un circuito electronico me habla d eun flujo de electrones en el que una resistencia impide el sobrecalentamiento o paso de voltaje exagerado.
+Las corrientes electricas peuden convertirse en digitales medianta transductores, y conversores, y almacenan el colgaje en la ram,como ceros y unos, el procesador los toma y los transfroma mediante Assembler, Java, C++ manipulando electrones... a otras instrucciones y los muestra en pantalla que son muchsos leds.
+
+ARDUINOS.
+
+Estamos programndo un sistema operativo en una tarjeta con un corcuito-
+
+Se arranca el sistema operativo, y hace ciclos. 
+Los ciclos es la cantidad de veces que hace operaciones.
+Codigo de arranque y codigo de procesos.
+
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: 
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: 
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: 
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: 
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: 
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: 
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
+
+_________________________________________________________________________________________________________________
+TEMA: 
+
+________________________________________________________________________________________________________________
+PREGUNTAS/GLOSARIO:			
+	_________________________________________________________________________________________________________________
+NOTAS:
+
+_________________________________________________________________________________________________________________
+RESUMEN:
+_________________________________________________________________________________________________________________
+BLOG IDEAS:
+
+
+
+
