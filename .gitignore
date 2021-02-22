@@ -4,7 +4,6 @@
 *.csv
 *.pdf
 *.xlsx
-.Rproj.user
 .archive_curso/
 .video/
 .img/
