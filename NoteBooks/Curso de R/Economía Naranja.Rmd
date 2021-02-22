@@ -1,0 +1,15 @@
+---
+title: "Economía Naranja"
+author: "Alejandro"
+date: "31/5/2020"
+output: html_document
+---
+```{r}
+orangeec <- read.csv("./Orange-Economy/orangeec.csv")
+data(orangeec)
+summary(orangeec)
+```
+```{r}
+
+```
+
