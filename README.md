@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">
   <img src="images/logo.png">
   <br/>
@@ -34,6 +35,3 @@ Espero que esto sea una mecha para que otros compartan su conocimiento de manera
 
 * [BRICK](#brick-name)
   * [CHUNKS](#chunk-name)
-
-
-<hr>
