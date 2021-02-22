@@ -1,0 +1,17 @@
+Tipo: Ejercicio
+Fuente: Curso de python-Coursera
+
+
+Este chunk de código tiene como propósito realizar:
+
+
+Requisitos funcionales
+
+1. Tablero inicial al empezar porgrama
+2. Input para elegir X o O
+3. Elegir posición de tablero
+4. Validar si hubo un ganador o empate.
+
+Requisitos del sistema
+
+* Representar el tablero como matriz de 3 x 3
