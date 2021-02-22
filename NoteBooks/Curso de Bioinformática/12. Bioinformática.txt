@@ -1,0 +1,493 @@
+BIOINFORMATICA
+
+
+Será que es posible contextualizar según la multiplciación egipcia un algoritmo para los patrones de texto del genoma?
+
+Es decir son bloques termianles que se repiten y muestran que son inicio de replicación...
+
+
+Ver tecncia de caracterización en el laboratorio me podría ayudar a entender mejor la cosa.
+
+Pregunta: Es posible asociar lo que aprendi de matrices a esto tambien?
+Como operaciones de conjuntos de matrices.
+
+De sistemas trinarios o en x sistema numérico.
+
+Y asi mismo usar el sistema de multiplicación por bloques para enocntrar un resultado? Es decir
+
+Estoy buscando conocer el resultado de operaciones muy grandes donde se encuentran patrones numéricos muy pequeños. Que son las secuencias del genoma. ADGG (ej). 
+
+¿Porque son estos los puntos que se replican?
+¿Será que son resultado de largas cadenas?
+¿Como evaluan los matemáticos la ocurrencia de un patron numérico en una multiplicación de números muy grandes?.
+
+
+//////////////////
+
+CURSO LESSON_1
+
+NCBI GQuery. National Center Biotecnology Institute.
+
+Podemos buscar el genoma humano secuenciado. Pesa 3 Gb.
+
+Secuencia ADN es una secuencia de caracteres en formato Texto. 
+Algorirtmo porgramación dinámica. Algorítmos de búsqueda de secuencias. Algortimros de alineamietnto= algoritmos de secuencias. Algoritmo BLAST. Genes=Páginas.Maco Regalia.
+mARCO ABIERTO DE LECTURA, LO NO LEÍDO DE LA SECUENCIA. mETODOS DE ALINEAMIENTO, MÉTODOS ESTOCÁSTICOS. mODELOS QUE SIRVEN PARA RECONOCOCIMIENTOS DE SECUENCIAS.
+Modelos ocultos de Marco. GENSCAN.
+Proteómica es la suma de todas las proteína.
+
+El curso posee conocimientos de programación. Lógica. Bases de Datos. Genégitca. Estructuras Biológicas. 
+
+
+Bioinformática: 
+
+ADN: Ácido dexosiribonucleico. Es una molécula, es el repositporio de codigo genético. 4 psoibles moléculas. ACTG Las secuencias de DN ESTAN EN CÓDIGO BASE 4.  a(aLGEBRAlINEAL PARA 0,1,2,3) 
+
+ARN: Es una copia del trabajo. Almacenada en el núcleo de la célula. Copia de una parte del ADN funcional, ADN de 23 genes, El AARN de una copia de uno, 23 copias.
+
+Proteínas: Moléculas de gran tamaño que sirven como expresión d la información copiada en el ARN. Todas las funciones del cuerpor esta hecho por proteinas.
+Es nuestro sistema base, expresión de nuestras características.
+
+TERAPIA GÉNICA** Buscar más.
+
+GEN: Un gen codifica par ala proteína que determina una caracteristica física.  Guarda el diseño que se expresa con el ARN para generar proteinas.
+
+Genoma es el conjunto de todos los genes.
+
+gENÓMICA ES LA CIENCIA QUE ESTUDIA EL GENOMA. Estudia los conjunsots de 23 genes.
+gENÉTICA ESTUDIA LOS GENES. ( cARACTERÍSTICAS9:
+
+Secuencia: Carcateres de 4 posibilidades. ACGT. Secuencia deproteína de 20 caractrees.
+
+Estrucutra hace referencia a la imagen molecular del ADN.
+Protenisas redodndas, com glublos rojos. Proteinas alargadas, sirve para hacer porteinas de cabellos
+
+Alienar secuencias permite comprar similitudes.
+Minería de datos biológicos. tEORÍA COMPUTACIONAL A DATOS BIOLÓGICOS.
+
+
+
+
+Buscar ( PCR téncicna para cuantificación de genómica wATSON Y cREEKS):
+Polimerate change reaction
+, permite copiar casi al infinito el adn. 
+Hace copias identicas para estudiar el ADN. 
+Es más fácil estudiar por catnodaad gtamos.
+ 
+
+SECUENCIADORES PARA LEER GENES.
+
+Leer un poquito de Big Data.
+
+BIOS, centro bioinformático.
+
+bIOINFORMÁTICO HACE rELACIONES EVOLUTIVAS, CLASIFICACIÓN DE FAMILIAS DE GENES, COMPARARA GENOMAS DE ESPECIAES DIFERENTES, DIANA PARA FÁRMACOS. Desarrollo de medicaemntos para saber si afecta al hombre primero probado en la rata. Antes de hcae rel ensayo clínico.
+Genómica compratavia por medio de alineamiento de patrones.
+
+Genómica funcional, estudia cuando se expresan donde y cuales se expresan. Se estudian arreglos,
+arrbol filogenético
+
+
+NOCIONES DE BIOLOGIA Y CELULAS
+
+Ser vivo es un aser capaz de reproducirse pro simismo
+
+UNIVERSALIDAD, la bioquímica y mecanismos de reacción suceden igual para todas las especies vivvas, las reacciones químicas son las mismas.
+TODO TIENEN CÉLULAS.
+TODA LA VIDA VIENE DE UN ANTEPASADO COMÚN, Célula primordial. agrupamiento por colonias de células, oganismo pluricelulares, y demás.
+
+1. Evolución explica la universalidad, el hecho de venir de un antepasado común asocia a todas als células. Procesos herados.
+2. Evolución acontece por pasos. 
+3. iNDIVIDUOS APTOS SOBREVIVEN.
+Características favorables se expanden.
+
+
+¿Como sabe el organismo, el adn, como adaptarse a? Es decir como sucede la selección natural?.
+Como sabe que característica es favorable? ( La vida).
+
+Molecularmente la evolución:Mutaciones en las copias de adn. Mutaciones negativas, o mutaciones positivas. Acontecen casualmente en nuestro adn. Es reempalzar un caracter A por un caracter C.
+
+
+TAXONOMIA
+
+eSPECIE +gÈNERO.
+
+Felix+Catus
+Vos+Tauros
+Homo+Sapiens
+
+Especies en familias, ordnes reinos, clases.
+
+Procariotas y eucariotas. Diferencia, el núcleo, la eucariota posee un núcleo qu ealmacena elmaterial genético, las procariotas no tienen núcleo y el adn nada por el citoplasma.
+
+
+PROCARIOSTAS:
+
+Fundamentalemtne bacterias. Monocelulares, 
+Eucariotas, organismos más nuevos, incluyen monocelulares ( Hongos) y organismos como animales y plantas. 
+BIOLOGÍA DIVIDIA EN 3 NIVELES.
+
+BIOLOGÍA MOLECULAR:. ARN, ADN, PROTEÍNAS, 
+
+BIOLOGÍAS CELULAR: organelas y estructura primaria de la célula.
+
+BIOLOGÍA ORGÁNICO: Se habal de órganos, fisiología, tejidos, agrupaciones de células parecidas.
+
+
+Cñeñlual unidad funcional. Somos un conjutno de funciones celulares.
+
+Funiones rincipales de un ser vivo. Nutrición.Crecimiento.Reproducción. (Procesos de división celular).
+Evolución. Es una consecuencia de las mutaciones en nuestyro material genético albergado en nuestras 10 a la 14 células disponibles.
+
+Diferenciación.:
+
+Cada céula utiliza material genético que es específico del cabello, de x parte de no. del pozo de genes, acada tipología de célula utiliza un subconjunto de genes diferentes.
+
+(Entre los subconjuntos de adn pueden repetrise funciones?). Una célua en diferentes etapas de al vida puede utilizar genes diferentes.
+
+En cadda estadio de vida del organismo, la célula utiliza el amterial que necesita. Depende del entorno donde nace.
+Células no diferenciadas, se encuentran en lso embriones, la unión de la célula huevo, y espermatozoides. Cñelula madre indiferenciada, una vez se diferencia no puede volver atrás. Por eso puede volverse una célula cualquiera, puede replicarse riginalmente.
+
+Indiferenciación de células a células madre. (Buscar).
+
+
+SEÑALIZACIÓN:
+
+¡Es la comunicación celular en todo el cuerpo... como se estudia la señalización?.
+
+
+
+LECCIÓN 4
+https://www.youtube.com/watch?v=hI7vv0zbFmM
+
+
+genética estudia la información seres vivos.
+Genética molecular, habal de la genética a nivel molcuar, adn,arn, pROTEÍNAS, Y como se pasa de uno a otro. Como pasana la información genética de uan característica a algo real. Watson y Creek descubren la doble hélice del ADN.
+
+genética clçascia: Estudio de cromososmas y genes, y como se heredan, Mendel.
+
+genética cuantitativa: estudia impacto de varios genes sobre una característica física. Las caracteristicas físicas son la suma de genes. Estudia el efecto de multiples efectos en el fenotoipo.Como y cuanto influyen en qué proporciòn.
+
+
+genética evolutiva: Estudia como los genes evolucionan en el tiempo.
+
+ 
+DOGMA CENTRAL DE LA BIOLOGÍA MOLECULAR/GENÉTICA.
+
+adn SE TRANSCRIBE A arn QUE SE TRADUCE A PROTEÍAS, ESTAS A SU VEZ SON EL FENOTIPO, O EL RESULTADO DE LA EXPRESIÓN GE´NICA DEL GENOTIPO. EL ADN SE DUPLICA O RPEPPLICA EN LA MITOSIS CELULAR, Y TODO ESTE PROCESO SUCEDE POR LA EXPRESIÓN DE UNOS GENES QUE SE ENCARGAN DE CADA UNA DE ESTAS FUNCIONES.
+
+Si este gen mutara la vida celular precería. Es algo así como el GEN qu ensambla, el que posee la lógica de la función. COmo si fuera un algoritmo ue dirige las demás subrutinas.
+
+
+pregunta: Hay algún gen que regule el crecimeinto de lso demás? es decir, si ya hay un par de ojos, como sabe el ADN que ya no necesita ma´s ojos? es decir bajo qué mecanismo detecta la existencia de esas otras células? Hay genes que detectan el crecimeinto celular?. Como saben los genes cuantas células son necesarias para crecimiento.?
+
+¿Existe algún gen o conjunto que exprese el diseño en general de toda la persona? Porque se expresan los genes? Como funciona la mezcla dle material genético y qué pasa con lo no mezlcado?
+
+////
+
+ADN es un polinucleótido,
+compuesto de una azucar o desoxiribosa,  que sirve como soporte, un grupo fosfato que conecta los nucleotidos,  base nitrogenada. 
+Porqué se pliegan en forma de hélice?
+las bases se conectan por puentes de hidrógeno y enlaces químicps. (  o no son enlaces de hidrogeno). La estructura del adn es fija. siméticra, porqué?.
+2 tipos de base, AG dobles.
+Timina y citocina  Simples, una base doble se enlaza siempre ocn una base sencilla. Una base solo se enlaza con otra base que permita formar la misma cantidad de enlaces disponibles ( más estables?)
+A=T poseen dos enlaces dispobles, timina pentosa, adenina pentahezosa.
+C=G.
+
+
+sIEMPRE HAY UNA CADENA PRINCIPAL Y UNA CADENA COMPLEMENTARIA.
+LA hebra complementaria sirve como back up del adn. 
+
+para que un daño genético sea efectivo debe dañar el par de ucleótidos.
+Se supone que es en hélice para preservar la inforamción mejor.las bases están protegidas dentro de la cadena.Sacar la base es difícil debido a que está protegida.
+Vida media información en discuo duro 10 o 15 años. Se desgmagneiza.
+El adn de una célula depende de la vda media del individio, plantas de 5000 años. La mayoria de las céluals en nuestra svivas lelgan al final sin nungún error.Memorias biológicas.
+Un disco con células que guardan la información del adn.
+
+Probable que los organismos sean programados para envejecer.
+
+
+lOS GENES QUE SE REPRODUCEN MÁS SOBREVIVEN. La naturaleza es este estadio que favorece algunas características. Molecularmente parece no tener explicación, pero si la debe tener, los genes están en función de las reacciones mas favorables. Las reaccioens más favrables (no siempre se reproducen?)
+
+la complejidad del organismo tiene que ver con el tiempo de vida? OLa adaptación del organismo dicta el tiempo de vida. Geens suicidas?
+
+Una bacteria no envejece ni muere, se replica, crece y se replica, se divide en dos. Laas acterias son exactamente iguales. El evenjevimiento y muerte es un cocncepto de organismos pluricelulares.
+Un animal cuida sus hios porque poseen los mismos genes. Es egoista, no altruista. porque queire preservar sus gees.
+
+EL ADN es de 3gb caben en el núcleo de na célula. En compración puede ocupar billones de gigabytes. debido a que el tamaño de la célula puede ser muchisimo más pequeño.
+
+ADN tres niveles de estrucutra.
+
+Primerai que e sla estrucutra primeraria e sla secuencia de bases,
+Estructura de base doble h´lice. 1 ceñula es un micrometro.
+3. el adn  viene enrollado. (Mide 1 cm).
+
+(Matemática de los nudos?, aplicado a la teoría de enrrollamiento proteínico) ( Hay forma de enrrollar matemáticamente con los espacios químico-lectrostáticos una proteína, polímero de gran tamaño a partir de modelamiento de nudos?"), debe haber espacios permitidos, o inclusve movimientos d nudos dinamicos que sean alterados por un estímulo, electrostático, estérico, fotolítico, que promeuvea el "movimeinto" y generación de otros enlaces. y fuera de este estímulo regrese a su forma original. Qué son los materiales con memoria?)
+
+adn a histonas,luego nucleomas, se enrolla en telómero, y luego en cromosoma, y hay 23 parejas de cromosomas que poseen de a 4 telómeros.
+
+
+REPLICACIÓN DEL ADN:
+
+Copia identica de las 6000 bases.  topoisomerasa es la enzima que permita  romper para que helicasa y ADN polimerasa a cada base le asigna su par correspondiente. Ahoracomo los prodecuse ( Ciclo de las pentosas?)
+
+
+Pregunta. Como se estudia la relación entre expresión génica con el conjunto de genes que permiten la expresión? COmo se identifican en primera instancia qu eesos genes on los responsables de dicha función?.
+
+
+TRANSCRIPCIÓN:
+
+El ADN polimerasa lee de prinicipio a fin el gen, hay principio y fin de gen. Un código de commienzo se llama promotor.
+Y uno de final es un terminador.
+
+Código endoo final? en progrmación)
+
+Un seceuncia de bases. 
+
+iNICIACIÓN ABRE LAS DOS CADENAS. lUEGO LA DISGRACIÓN DEL PROMOTOR.4 ENLONGACIÓN.TERMIANCION UNA SECEUCNIA DONDE TERMINA, adn polimersa identificfa esa secuencia, para cortar la mezclad earn y adn y se vuelven a cerrar y a unir.
+ARN mensajero. Lleva información, o mensjae, y lleva información lejos.es llevado a salir aal núcleo y al citoplasma. donde se traduce a proteínas.
+
+
+(Células son in diseño hermoso.).
+
+ARN
+La trnascricpicón sucede de ADN  a arn ocurre en el nucleo.
+ÁCIDO RIBONUCLEICO POSEE LA misma estructura excepto que posee uracilo en vez de timina,
+Teine Ribosa en legura de dexosiribosa. oOTRA DIFERENCIA ES QUE no es doble hélice.
+
+inteligencia aritificail aasad en organismso biológicos.
+El adn parece funcionar como una máquina que se regula así misma.
+
+EL ARN posee caracter´siticas interesantes: existe el ARN mensajero o ARN m que sirve como codificante, peus lleva la información al citoplasma, para que se exprese en el fenotipo como proteínas, ahora bien existe ARNt,ARNr y demás, que sirven como funciones biológicas. (cuales son esas funciones biológicas?), que son llamados NOCODIFICANTES.
+
+
+Traducción, traducción ocurre en el citoplasma de las células. Convierte ARNm a proteínas, sigue reglas de lo que se llama código genético:
+- sUCEDE MEDIANTE LA LECTURA DE UNA SECUENCIA, es decir se algo lee la secuencia de a tres unidades, de a tripletas o codones. 
+
+El arn en base 4 los aminoácidos en base 20. Las posibles combinaciones puede permitirme expresar !AAC!AUG!GGU!, Ahora, porque no importa que tenga más capacidad el adn ? Si leyere de a dos caractres serían 16 posibilidades, al leer de a 3 son 64. posibilidades. (Como reconoce la célula que lo que necesita es verdaderamente muy pocos?)
+
+Existe un ciruclo para habar de codón iniciación qu em emuestra cual es el resultado de las posibles combinaciones a aminoácidos
+
+Así como el ADN tiene un promotor y un terminador.
+
+ELcodón de iniciación UGA Terminadora. Pueden ser tres posibilidades de codón
+UAA
+AAG
+AGA PARE.
+
+
+AUG Empieza.
+
+
+EL ARN nno e utiliza todo, el cuerpo lo recorta en ambos extremos, lee todas las bases, hasta que encuentra el codón de comienzo, empeiza a traducir desde ahí hasta que llega al codón de termianción. Marco abierto de lectura, es lo que es traducido a proteínas, la inforamción entre el codon teminación y finalizacióm.
+
+
+Código ge´netico es UNIVERSAL en todos los seres vivos.  No se afecta bajo mutaciones porque es el proceso básico,
+
+Es ESPECÍFICO Y DEGENERADO.
+
+Es decir un aminoácido peude venir de varias combinaciones de tripleta, es degenerado porque no puede devolverse atrás de aminoacido a tripleta.
+
+El código genético es un patrón que está escrita en nuestra célula. La traducción codificación, ya existía.
+Ya las tripletas están hechas software para identificar a qué proteína obedecen.
+
+¿Cuales son los retos que enfrenta la bioinformática?
+
+Se especula que lso primeros organismos eran un conglomerado de proteínas.
+
+
+PROTEÍNAS:
+
+
+Están en todas partes, rsultado de ADN y Arn, son transportadoras, funcionales, estructurales, Hemoglobina proteína fijadora, defensivas, anticuerpos. Todos son proteínas con un propósito.Contractil, músculos son proteínas contractil, miosina.
+
+Dosindividuos de la misma especie es porque tienen protínas diferentes.
+
+
+FSecuencias proteicas poseen un solo caracter para hacer referenaica  als proteínas. Habla es de aminoácidos. HFG... y demás.
+
+proteínas no son códigos. Para crear la vida la naturaleza requirio 20 aminoácidos para hacer las proteínas.
+Para crear la diversidad necesitó n.aminoácidos.
+Aminoácidos conectado mediante enlaces peptídicos.
+Se conetca por el grupo carboxílico al grupo amino.
+
+Proteinas fibrosas alargadas, proteínas globulares, como anticuerpos, fibrosas tienen a se rinsolubles en agua, y las globulares se peuden diluir. Proteínas tiene 3 jiveles, un estrucutal, otro de hoja deobalda, otra de estructura terciera y cuaternaria, ese diseño es perfecto para la función, por ejmplo la captación  de oxígeno la proteína debe der precisa. estructra, terciara.
+
+L estructura determina la función.
+
+La estructuras cuternarias son varias proteínas creadas, ensambladas, partes generadas independientemente.
+
+
+DGOMA CENTRAL:
+
+ Los procesos son directos, pero pueden haber excepciones, la traducción inversa que la hacen los retrovirus,  pasando de arn a adn, duplicandose en el ADN del huesped.
+Asñi como existe una traducción directa de adn a proteínas que e ha desarrollado en laboratorios y que corresponde a la función d elos priones, o conglomerados de proteínas que poseen estas características.
+
+El Arn se puede replicar nuevaemente.
+
+
+BASE DE DATOS DE NCBI.
+
+Es casi todo gratuito, se puede buscar y bajar genomas, secuencias enteras proteicas.
+Se hizo un estandar de referencia desde el primer ser humano secuenciado.
+lAS BÚQUEDAS PUEDEN SER MUY ESPECÍFICAS.
+
+
+LA gquery ES UNA HERRAMIENTA DE BÚSQUEDA QUE PERMITE REALIZAR ALS BÚSQUEDAS tipo sql, con formula
+
+FORMATOS FASTA, BASES DE DATOS DE SECUENCIAS DE ADN.
+
+Gen Bank contene todas las secuencias hasta ahora secuenciados. Fuente de directa de datos primigeneos, datos primarios de miles de terabytes al rededor del mundo por todos los investigadores.
+
+EMBL,GENBANK,DDBJ, Europea, americaa japones.
+
+Las tres bases de datos poseen exactament ela misma información.
+Bases de datos, principio de las cpias y el lugar deben estar en distintos lugares, tres bases de datos identicas al rededor del mundo.
+
+la información tiene una curva de se duplica cada 0 meses. La curva tipo Moore, en los años 70 para los microchips.
+Los computodres duplican pitencia, esta base de datos, tiene una curva exponencia mucho más grande.
+Formato desecuencia es análogo a formato de imagen.
+
+Secuencias en datos de adn se pueden guardar e formato de suecnia:
+FASTA.
+
+Sirve para lamcaenar secuencias de ADN o de proteínas.
+Archivo plano de texto. Es leer archivo formato texto leído desde la memoria.
+Pude ser de Nucleotidos representando ADN
+O puede ser de aminoácidos representando Proteínas.
+
+Lso archivos en formato FASTA empiezan 
+simbolo de mayor
+>unalínea de descripcion. para la secuencia.
+TTAGGGCT... ad infinitum formato texto que no es mayor a 80. (¿porque?)
+Si es muy larga la secuencia cambia a otro conjunto.
+EL formato FASTA es un formato multisecuencias.
+las secuencias se separan con el símboo > 
+Los secuenciadores qe leen el ADN, se supone qu elo hacen bajo reaaciones químcias. Se supone que existen caracteres adicionales dentro de, ahora bien, son repreentados con N, X, G,L.. y demás caracteres que representan o una posibilidad u otra, o todas o ninguna, o un espacio. Es información sacada de unas señales que representan picos del analito, algunas veces esa señal ruido, ahora ( ¿dURANTE TODAS LAS LECUTRAS ES EXACTAMENTE LA MISMA relación de diferentes picos?) Más bien esa no resolción de qué me habla a mí? Un reactivo no derivatizante, algo que falta en el proceso de la comrpesnión de los caracteres, algo así como un aminoácido, o nucleotído diferente, digamos un isómero óptico, o conformero o algo que pase desapercibido pero que ejecuta como otra señal, es decir puede ser un mismo nucleotido con una posisción diferente... (Qué será?).
+
+
+allineamiento de secuencias.
+
+Es buscar el mayro númeor de correspondencia.
+Sea1= AAATCC
+2= AACTGGT
+
+eS COMPARAR LAS SECUENCIAS PARA VER SIMILUTEDES Y DIFERENCIAS.
+aL COMPARAR O ALINEAR SE PUEDEN ENCONTRAR ESPACIOS, y demás, se busca alinear la secuencia de forma más coneviente, solo se poen hueco arriba o abajo.
+algoritmos que existen para alinear secuecnias.
+Pueden ser algoritmos locasles o globales.
+
+GLOBAL:
+
+Considera la totalidad de una secuencia y la comprara con la totalidad de secuancia b para mirar el alineamiento optimo.
+
+LOCAL:
+
+El algortimo local subidivde en conjunto de 10 carateres, y luego los opera. Permite alineamientos entre conjuntos.
+Al final crea el alineamiento total.
+
+Vestajas /desventajas.
+
+Globales, ocupan mucha memoria y tarda mucho tiempo. El almacenamiento es n-secuencia*nsecuencia son (m*m) bytes. el úmero de operaciones permitidos es proporcional a (m*m).
+
+Al comparar varias secuencais se añada otro m al producto, haceindo que la cpacidad de operación se multuplique.
+
+Locales,son ma´s rápidos y ocupan menos memoria proque trabaja con subcojuntos, es más difícil programar, los alineamientos globales garantiza encontrar el alineamiento optimo.
+
+Local no puede encontrarlo (porque no tendrá en cuenta todas las demás alienamientos).
+
+(Es posible generar un algorítmo mixto??Que coja subcojuntos grandes y pequeños, estimado en funciñon del tamaño del archivo)
+
+Algoritmos Deterministicos son
+A=B y el resultado B es el mejro de los posibles resultados.
+Algoritmos euristico
+A=B pero B puede no ser el emjor resultado.
+
+(Se pueden trabajar los alineamientos más probables con R?)
+
+Algoritmos aleatorios.
+A=X (uNA SALIDA CUALQUIERA). Un algoritmo que simula x resulatod.
+
+Tomando quizá subconjuntos en función del tamaño.
+
+
+
+
+
+
+
+(Es brutal porque parecieses que lo recibimos es ya la información codificada. Tal cual el álgebra lineal con la codificación, en mis primeros razonamientos sobre bioinfromática estaba algún apunte sobre las matrices... ya no parece tan descabellado a nivel celular, la máquina que codifica el mensaje es la célula? Que mecanismo más bello... y brutalmente eficiente., Ahora bien, nuestra matriz inversa  y el mòdulo qué me permiten llegar a conocer el posible mensaje inscrito allí?)
+
+
+PROGRAMA:
+1. Leer del disco un archivo en formato FASTA (.FASTA, Txt, .FA, .FAS) El archivo contendrá dos secuencias. con el nombre y qu elos imprima en pantalla.
+
+Porgraremos un archivo en formato FASTA que tiene dos secuencias, peustas como variables.
+Se puede poner como números entoeros para que ocupe mucha memoria en el pc.
+
+A=0,.. Y LUEGO ALIENAR LAS SECUENCIAS QUE HACEN ESTO. Se programará como un algoritmo Global.
+
+
+
+Este programa se realiza bajo un alogotimo de Needleman – Wunschh, programación dinámica
+Algotimo global que permtie alinear dos secuencias.
+Siempre nos da un resultado óptimo.
+
+La matris S o matriz Score, funiona con un puntaje de la correspondencia de las secuencias. se puede hacer para dos o n secuencias. son sumas...(De dodne viene? ) Según Marco Regalia fueron por la energía mínima de conformación de moléculas.
+
+No tiene que tener al misma longitud la cadena 1 o 2 .
+
+Revisar minuto 20 donde Marco muestra la matriz en EXCEL. Donde elixplica como se suma cada una de las casillas del algoritmo de Needelman Wunchs.
+Muestra el puntaje todal del alineamiento.
+
+
+tAREA ES GENERAR UNA PANTALLA QUE IMPRIMA:
+ Una alineación de secuencia en función del algotimod Needelman Wunsch, el formato es tipo texto.
+El código  de programción está a l rededor del minuto 40. Al ingresarsele  sefcuencia no alineadas
+
+Se muestran las secuencias lineadas  de dos colores, verde para carcater y rojo para espacio.
+
+
+Según el puntaje de la matriz Score.
+
+
+
+VER TEMA ALGORITMOS DE PROGRAMACION.
+
+
+
+
+/////
+
+
+Y si para bioinformáftica se pudiera escribir un código  o algoritmo que me prediga los mejores no-espacios disponibles, huecos en las secuencias, es decir.
+
+Si el que me genera la mejor secuencia cuenta con el proceso para encontrar los emparejamientos ideales de un secuencia.
+
+No sería ideal unn algorítmos que SOLO ubique los espacios posibles (y mas probabbles) de ima secuencia de caracteres? 
+
+Que pasa en la matemática cuando yo hago dos operaciones aisladas y luego las sumo o "junto" más bien como un proceso? Existe la matemática por bloques? Matemática modular?.
+
+
+
+/////
+
+TAREAS:
+
+My self Education. 
+
+Averiguar sobre un pensum de desarrollo de software, extraer y añadirme a este. Librarme de la atadura del conocimiento academico para apreciarlo mejro, y estar preparado. 
+
+
+LECTURAS:
+
+
+https://es.wikipedia.org/wiki/Biolog%C3%ADa
+https://es.wikipedia.org/wiki/C%C3%A9lula
+https://bioinformaticaencolombia.blogspot.com/
+https://es.wikipedia.org/wiki/Bioinform%C3%A1tica
+
+
+
+
+Tener en cuenta que lINkedin me presentó un par de sugerencias bien importantes 
