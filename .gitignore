@@ -3,10 +3,11 @@
 *.png
 *.csv
 *.pdf
+*.xlsx
 .Rproj.user
 .archive_curso/
 .video/
 .img/
 Template_course/
 Books/
-
+Python for Data Analisis/
