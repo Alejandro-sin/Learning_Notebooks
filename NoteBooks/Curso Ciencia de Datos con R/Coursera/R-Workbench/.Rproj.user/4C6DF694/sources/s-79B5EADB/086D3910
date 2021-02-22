@@ -1,0 +1,29 @@
+{
+    "id": "086D3910",
+    "path": "C:/Logos/Root/Workbench/Curso Ciencia de Datos con R/Coursera/R-Workbench/Outputs/R-course.Rmd",
+    "project_path": "Outputs/R-course.Rmd",
+    "type": "r_markdown",
+    "hash": "3747827205",
+    "contents": "",
+    "dirty": false,
+    "created": 1609067974853.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "tempName": "Untitled1",
+        "cursorPosition": "1133,0",
+        "scrollLine": "1124",
+        "working_dir": "current",
+        "last_setup_crc32": "116AE22Abb338d19",
+        "docOutlineVisible": "0",
+        "docOutlineSize": "130"
+    },
+    "folds": "0|3|5|0|\n7|27|9|0|\n271|10|287|3|\n288|23|341|3|\n342|23|387|0|\n388|29|428|3|\n429|6|450|0|\n434|26|450|0|\n457|6|491|0|\n",
+    "lastKnownWriteTime": 1609794612,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1609794612728,
+    "read_only": false,
+    "read_only_alternatives": []
+}

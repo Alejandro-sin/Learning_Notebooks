@@ -1,0 +1,1302 @@
+---
+title: "R-course"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+![](https://lh3.googleusercontent.com/proxy/cvv6QnFLx6imXHV5rcZaOnokDohP-rc7-QWkvx9qR12KJKbUAr01SXDcpvf1YDgFPU4TcEURl8Yzvd0LcwRWnLGAP-6GbHEVKKSrW2eYDG5gPQGysvR9pfvr2xS2A9eSpGyco_I4aVCn_gaDzmBdl14)
+¿Como meto en un contendor la imagen? O la dezco a un tamaño más amigable?
+
+
+Estos son los apuntes personales del aprendizaje de R de las siguientes fuentes de información:
+
+* [Coursera]()
+* [Platzi]()
+* [R programming for Data Science]()
+
+
+
+---
+
+# **WALL:**
+
+---
+
+- LECTURAS MAESTRAS:
+- RESUMEN MAESTRO:
+- GLOSARIO UNIVERSAL DE TÉRMINOS:
+- ATAJOS:
+
+ctrl alt + I : Insert chun de código en R.
+
+
+
+- [Hipervínculo](url)
+    - 
+- [Hipervínculo](url)
+- [Hipervínculo](url)
+- [Hipervínculo](url)
+- [Hipervínculo](url)
+
+■________________________________________________________________ set() ■
+
+
+## **BRICK:Historia de R**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+R es un dialecto de S. S es un lenguaje de desarrollado por Jhon Chamber
+fue creado como una versión para estadisica en Forttran.La filosofía de S era que las herramientas fuerna fáciles de usar y existiera una transición de usuario a progamdor.
+
+
+R fue creado por Isha y Robert Gentelemen, publicado bajo la licencia de GNU para software libre.
+R no es de propósito general pero la gran cantidad de librerías que hay en el CRAN cmprehensive R archive Network, es masiva y diarmente se crean más paquetes apra realziar diferentes tareas.
+
+
+
+
+
+
+
+
+
+## **BRICK:Fundamentos de trabajo**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+
+
+
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Las siguientes funciones sirven para moverse entre directorios de trabajo en windows.
+Es posible hacer muchas cosas con estas funciones y las funciones propiamente dicahs de R.
+
+
+```{r}
+
+# Para acceder al directorio de trabajo actual usamos la función getwd()
+getwd()
+
+# Para acceder a la lsita de elementos en mi directorio
+dir()
+
+# Para establecer un directorio de trabajo
+setwd("C:/Logos/Root/Workbench/Curso Ciencia de Datos con R/Coursera/R-Workbench/Data")
+
+# Para crear carpetas
+dir.create("nombre carpeta nueva")
+
+#Creación de archivos
+file.create("CualquierFormato.txt")
+
+
+```
+
+
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+# Para leer datos de un archivo en una carpeta se usa la ruta absoluta.
+head(read.csv("C:/Logos/Root/Workbench/Curso Ciencia de Datos con R/Coursera/R-Workbench/Data/EdStatsData.csv"))
+
+# Esta línea lee todas las apariciones por comodidad  se usan funciones de muestreo. Como head()
+
+
+```
+
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Para cargar mis Scripts desde otro sitio puedo usar la función "source", la función source tiene argumentos como "file" que hablan sobre la ruta del archivo o la URL leída como un string.
+
+Las funciones cargadas aparecen en el recuadro de ambientes y puedo acceder a estas mediante un click para hacer una inspección.
+
+
+```{r}
+
+# Aquí cargo el script con las funciones traido de la ruta especificada
+source("C:/Logos/Root/Workbench/Curso Ciencia de Datos con R/Coursera/R-Workbench/Scripts/FunctionsTest.R")
+
+# Del script anteriormente cargado puedo llamar las funcioens que contiene.
+functiontest()
+
+# En R puedo pasar lsitas como argumentos
+second(3:10)
+
+```
+
+
+
+## **BRICK:Tipos de datos**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+ 
+[Vectores y Listas](url)
+[Matrices](url)
+[Factores](url)
+[Missing Values](url)
+[Data Frames](url)
+[Names Attribute](url)
+
+
+Todos los elementos que se manejan en R son objetos, hay 5 objetos atómicos en R:
+
+* character
+* numeric (Números reales)
+* integer
+* complex
+* logical
+
+El objeto más básico es un vector, los objetos vectores solo contienen vectores, excepto las listas.
+Las listas son un vector que puede tener diferentes tipos de elementos. 
+Los objetos en R pueden o no tener atributos
+
+* name
+* dimname
+* dimensions (para saber las dimensiones de arreglos y matrices)
+* class
+* length
+
+Se puede asignar atributos usando la función atribute
+
+
+```{r}
+# Crear un vector vacío.
+vector()
+
+# Acceder a triubutos/// CONSULTAR QUE HACE 
+
+obje <- 1:4
+attributes(obje)
+
+
+
+```
+**Nota**
+
+
+* En R puede asignarse explícitamente el valor de enteros mediante el uso del número acompañado de una L mayúscula.
+
+* En R el infinito es un valor real con el que puede calcularse cosas.
+
+
+### **CHUNK: Vectores y Listas**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+### Vectores
+Los vectores son la estructura de datos más simple y comun en R, pueden ser atomicos o listas. Un vector atómico contiene un soolo tipo de dato, mientras la lista multiples tipos.
+La función c() puede servir para crear vectores de objetos. Es parecido a la concatenación
+ya que junto valores para crear un vector
+
+
+```{r}
+# Creo el vector x de tipo numérico, puedo crearlo de cualquier tipo atómico mencionado anteriormente.
+
+x<- c(2,3)
+x
+```
+Al mezclar tipos de valores, strigns, numbers, complex, dentro de un vector, en R sucede la coerción, que es simplmenete para que todos los elmentos dle vectors sean de la misma clase. Forza a los objetos a ser de una misma clase.
+
+Es posible realizar coerción explícita, es parecido al parseo, al casting de variables, se hace mediante la función as.type():
+
+
+```{r}
+x <-0:6
+# Me retorna int
+class(x)
+
+x <- as.array(x)
+# Me retorna array
+class(x)
+
+# Cuando tengo un vector cuyos valores no permiten la coerción, R arroja valores NA.
+
+y <- "abcdfeghi"
+class(y)
+
+
+# NAs introducidos por coerción.
+y<- as.numeric(y)
+y
+
+```
+Para concatenar las cadenas de texto uso al función paste()
+
+```{r}
+
+
+paste(my_char, collapse = " ")
+```
+Para concatenar  o unir multiples elementos caracteres en un vector o vectores usando paste
+```{r}
+
+my_name <- c(my_char, "Alejandro")
+my_name
+
+
+```
+```{r}
+# Pego dos vectores de tipo diferente
+
+paste(1:3, c("X", "Y", "Z"), sep = "")
+
+
+```
+Si los vectores son diferentes en tamaño y son multiplos sucederá un reciclaje
+```{r}
+# Ejemplo usadno la variable nativa LETTERS para las 26 letras dle alfabeto. y 
+# Revisando el reciclaje de vectores. Aquí el vector numérico sufre de coerción a u nvector caracter.
+
+paste(LETTERS, 1:4, sep="-")
+
+
+
+```
+
+
+
+### Listas
+
+Las listas son vectores especiales que me permiten almacenar objetos de cualquier tipo a lo s que peudo acceder mediante índices y notación de Brackets.
+
+Tener en cuenta que el conteo de índices en R difiere un poco, se hace contando desde 1, y no 0 como en otros lenguajes de programación.
+
+```{r}
+
+lista <-list("Texto", FALSE, 1,2)
+# Accedo mediante índices 
+
+lista[[1]]
+lista[[2]]
+lista[[3]]
+
+
+```
+### **CHUNK: Matrices**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Las matrices son un tipo especial de vector en R, donde simplemente el atributo dimensión es diferente.
+
+
+```{r}
+
+# Creo una mtriz  de 3 filas 2 columnas
+m  <- matrix(nrow = 3, ncol = 2)
+m
+
+# Me devuelve las diemnsiones de m por defecto el vector es especial.
+attributes(m)
+
+```
+Las matrices se llenan de manera columnar,  cuando se termina de llenar la columna se pasa a la siguiente. Si no corresponden los valores a las dimensiones arroja un error, ya que la longitud de datos debe ser submultiplo del numero de las filas en la matriz.
+```{r}
+
+x <-matrix(1:3, nrow =6, ncol = 2)
+x
+
+
+```
+
+Puedo crear una matriz asignandole a un vector v el atributo de dimensión como un par ordenado (x, y) donde x son filas, y columnas.
+
+
+```{r}
+
+v <- 1:10
+# Aqui le digo que el atributo dimensiones de v sea de 2 filas 5 columnas
+dim(v) <- c(2,5)
+v
+
+
+```
+Las matrices pueden crearse tabién al unir o concantenar columnas y filas, mediante las funcioens c and r bind peudo lograr esto.
+
+```{r}
+
+x <- 1:3
+y <- 1:9
+
+# Creo dos columnas
+cbind(x,y)
+
+# Creo dos filas
+rbind(x,y)
+
+
+
+```
+### **CHUNK: Factores**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Los factores son un vector especial que se usa para representar datos categóricos. Pueden ser ordenados o no, jerarquías o no.. Podemos pensar en un factor como un vector entero donde cada entero tiene una etiqueta.
+
+* Factores son tratados al modelar funciones como lm() y glm()
+* Los factores son autodescriptivos. Se entiende más hombre y mujer que 1 y 2.
+
+
+Los factores puedne crearse co una función factor.
+```{r}
+
+# Creo factores de dos nivles
+x <- factor(c("yes","no","yes","no","yes","no","yes","no"))
+x
+
+# Creo una tabla la cual me devuelve la frecuencai de cada factor.
+table(x)
+
+
+# Con esta función elimino la clase vector y reduzco todo a un vector de enteros, 
+# que traduce la expresión categórica a numérica.
+
+# Cabe notar en esta función que el nivel base en el que se ordenan es alfabético,  en este caso no está primero que yes. Por lo que  no será el nivel base y yes el segundo nivel.
+unclass(x)
+
+
+
+```
+Para establecer lso niveles de manera explícita en la función de factores, se le pasa como argumento el parámetro levels con el vector así:
+
+```{r}
+
+# Uso argumento levels para fijar el orden en el que quiero que se haga el factor.
+# En este primer ejemplo BAD estará como primer nivel porque alfabéticamente es mayor que Good.
+
+f <-factor(c("Bad","Good","Good","Good"))
+f
+
+# Así se fija los niveles.
+f <-factor(c("Bad","Good","Good","Good"), levels = c("Good","Bad"))
+f
+
+```
+
+### **CHUNK: Missing Values**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+Los valores faltantes juegan un rol importante en estadística y análisis de datos, a menudo los valores faltantes no deben ser ignorados, mas que deberían estar cuidadosamente estudiados para ver patrones subyacentes a la causa de su falta.
+
+NA significa not avaible.
+
+Es un tipo especial de datos, denotados como NA o NaN para referirse a operacioens matemáticas indefinidas. Los NA pueden tener diferentes clases, numericas, strings, categoricos.
+Todos los NaN son NA perono todo NA es NaN.
+
+```{r}
+
+obj <- c(1, 2,3,NA)
+# Prueba si hay NA en un objeto
+is.na(obj)
+
+# Prueba si hay NaN en un objeto
+is.nan(obj)
+
+```
+Cualquier operación que involucra NA generalmente produce NA como resultado.
+Quiero usar la función sample para genrar una muestra de nuemros aleatroios, lo que hice fue que tomé dos vectores y lso mezcle, cada vector tiene valores de una distribución normal y el otro tiene solo NA.
+
+```{r}
+y <-rnorm(1000)
+z <-rep(NA,1000)
+my_data <- sample(c(y,z),100)
+my_na<- is.na(my_data)
+my_na
+
+# my_data == NA Va a devolver todos los valores NA
+
+```
+NA no es un valor si no un laceholder para la cantidad que no está disponible. Por lo tanto r al no tener una respuesta devuelve esto con el mismo largo de lo que NA "coniene"
+
+* Al tener TRUE para los NA y FALSE para lo snuméricos, puedo computar cuanto tengo de cada cosa.
+```{r}
+
+sum(my_na)
+
+```
+## NaN
+No es un número,surge de las incosistencias matemáticas
+
+Inf: Es la abreviatura para inifnito en R.
+
+### **CHUNK: Data Frames**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+Los dataframe son usados para almacenar datos tabulares, es un tipo especial de lista donde todo elemento de la lista tiene "el mismo largo".
+
+Cada elemento es una columna  y el largo de ese elemento son sus filas.
+A diferencia de las matrices los df pueden almacenar lo que sea. Pueden ser llamados al read.csv or read.csv
+
+
+```{r}
+
+df <- data.frame(x=1:5, y =c("a","e","i","o","u"))
+df
+
+
+```
+
+## **BRICK: Manjeando archivos**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Para manejar archivos con R puedo hacerlo según el tipo de archivo y según la acción, leer, escribir.
+
+```{r}
+
+# ■■■■■■■■■■■■■■■■■■ LEER
+
+#Leer un archivo.csv y tabla: Retornan un dataframe de R
+# read.csv()
+# read.table()
+
+# Leer las líneas de un archivo
+# readLines()
+
+#  Leer código R o scripts
+#source()
+#dget()
+ 
+# Leer en espacios de trabajo
+#load()
+
+#Leer binarios
+#unserialize()
+
+
+# ■■■■■■■■■■■■■■■■■■ ESCRIBIR
+
+# write.table()
+# writeLines()
+# dump()
+# dput
+# save()
+# serialize()
+
+
+
+
+```
+La función más usada de lectura es read.table() y sus argumentos más importante son:
+
+* file, nombre del archivo o conexión
+* header, indica el encabezado del data set, o si solo son datos.
+* sep, caracteres indicando la seperación de columnas
+* colClasses,  vector caracter que indica la clase de cada columna en el dataset
+* nrows, el numero de filas en el dataset
+* comment.char, caracter string que indica el caracterio comentario
+* skip, el numero de lienas que deb saltarse desde el principio
+* stringsAsFactors, deberían los caracteres ser codeados como facotes.
+
+
+Estos parámetros deberían existir cuando los volumnes de información son mucho ma´s grandes, para que la lectura sea más eficiente.
+
+
+
+### **CHUNK: Leyendo archivos grandes**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+Para archivos grandes read.table no es buena idea ya que lee DataFrames, en vez de eso es mejor usar Scan() Con esta función tenemos más control sobre dataset muy grandes.
+
+Otra forma es optimizar sabiendo la cantidad de memoria que consumo no sea mayor a la que tengo como RAM.
+
+El argumento **colClass** da mucha veolicdad a la función read.table() pero para esto es necesario saber el tipo de clase de cada columna en el dataframe.
+
+
+```{r}
+# Esta es una forma de obtener el tipo de clase de mis columnas
+
+# Queda la rpegunta sobre el funcionamiento de esta función y corregir este código.!!!!!!!!!!!!!!!!
+
+# setwd("C:/Logos/Root/Workbench/Curso Ciencia de Datos con R/Coursera/R-Workbench/Data")
+# inicial <- read.table("EdStatsSeries.csv")
+# classes <- sapply(inicial, class)
+# faster <- read.table("EdStatsSeries.csv", colClasses = classes)
+
+
+```
+### **CHUNK: Para saber cuanta memoria voy a usar  en la memoria**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+Si tengo un dataframe de 1500000 filas y 120 columnas de tipo numérico, cuanta memorai es requerida para este df? 1,34 GB
+
+filas * columnas * 8bytes/2**20, por norma general es útil  considerar que siempre se usará el doble de memoria estiamda porque se requiere como recurso para cargar los datos.
+
+**GLUE** : ¿Puedo hacer una función que sepa el tamaño de mi memoria, y que si mi dataset es mayor a x cantidad o  umbral, No me lea y me devuelva un muestreo?
+
+
+### **CHUNK: Textual Formats**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Es una forma de almacenar datos que contien más metadatos, pero compromete unpoco la legibilidad, esto se sopesa con controladores de versiones con GIT.
+los metadatos que almacena permite recuperar la inframción para saber qué era.
+
+Se usa dump() o dput() para ingresar datos.
+
+No es muy eficente en la almacenamiento de datos.
+
+
+```{r}
+
+# Pasarle data medainte deparsing de objetos de R con dput() y leerlo de nuevo usando dget()
+
+# dptu(): Esta función se usa en un solo objeto.
+
+
+y <-data.frame(a=1, b= "a")
+dput(y)
+# Me forma esto.
+# structure(list(a = 1, b = "a"), class = "data.frame", row.names = c(NA, 
+# -1L))
+
+# Averiguar más de la función structure(), pareciese qe la función structurar cambia de data fame añadiendo metadaos del
+# tipo de variable que cada columna del data set est, aquí con 1L añade que es numérico con etiqueta a es n factor.
+structure(list(a =1,
+               b= structure(1L,.Label ="a",
+                            class ="factor")),
+          .Names = c("a","b"), row.names= c(NA,-1L),class= "data.frame")
+
+
+# dget() la uso para leer el código R que escribió dput()
+dput(y, file = "y.R" )
+new.y <- dget("y.R")
+new.y
+
+
+```
+
+### **CHUNK:Función Dump()**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+Es una función que tiene como propósito asociar los metadatos a multiples objetos de R al mismo tiempo.
+
+```{r}
+x<- "foo"
+y<- data.frame(a = 1, b ="a")
+
+#Creo archivo data.R con el vector de nombres x, y
+dump(c("x", "y"), file = "data.R")
+
+# Esto sirve para removerlas
+rm(x,y)
+
+# los leo mediante source
+source("data.R")
+y
+
+
+```
+
+
+### **CHUNK: Formato Binario**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+Para no perder la precisi´n cuando se tienen formatos numéricos es mejor usar el formato binario.
+Las funciones claves para convertir objetos de R a binarios son save() save.image() and serialize().
+
+
+```{r}
+
+# En este fragmento de código, creo dos variables, 1 que posee un dataframe, otra numeros enteros, flotantes y fraccionarios. Y usando la función save() los guardando con la extensión .rda
+a<- data.frame(x = rnorm(100), y =runif(100))
+b<- c(3,5.5, 1/3)
+save(a,b,file="mybinarydata.rda")
+load("mybinarydata.rda")
+```
+
+Puedo sin embargo serializar mis datos, es la unica forma de representar un objeto de R en un formato exportable sin perder precisión o metadatos
+
+```{r}
+x <- list("Animadversión")
+sx <- serialize(x, NULL)
+sx
+ux <- unserialize(sx,NULL)
+ux
+
+```
+
+### **CHUNK: Interfaces Externos**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Puedo conectarme con R a diferentes tipos de objetos fuera de R, usando el mismo mecanismo que usa para conectarse a los Objetos nativos.
+Puedo conectarme a archivos comunes, a comprimidos en diferentes formatos e inclusive a URL.
+
+Las conexiones son herramients poderosas que me permitn navegar en objetos externos.
+
+
+```{r}
+
+# Usando readLines para una url.
+
+URL = url("https://en.wikipedia.org/wiki/R_(programming_language)", "r")
+conection = readLines(URL)
+
+# La función head Y tail existen para traer pedazos del archivo., El parametro que le sigue n es la cantidad de lineas, en este caso 3.
+
+head(conection, 3L)
+
+# Si la conexión no se cierra y se sigue trabajando me aparece este mensaje:
+# Warning messages:
+# 1: In getNamespace(ns) :
+#   cerrando la conenexion 4 (https://en.wikipedia.org/wiki/R_(programming_language)) que no esta siendo utilizada 
+# 2: cerrando la conenexion 3 (https://en.wikipedia.org/wiki/R_(programming_language)) que no esta siendo utilizada 
+
+
+
+```
+
+### **CHUNK: Subseting**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Los subconjuntos son producto de operaciones realizadas con el fin de extraer datos de una estructura de datos en particular, con caracteres como corchetes y signo pesos se logran las diferentes operaciones.
+
+
+[] Me permite acceder a un objeto de la misma clase, si accedo a un vector, me devuelve un vector.
+[[]] Me permtie acceder a un único elemento de una lista o un dataFrame, lo que devuelve puede ser de cualquier tipo.
+$ Me permite acceder mediante referencia de nombres o sintáxis.
+
+
+
+```{r}
+
+# Haciendo subconjuntos
+
+x <-c(1:10)
+# Puedo crear subset con un solo valor.
+n <- x[1]
+# Puedo crear subsets con indices numeros
+suba <- x[1:5]
+# Puedo hacerlo con indices lógicos
+tres_primeros <- x[x<4]
+x
+n
+suba
+tres_primeros
+
+
+
+```
+### **CHUNK:Subconjuntos Listas.**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+```{r}
+# Creo lista con nombres foo y bar que contienen a su vez diferentes elementos.
+
+x <- list(foo = 1:5, bar =0.6)
+
+# La notación con 1 corchete me devuelve una lista
+class(x[1])
+x[1]
+x[2]
+
+# Puedo hacer el subset con un nombre
+x["foo"]
+
+# DOble corchete extrae el mismo valor pero en este caso retorna es el objeto como entero.
+class(x[[1]])
+x[[1]]
+x[2]
+
+# Si quiero llamarlos mediante nombre del objeto 
+
+x$foo
+x$bar
+
+```
+
+
+
+```{r}
+# Si quiero extraer múltiples archivos de una lista, necesito el corchete único, le paso un vector, con los indices, no pueod usar el doble y el signo de pesos.
+
+
+x <- list(foo = 1:10, bar = 0.3, nom= "Yannh", lil = list(1:4,"Lo que busco"))
+x[c(1,3)]
+
+# Puedo acceder a sub listas mediante doble corchete quiero del objeto lil el elemento 2
+x[[4]][[2]]
+
+#Pudedo acceder a los nomrbes del vector mediante
+names(x)
+
+# Puedo añadir atributos al vector como un vector.
+vect <- c(foo = 11, bar = 2, norf =NA)
+vect2 <- c(11,2,NA)
+names(vect2) <- c("foo", "bar", "norf")
+
+# Puedo usar la función identical para verificar si los vectores están llamados de manera identica.
+
+identical(vect,vect2)
+
+```
+
+### **CHUNK:Subconjuntos de matrices**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Puedo crear un subconjunto de matrices así:
+
+```{r}
+
+m <- matrix(1:6, nrow = 3, ncol =3)
+m
+
+# La notación [x,y] advierte que de no tener un índice para la matriz trae por defecto toda la fila/columna que falte, así:
+
+# Pirmera fila
+m[1,]
+# Primera columna
+m[,1]
+
+# Es importante usar con cuidado el drop = FALSE para que la notación de [x,y] no me devuelva un objteo matriz si no vector así:
+
+s <-m[3,drop=FALSE]
+class(s)
+
+
+
+```
+### **CHUNK: Subconjuntos Remover Valores faltantes**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+Los conjuntos de datos no vienen idealmente limpios, debo eliminarlos para que no genere conflicto durante el análisis de datos, lo logro realizando una asociación lógica y subconjuntos.
+
+```{r}
+x <- c(1,2,3,NA)
+bad <- is.na(x)
+bad
+
+# El subset que voy a crear es todo menos el boleano true que representa la aparición dle NA
+x[!bad]
+
+```
+Puedo agrupar los valores y hacer un subconjunto sin los valores NA uso la función de casos completos que me devuelve vectores sin las posiciones faltantes.NA.
+
+```{r}
+x <- c(1,2,3,NA)
+y <- c("a","b", "c", NA)
+good <- complete.cases(x,y)
+x[good]
+y[good]
+
+
+```
+Puedo remover NA de dataframes
+
+```{r}
+#Traigo un dataset de uso, las 6 primeras filas.
+airquality[1:6,]
+
+# Creo un vector lógico que me muestre los valores faltantes.
+good <- complete.cases(airquality)
+
+# Llamo al dataset con este subset good y le digo qu eme traiga las 6 primeras filas
+airquality[good,][1:3,]
+
+# Tambien puedo usar Head para mostrarme los datos
+head(airquality[good,])
+
+
+```
+
+### **CHUNK: Subconjuntos y datos reales**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Cuando operamos con datos reales estamos buscando eliminar los valores NA del data set.
+Para hacer esto peudo valerme de los indices vectoriales, lo sinidces vector peuden ser logicos, de caracteres.
+
+```{r}
+# Asumi que X es un data set normal que tiene valores y NA distribuidos.
+x
+# Esta expresiónme trae todo un vector con los NA
+x[is.na(x)]
+
+# Esto traeria todos los valores
+y <- x[!is.na(x)]
+
+# CON ESTO LE PIDO VALORES QUE SEAN DIFERRENTES DE na Y MAYORES A CERO
+x[!is.na(x)& x >0]
+
+```
+Puedo hacer un subconjunto de elementos de x pasandole un vector dentro de la notación de corchetes
+```{r}
+# Esto me retorna la tercera, quinta y sépitma posición 
+x[c(3,5,7)]
+
+```
+
+R tiene un inconveniente y es que puedo usar x[0] Y no pasa error.  Debo mantenerme cuando use indices enteros en el eintervalo de trabajo d emi variable.
+
+* R acepta enteros negativos para discriminar valores en el subconjunto.
+
+```{r}
+
+# Esta línea trae todo menos el índice 2 y el 10. Tambien puede hacerse esto x[-c(2, 10)]
+x[c(-2, -10)]
+
+```
+
+
+
+### **CHUNK: Operaciones vectorizadas**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Las operaciones vectorizadas es un feature de R que me permite realizar computos en paralelo.Evitandome la necesidad de bucles para operaciones aritmeticas entre secuencias.
+
+
+```{r}
+
+a <- 1:3
+b <- 4:6
+a
+b
+# La suma del primer elemento a con el primer elemento de b
+a+b 
+
+# Sucede lo mismo con las operaciones lógicas, puedo eefctuar una operación lógica para toda la lista como comparar si un numero es mayor que cualquier elemento de la lista
+a > 2
+
+
+```
+Es posibel extender el concepto a matrices, es util tenerlo en cuenta porque existen diferentes tipos de multiplicacion de matrices.
+
+```{r}
+
+x <- matrix(1:4,2,2)
+y <- matrix(4:7,2,2)
+
+x
+y
+
+# Multiplicación elemento por elemento
+x*y
+
+# Multiplicación verdadera de matrices, esta es al importante linealmente.
+x%*%y
+
+
+```
+
+
+
+
+
+
+
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+x <- c(17, 14, 4, 5, 13, 12, 10)
+x[x>10] == 4
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+getwd()
+setwd("C:/Logos/Root/Workbench/Curso Ciencia de Datos con R/Coursera/R-Workbench/Data")
+data_r <- read.csv("hw1_data.csv")
+data_r
+head(data_r, 2)
+tail(data_r, 2)
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+# Cuento los NA del dataset
+data_r<- data.frame(data_r)
+
+# Aquñi solo limpie la columna Ozone de Na
+nas<- is.na(data_r$Ozone)
+
+# Mi dataframe con ozono limpio
+clean_data <- data_r[!nas,]
+clean_data
+
+
+# sumo limpio
+suma_na <- sum(nas)
+suma_na
+
+# Saco el promedio
+mean(clean_data$Ozone)
+
+
+# Limpio el data set definitivamente.
+
+data_clean <- data_r[!is.na(data_r)]
+data_clean
+```
+
+
+```{r}
+# Filtro para cuando el ozono es por encimade 31 y la temepratura por debajo de 90º y hago el promedio de Solar.R en este subconjunto.
+
+
+# Creo el subconjunto.
+# filter(data_r, ozone>31)
+
+
+
+
+```
+### **NOTAS SWIRL:**
+
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Nots swirls
+
+Basic Blocs
+
+?c me abre el panel de ayuda para las funciones que usco
+?matrix
+?data.frame
+?function...
+
+Para saber sobre operadores la sintaxis es:
+
+?`:` Para concoer más acerca del operador.
+
+Los vectores solo operan si son multiplos en dimensiones.
+
+
+
+WORKSPACE AND FILES
+
+Examinar máquian local y administrar archivos.
+
+args( en una función ) Me permtie ver lso arguemntos de esa función
+
+```{r}
+
+
+args(list.files)
+list.files()
+
+```
+
+
+file.create()
+
+Para crear directorios. Hay que saber que posee un argumento que se llama recursive.
+Este me permitirá crear directorios anidados. Y debe estar en TRUE para que suceda.
+dir.create()
+
+Si quiero crear un directorio y un subdirectorio
+dir.create(file.path("testdir2","testdir3"), recursive = TRUE)
+
+
+
+
+
+
+Si estoy corriendo un programa que hace loop através de diferentes archivos y hace el mismo procesamiento en cada uno requiero saber si los archivos existen antes de procesarlos.
+
+
+file.exists("mytest.R") Pruebo que mi archivo exista
+
+Accedo a información del archivo, me devuelve tamaño, ejecución creación.
+
+file.info("mytest.R")
+
+
+Para adquirir algo especifico de la función
+file.info("mytest.R")$mode ---
+
+Si quiero renombrar un archivo
+file.rename("mytest.R","mytest2.R")
+
+Si quiero borarr.
+file.remove("name_file.R")
+
+Crear una copia, le doy el argumento de partida al de llegada.
+
+file.copy("mytest2.R","mytest3.R")
+
+
+Acceder a la ruta relativa del archivo
+file.path("mytest3.R")
+
+Puedo construir archivos y directorios que son independientes del sistema operativo en el que mi código R corre. 
+
+file.path("folder1","folder2")
+
+
+
+
+SECUENCIAS NUMÉRICAS
+
+
+Es oisble crear secuencias de diferentes maneras:
+
+* Medianto notación a:b
+* Usando la función seq() Esta me dá más control sobre como se cre la secuencia.
+
+
+
+
+```{r}
+
+seq(1:20)
+# Quiero crear una secuencia que incremente de 2 en dos.
+seq(0,10, by=2)
+# Ahora quiero  una cantidad de números entre dos números
+my_seq<- seq(5,10, length=30)
+
+```
+
+La función seq_along() es una función built in de R que me permite crear una secuencia de números de 1: len(n)
+
+
+
+La función rep() me permite crear replicas. Si quiero crear un vector que contiene  40 ceros.
+
+```{r}
+rep(0,times =40)
+rep(c(0,1,2), times=10)
+```
+
+
+La función rep() tiene un argumento llamado each que me permite tener replicas n veces de cada elemento pasado como primero argumento.
+
+```{r}
+
+rep(c(0,1,2) , each =10)
+
+```
+
+
+### **CHUNK:Matrices y Data Frames**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+Una matriz contiene un solo tipo de datos, un data.frame cualquier tipo.
+Una matriz es a un vector lo que una lista a un dataframe.
+
+* Asuiendo que tengo un data frame y quiero añadirle una columna, en el siguiente ejmplo aparecen todas las salidas como caracteres debido a la coerción que ocurre en la matriz. Esta es la coerción implicita.
+
+```{r}
+patients <- c("Bill","Gina","Kelly","Sean")
+# Uso cbinds para combinar columnas, lo     que me juntará
+my_matrix <- matrix(1:20, nrow = 4, ncol=5)
+cbind(patients,my_matrix)
+
+
+# Para no dañar la integridad de los datos usamos dataframes
+my_data <- data.frame(patients, my_matrix)
+
+
+```
+
+
+Si quisiera asignarle nombres a las columnas de mi data frame puedo valerme de la función colnames()
+
+```{r}
+cnames <-c("patient", "age", "weight", "bp", "rating", "test")
+colnames(my_data) <- cnames
+my_data
+
+```
+
+
+
+
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+### **CHUNK:**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+```{r}
+
+```
+
+
+### GLUE**:¿?**
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■

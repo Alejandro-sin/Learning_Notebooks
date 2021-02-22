@@ -1,0 +1,71 @@
+Nots swirls
+
+Basic Blocs
+
+?c me abre el panel de ayuda para las funciones que usco
+?matrix
+?data.frame
+?function...
+
+Los vectores solo operan si son multiplos en dimensiones.
+
+
+
+WORKSPACE AND FILES
+
+Examinar máquian local y administrar archivos.
+
+list.files
+args( en una función ) Me permtie ver lso arguemntos de esa función
+args(list.files)
+function (path = ".", pattern = NULL, all.files = FALSE, 
+    full.names = FALSE, recursive = FALSE, ignore.case = FALSE, 
+    include.dirs = FALSE, no.. = FALSE) 
+NULL
+
+
+
+file.create()
+
+Para crear directorios. Hay que saber que posee un argumento que se llama recursive.
+Este me permitirá crear directorios anidados. Y debe estar en TRUE para que suceda.
+dir.create()
+
+Si quiero crear un directorio y un subdirectorio
+dir.create(file.path("testdir2","testdir3"), recursive = TRUE)
+
+
+
+
+
+
+Si estoy corriendo un programa que hace loop através de diferentes archivos y hace el mismo procesamiento en cada uno requiero saber si los archivos existen antes de procesarlos.
+
+
+file.exists("mytest.R") Pruebo que mi archivo exista
+
+Accedo a información del archivo, me devuelve tamaño, ejecución creación.
+
+file.info("mytest.R")
+
+
+Para adquirir algo especifico de la función
+file.info("mytest.R")$mode ---
+
+Si quiero renombrar un archivo
+file.rename("mytest.R","mytest2.R")
+
+Si quiero borarr.
+file.remove("name_file.R")
+
+Crear una copia, le doy el argumento de partida al de llegada.
+
+file.copy("mytest2.R","mytest3.R")
+
+
+Acceder a la ruta relativa del archivo
+file.path("mytest3.R")
+
+Puedo construir archivos y directorios que son independientes del sistema operativo en el que mi código R corre. 
+file.path("folder1","folder2")
+
