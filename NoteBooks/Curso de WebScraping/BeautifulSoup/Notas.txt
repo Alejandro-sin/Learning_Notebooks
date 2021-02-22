@@ -1,0 +1,8 @@
+El propósito de estas notas es llevar registro ra´pido de i sideas
+
+
+
+
+
+* Sería interesante poder crear un sitio web de SandBox que me ilustre los ejemplos, tanto mostrandome el código
+HTML como el código python

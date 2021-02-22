@@ -2,7 +2,9 @@
 *.jpg
 *.png
 *.csv
+*.lnk
 *.tex
+*.epub
 *.pdf
 *.xlsx
 *.Pipfile.
