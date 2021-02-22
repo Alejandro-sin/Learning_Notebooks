@@ -5,6 +5,8 @@
 *.tex
 *.pdf
 *.xlsx
+*.Pipfile.
+*.Pipfile.lock.
 .archive_curso/
 .video/
 .img/
