@@ -6,7 +6,7 @@
 </h1>
 
 
-<h4 align="center">Curso de Lorep Ipsum <a href="https://platzi.com/r/alejandro-sin/" target="_blank">Reference</a>.</h4>
+<h4 align="center">Curso de HTML-CSS <a href="https://platzi.com/r/alejandro-sin/" target="_blank">Platzi</a>.</h4>
 <p align="center">
   <a href="http://makeapullrequest.com">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
@@ -30,9 +30,15 @@
 
 # Wall
 
+Este cuaderno tiene como propósito ser un compendio sobre HTML-CSS práctico, funcional y llevar registro de mi aprendizaje en estas tecnologías de desarrollo web.
+
 
 * [BRICK](#brick-name)
   * [CHUNKS](#chunk-name)
 
 
 <hr>
+
+## La idea es..
+
+Que mis notas de este curso sean ejemplos progresivos, hasta conformar una página-gitpage que sea el curso en sí mismo o el estudio de estas tecnologías.
