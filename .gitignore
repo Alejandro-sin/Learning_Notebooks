@@ -17,4 +17,4 @@
 Curso Ciencia de Datos con R/Coursera
 Books/
 Python for Data Analisis/
-node_modules/*
+**/node_modules/
