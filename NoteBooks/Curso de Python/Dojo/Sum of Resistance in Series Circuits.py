@@ -1,6 +1,6 @@
 '''
 Tipo: Concepto, Ejercicio, Pregunta...
-Fuente: libro, curso, ...
+Fuente: https://edabit.com/challenge/gzmFeaXwFv8X6pBGq
 
 
 Este chunk de código tiene como propósito...
@@ -23,4 +23,19 @@ Notice the singular ohm for values <= 1.
 
 '''
 
+#
+# def series_resistance(*list_series):
+#         suma = sum(list_series)
+#         if suma == 1:
+#             resistance =" ohm"
+#         else:
+#             resistance = " ohms"
+#         return print(str(suma) + resistance)
+#
+# series_resistance(1)
 
+def series_resistance(lst):
+	total = sum(lst)
+	return '{} ohm{}'.format(str(total), 's' * (total > 1))
+
+series_resistance([1,2])
