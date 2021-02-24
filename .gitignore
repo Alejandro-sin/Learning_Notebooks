@@ -12,7 +12,6 @@
 .archive_curso/
 .video/
 .img/
-.node_modules/*
 .template_course/
 Curso Ciencia de Datos con R/Coursera
 Books/
