@@ -30,3 +30,5 @@ If a binary conversion for 0 is attempted, return "0".
 
 def binary(decimal):
     pass
+
+
