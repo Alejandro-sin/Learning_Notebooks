@@ -7,3 +7,6 @@ Este chunk de código tiene como propósito...
 
 
 '''
+
+lista = ["TCACTG","AAAAA"]
+print(lista.count("AAAAA"))

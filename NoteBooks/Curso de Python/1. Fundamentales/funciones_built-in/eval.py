@@ -16,6 +16,13 @@ code -objests son retornados por la función built-in compile() o puede ser extr
 '''
 '''
 Caundo llamas a la función eval() el contenido d ela expresión es evaluado como una expresión de pyhton
+eval puede acceder globalmnete a a nombres de variables como x
 '''
 x = 100
 print(eval("2**4"), eval("sum([8,16,32])"), eval("x*3"))
+
+'''
+Evalo solo funciona con expresiones y no compound statements
+https://docs.python.org/3/reference/compound_stmts.html
+
+'''
