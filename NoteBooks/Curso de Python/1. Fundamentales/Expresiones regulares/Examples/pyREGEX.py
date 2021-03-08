@@ -7,7 +7,7 @@ Usar el módulo de pyhton para practicar expresiones regulares y manejo de archi
 import re
 
 # Carpeta de Assets y el archivo.
-PATH = "C:/Logos/Root/Learning_Notebooks/Curso de Expresiones Regulares/Assets/rilke_letter.txt"
+PATH = "C:/Logos/Root/Learning_Notebooks/NoteBooks/Curso de Python/1. Fundamentales/Expresiones regulares/Assets/rilke_letter.txt"
 read = str(open(PATH,'r', encoding="utf-8").readlines())
 
 '''
@@ -36,7 +36,7 @@ for match in matches:
 
 
 # Notación slice lugar exacto.
-# print(read[9717:9721])
+print(read[9717:9721])
 
 
 
