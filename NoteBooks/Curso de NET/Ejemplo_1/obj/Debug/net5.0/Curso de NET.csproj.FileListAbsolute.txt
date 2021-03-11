@@ -1,0 +1,16 @@
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\bin\Debug\net5.0\Curso de NET.exe
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\bin\Debug\net5.0\Curso de NET.deps.json
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\bin\Debug\net5.0\Curso de NET.runtimeconfig.json
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\bin\Debug\net5.0\Curso de NET.runtimeconfig.dev.json
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\bin\Debug\net5.0\Curso de NET.dll
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\bin\Debug\net5.0\ref\Curso de NET.dll
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\bin\Debug\net5.0\Curso de NET.pdb
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\Curso de NET.csprojAssemblyReference.cache
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\Curso de NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\Curso de NET.AssemblyInfoInputs.cache
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\Curso de NET.AssemblyInfo.cs
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\Curso de NET.csproj.CoreCompileInputs.cache
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\Curso de NET.dll
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\ref\Curso de NET.dll
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\Curso de NET.pdb
+C:\Logos\Root\Learning_Notebooks\NoteBooks\Curso de NET\obj\Debug\net5.0\Curso de NET.genruntimeconfig.cache
