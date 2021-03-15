@@ -1,0 +1,22 @@
+framework solo corria en Windows
+
+Core Multiplataforma para otras plataformas.
+
+
+Data notacion [MaxLength] evalua si el dato cumple con n condiciones.
+Inclusive le podmos decir [FeoreingKey]
+
+linq -> Es una forma de query.
+Objetos anónimos función lambda.
+
+Tutorial->
+Entity framework el modelo decdatos desde la aplciación , se crea desde la base de datos.
+
+* Permite trabajar postgres
+
+
+* Migrations
+
+
+* API desde 0.
+

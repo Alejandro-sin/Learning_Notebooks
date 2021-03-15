@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BnaXlvuhXzWu7uxQqwsLLJ7GfVOahQALbDdYthiHYzTEMPQxDQ8VHU7lCCY4Zqy2Ifl55t91FSw5aiKTfO1YWA==",
+  "dgSpecHash": "5XRcGbNgg3s3Lplb2+YHHK/gl03KH5kvn3wFCLUbdjbcnH+JgC6QDmQUw2f089aVl/FaTWX78loOmChT22MS0w==",
   "success": true,
-  "projectFilePath": "C:\\Logos\\Root\\Learning_Notebooks\\NoteBooks\\Curso de NET\\Curso de NET.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\jefai\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.3\\microsoft.netcore.app.runtime.win-x64.5.0.3.nupkg.sha512",
-    "C:\\Users\\jefai\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.3\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.3.nupkg.sha512",
-    "C:\\Users\\jefai\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.3\\microsoft.aspnetcore.app.runtime.win-x64.5.0.3.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Logos\\Root\\Learning_Notebooks\\NoteBooks\\Curso de NET\\Ejemplo_1\\Curso de NET.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

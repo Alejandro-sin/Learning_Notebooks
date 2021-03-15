@@ -1,8 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {},
-    "net5.0/win10-x64": {}
+    "net5.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
@@ -14,19 +13,21 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Logos\\Root\\Learning_Notebooks\\NoteBooks\\Curso de NET\\Curso de NET.csproj",
+      "projectUniqueName": "C:\\Logos\\Root\\Learning_Notebooks\\NoteBooks\\Curso de NET\\Ejemplo_1\\Curso de NET.csproj",
       "projectName": "Curso de NET",
-      "projectPath": "C:\\Logos\\Root\\Learning_Notebooks\\NoteBooks\\Curso de NET\\Curso de NET.csproj",
+      "projectPath": "C:\\Logos\\Root\\Learning_Notebooks\\NoteBooks\\Curso de NET\\Ejemplo_1\\Curso de NET.csproj",
       "packagesPath": "C:\\Users\\jefai\\.nuget\\packages\\",
-      "outputPath": "C:\\Logos\\Root\\Learning_Notebooks\\NoteBooks\\Curso de NET\\obj\\",
+      "outputPath": "C:\\Logos\\Root\\Learning_Notebooks\\NoteBooks\\Curso de NET\\Ejemplo_1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jefai\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jefai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -54,31 +55,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-            "version": "[5.0.3, 5.0.3]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Runtime.win-x64",
-            "version": "[5.0.3, 5.0.3]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-            "version": "[5.0.3, 5.0.3]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
-      }
-    },
-    "runtimes": {
-      "win10-x64": {
-        "#import": []
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

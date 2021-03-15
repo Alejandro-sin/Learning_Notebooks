@@ -11,11 +11,13 @@ namespace Etapa1
             var escuela = new Escuela("Platzi .NET Dojo", 2021);
             escuela.Pais = "Colombia";
             escuela.Ciudad = "Bogota";
+            escuela.TipoEscuela = TiposEscuela.Primaria;
 
             //asigno nombre
 
-            Console.WriteLine(escuela.Nombre);
-            Console.WriteLine(escuela.AñoDeCreación);
+            /*    Console.WriteLine(escuela.Nombre);
+               Console.WriteLine(escuela.AñoDeCreación); */
+            Console.WriteLine(escuela);
         }
     }
 }
